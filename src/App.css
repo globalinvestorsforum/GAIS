@@ -1,0 +1,9 @@
+*{
+    background-color: black;
+    color: white;
+}
+
+.hero{
+    background-image: url("./assets/conference_img.png");
+    
+}
