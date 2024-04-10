@@ -11,7 +11,7 @@ const Navbar = () => {
         setMobileDrawerOpen(!mobileDrawerOpen);
     }
   return (
-    <nav className="ticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-700/800">
+    <nav className="ticky top-0 z-50 py-3  backdrop-blur-lg border-b border-neutral-700/800">
         <div className="container px-4 mx-auto relative text-sm ">
             <div className="flex justify-between items-center">
                 <div className="flex items-center justify-start flex-shrink-0">
@@ -19,10 +19,10 @@ const Navbar = () => {
                 </div>
 
                 <div className=''>
-                <ul className='hidden lg:flex  space-x-12 '>
+                <ul className='hidden lg:flex  space-x-12 font-bold uppercase'>
                     {navItems.map((item, index) =>(
                         <li key={index}>
-                            <a href={item.href}>{item
+                            <a href={item.href} >{item
                             .name}</a>
                         </li>
                     ) )}
