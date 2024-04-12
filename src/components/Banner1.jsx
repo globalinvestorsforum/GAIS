@@ -4,7 +4,7 @@ import bannerImg from '../assets/bannerimg.png'
 const Banner1 = () => {
   return (
     <div className='realtive min-h-[250px] border-b border-neutral-800  '>
-        <div className=' m-10 md:mx-20 lg:mx-52'>
+        <div className=' m-10 md:mx-20 lg:mx-52 transition  ease-in-out delay-150 hover:-translate-xy-2 hover:scale-110 duration-300 ...'>
             <div className='flex flex-row justify-center items-center border border-violet-500 rounded-lg '>
                 <div className=''>
                     <img className='h-[20rem] w-[] ' src={bannerImg} alt="" />
