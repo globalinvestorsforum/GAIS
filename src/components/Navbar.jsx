@@ -19,11 +19,10 @@ const Navbar = () => {
                 </div>
 
                 <div className=''>
-                <ul className='hidden lg:flex  space-x-12 font-bold uppercase'>
+                <ul className='hidden lg:flex  space-x-12 uppercase '>
                     {navItems.map((item, index) =>(
                         <li key={index}>
-                            <a href={item.href} >{item
-                            .name}</a>
+                            <a href={item.href} className='font-bold hover:text-purple-600 '  >{item.name}</a>
                         </li>
                     ) )}
                 </ul>

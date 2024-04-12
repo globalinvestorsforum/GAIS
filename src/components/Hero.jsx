@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="hero w-full h-screen bg-no-repeat bg-scroll">
+    <div className="hero w-full h-screen bg-no-repeat bg-scroll    ">
       <div className="max-w-7xl mx-auto pt-20 px-6 bg-transparent">
         <div className="flex flex-col items-center mt-6 lg:m-20 bg-transparent ">
           <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide bg-transparent">
@@ -12,7 +12,7 @@ const Hero = () => {
             </span>
             ) Conference
           </h1>
-          <p className="mt-10 text-lg text-center text-neutral-500 max-w-2xl bg-transparent">
+          <p className="mt-10 text-lg text-center text-neutral-200 max-w-2xl bg-transparent">
             Welcome to the epicenter of innovation, the launchpad for
             groundbreaking ideas, and the gateway to the future of AI – GAIS
             Conferences. As the world's largest AI summit, we bring together the
