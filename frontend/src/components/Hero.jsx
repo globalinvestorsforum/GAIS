@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="hero w-full h-screen bg-no-repeat bg-scroll    ">
+    <div className="hero w-full h-screen bg-no-repeat bg-scroll  border-b border-neutral-800  ">
       <div className="max-w-7xl mx-auto pt-20 px-6 bg-transparent">
         <div className="flex flex-col items-center mt-6 lg:m-20 bg-transparent ">
           <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide bg-transparent">

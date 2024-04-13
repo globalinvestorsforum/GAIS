@@ -1,0 +1,69 @@
+import React, { useState } from 'react';
+import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
+import { navItems } from '../constants';
+
+const Navbar = () => {
+    const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
+
+    const toggleNavbar = () => {
+        setMobileDrawerOpen(!mobileDrawerOpen);
+    };
+
+    return (
+        <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-800">
+            <div className="container px-4 mx-auto relative text-sm">
+                <div className="flex justify-between items-center">
+                    {/* Logo on the left */}
+                    <div className="flex items-center justify-start flex-shrink-0">
+                        <img className="h-10" src="https://www.global-investors-forum.com/GAIS/assets/images/gaislogo.png" alt="" />
+                    </div>
+
+                    {/* Navigation links on the right */}
+                    <div className="hidden lg:flex items-center justify-between w-1/2">
+                        <ul className="flex space-x-12 uppercase">
+                            {navItems.map((item, index) => (
+                                <li key={index}>
+                                    <a href={item.href} className="font-bold hover:text-purple-600">
+                                        {item.name}
+                                    </a>
+                                </li>
+                            ))}
+                        </ul>
+                        <a href="" className="bg-gradient-to-r from-orange-500 to-purple-600 py-2 px-3 rounded-md ">
+                            Get Tickets
+                        </a>
+                    </div>
+
+                    {/* Hamburger menu on the right in mobile view */}
+                    <div className="lg:hidden flex items-center ">
+                        <button onClick={toggleNavbar}>
+                            {mobileDrawerOpen ? <AiOutlineClose className="text-2xl absolute top-0 z-50 right-0 m-4" /> : <AiOutlineMenu className="text-2xl" />}
+                        </button>
+                    </div>
+                </div>
+
+                {/* Mobile drawer */}
+                {mobileDrawerOpen && (
+                    <div className="fixed top-0 right-0 z-20 bg-neutral-900 w-full p-10 flex flex-col justify-center items-center text-center lg:hidden">
+                        <ul>
+                            {navItems.map((item, index) => (
+                                <li className="bg-neutral-900 py-1 text-base" key={index}>
+                                    <a className="bg-neutral-900 tracking-wider" href={item.href}>
+                                        {item.name}
+                                    </a>
+                                </li>
+                            ))}
+                        </ul>
+                        <div className="flex space-x-6 m-5">
+                            <a href="" className="bg-gradient-to-r from-orange-700 to-purple-600 py-2 px-3 rounded-md">
+                                Get Tickets
+                            </a>
+                        </div>
+                    </div>
+                )}
+            </div>
+        </nav>
+    );
+};
+
+export default Navbar;
