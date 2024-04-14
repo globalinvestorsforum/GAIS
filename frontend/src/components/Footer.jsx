@@ -11,20 +11,19 @@ const Footer = () => {
   return (
     <div className="w-full pt-10 border-t border-neutral-800">
       <div className=" max-w-[1240px] mx-auto py-15 px-4 grid lg:grid-cols-3 gap-8  ">
-        <div >
-          <div className="flex md:justify-center lg:justify-start items-center  ">
+        <div className="mx-auto">
+          <div className="flex  md:justify-center lg:justify-start items-center  ">
             <span>
               <AiOutlineGlobal className="fill-yellow-600 text-8xl me-2" />
             </span>
             <h3 className="text-wrap w-40 text-3xl  font-bold ">
               Global Investors Forum
             </h3>
-          </div>
-
+          </div >
           <p className="py-4 lg:text-start md:text-center sm:text-center text-neutral-400">
             Connecting world through one platform.
           </p>
-          <div className="flex justify-around md:w-[65%] sm:w-[50%] mt-3  hover:cursor-pointer ">
+          <div className="flex justify-between md:w-[65%] sm:w-[50%] mt-3 sm:mx-auto lg:mx-0 hover:cursor-pointer ">
             <AiOutlineLinkedin size={30} className=" hover:fill-blue-800 ..." />
             <BsMedium size={30} className="hover:fill-neutral-800" />
             <BiLogoGmail size={30} className=" hover:fill-red-900 ..." />
