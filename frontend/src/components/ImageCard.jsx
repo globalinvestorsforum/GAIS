@@ -2,18 +2,15 @@ import React from "react";
 
 const ImageCard = ({ image, title, desc }) => {
   return (
-    <div
-      className="border relative border-neutral-700 rounded-xl  h-[250px]  
-                 bg-clip-border bg-center bg-cover   hover:border-white   hover:shadow-md transition  ease-in-out delay-150 hover:-translate-xy-2 hover:scale-105 duration-300 ... cursor-pointer"
-      style={{ backgroundImage: `url(${image})`  }}
-    >
-
-      <div className="bg-transparent absolute flex-col text-center flex-wrap content-center rounded-xl w-full h-full   hover:backdrop-blur-[5px] hover:backdrop-brightness-50 duration-200 ">
-        <h4 className="sm:text-xl  font-bold bg-transparent  ">
-          {title}
-        </h4>
-        <p className="mt-2  bg-transparent text-neutral-200 ">{desc}</p>
+    <div className="border flex border-neutral-700 rounded-xl  h-[250px] bg-gradient-to-r from-orange-700 to-purple-600 hover:border-white hover:shadow-md transition ease-in-out delay-150 hover:-translate-xy-2 hover:scale-105 duration-300 cursor-pointer">
+      <div className="bg-transparent w-1/2 p-4 text-wrap  content-center rounded-xl ">
+        <h4 className="sm:text-xl font-bold text-neutral-200">{title}</h4>
+        <p className="mt-2 text-neutral-300">{desc}</p>
       </div>
+      <div className="w-1/2">
+        <img src={image} alt="" className="object-cover w-full h-full rounded-xl" />
+      </div>
+      
     </div>
   );
 };
