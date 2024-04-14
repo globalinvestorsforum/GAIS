@@ -7,7 +7,7 @@ import Footer from './components/Footer'
 import Card from './components/Card'
 import Hero from './components/Hero'
 import Navbar from './components/NavBar'
-import Contact from './components/Contact'
+
 function App() {
   return (
     <>
@@ -17,7 +17,6 @@ function App() {
       <Banner1/>
       <Banner2/>
       <Card/>
-      <Contact/>
       <Footer/> 
     </>
   )
