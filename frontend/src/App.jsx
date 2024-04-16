@@ -1,24 +1,33 @@
 import './App.css'
+import {
+  RouterProvider , 
+  createBrowserRouter , 
+  createRoutesFromElements,
+  Route
+} from 'react-router-dom'
 
-import Banner1 from './components/Banner1'
-import Feature from './components/Feature'
-import Banner2 from './components/Banner2'
-import Footer from './components/Footer'
-import Card from './components/Card'
-import Hero from './components/Hero'
-import Navbar from './components/NavBar'
+import { Award, Contact, Gais, Home, Meet, Ticket, Conference } from './components/index';
+import Layout from './components/Layout'
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path='/' element={<Layout/>} >
+
+      <Route path='' element={<Conference/>}/>
+      <Route path='/award' element={<Award/>}/>
+      <Route path='/contact' element={<Contact/>}/>
+      <Route path='/gais' element={<Gais/>}/>
+      <Route path='/meet' element={<Meet/>}/>
+      <Route path='/ticket' element={<Ticket/>}/>
+      <Route path='/conference' element={<Conference/>}/>
+      
+    </Route>
+  )
+)
 
 function App() {
   return (
-    <>
-      <Navbar/>
-      <Hero/>
-      <Feature/>
-      <Banner1/>
-      <Banner2/>
-      <Card/>
-      <Footer/> 
-    </>
+      <RouterProvider router={router}/>
   )
 }
 

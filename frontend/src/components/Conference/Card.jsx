@@ -1,5 +1,5 @@
 import React from "react";
-import { cards } from "../constants";
+import { cards } from "../../constants";
 import ImageCard from "./ImageCard";
 const Card = () => {
   return (

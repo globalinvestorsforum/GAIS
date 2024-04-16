@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
-import { navItems } from '../constants';
+import { navItems } from '../../constants';
+import {NavLink, Link} from 'react-router-dom'
 
 const Navbar = () => {
     const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
@@ -14,8 +15,11 @@ const Navbar = () => {
             <div className="container px-4 mx-auto relative text-sm">
                 <div className="flex justify-between items-center">
                     {/* Logo on the left */}
+                    
                     <div className="flex items-center justify-start flex-shrink-0">
+                        <Link to="/">
                         <img className="h-10" src="https://www.global-investors-forum.com/GAIS/assets/images/gaislogo.png" alt="" />
+                        </Link>
                     </div>
 
                     {/* Navigation links on the right */}
@@ -23,9 +27,9 @@ const Navbar = () => {
                         <ul className="flex space-x-12 uppercase">
                             {navItems.map((item, index) => (
                                 <li key={index}>
-                                    <a href={item.href} className="font-bold hover:text-purple-600">
+                                    <NavLink to={item.href} className="font-bold hover:text-purple-600">
                                         {item.name}
-                                    </a>
+                                    </NavLink>
                                 </li>
                             ))}
                         </ul>
@@ -48,16 +52,16 @@ const Navbar = () => {
                         <ul>
                             {navItems.map((item, index) => (
                                 <li className="bg-neutral-900 py-1 text-base" key={index}>
-                                    <a className="bg-neutral-900 tracking-wider" href={item.href}>
+                                    <NavLink className="bg-neutral-900 tracking-wider" to={item.href}>
                                         {item.name}
-                                    </a>
+                                    </NavLink>
                                 </li>
                             ))}
                         </ul>
                         <div className="flex space-x-6 m-5">
-                            <a href="" className="bg-gradient-to-r from-orange-700 to-purple-600 py-2 px-3 rounded-md">
+                            <Link to='/ticket' className="bg-gradient-to-r from-orange-700 to-purple-600 py-2 px-3 rounded-md">
                                 Get Tickets
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 )}

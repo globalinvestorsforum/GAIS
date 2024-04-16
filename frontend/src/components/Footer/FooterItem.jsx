@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom'
 
 const FooterItem = ({ category }) => {
   return (
@@ -7,7 +8,7 @@ const FooterItem = ({ category }) => {
       <ul>
       {category.items.map((item, index) => (
           <li key={index}>
-            <a className="text-neutral-300 hover:font-semibold " href={item.link}>{item.text} </a>
+            <Link className="text-neutral-300  hover:underline" to={item.link}>{item.text} </Link>
           </li>
         ))}
       </ul>

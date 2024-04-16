@@ -1,13 +1,11 @@
-import {} from 'react-icons'
-import { GiPublicSpeaker } from "react-icons/gi";
-import { GiDiscussion } from "react-icons/gi";
+import { GiPublicSpeaker, GiDiscussion } from "react-icons/gi";
 import { AiOutlineGlobal } from "react-icons/ai";
 
 export const navItems = [
-    { name: 'GAIS', href: '#', current: true },
-    { name: 'Conferences', href: '#', current: false },
-    { name: 'Award Ceremony', href: '#', current: false },
-    { name: 'Global Investors Meet', href: '#', current: false },
+    { name: 'GAIS', href: '/gais', current: true },
+    { name: 'Conferences', href: '/conference', current: false },
+    { name: 'Award Ceremony', href: '/award', current: false },
+    { name: 'Global Investors Meet', href: '/meet', current: false },
 ];
   
 export const features =[
@@ -22,9 +20,9 @@ export const footerItems = [
     {
       title: 'Company',
       items: [
-        { text: 'GAIS', link: '#' },
-        { text: 'Conferences', link: '#' },
-        { text: 'Award Ceremony', link: '#' },
+        { text: 'GAIS', link: '/gais' },
+        { text: 'Conferences', link: '/conference' },
+        { text: 'Award Ceremony', link: '/awards' },
         { text: 'G.I Meet', link: '#' },
         { text: 'Tickets', link: '/tickets' }
       ]
@@ -32,7 +30,7 @@ export const footerItems = [
     {
       title: 'Who & What',
       items: [
-        { text: 'Homepage', link: '#' },
+        { text: 'Homepage', link: '/home' },
         { text: 'Who we are', link: '#' },
         { text: 'What we produce', link: '#' },
         { text: 'GIF Membership', link: '#' }
@@ -41,7 +39,7 @@ export const footerItems = [
     {
       title: 'Links',
       items: [
-        { text: 'Contact Us', link: '#' },
+        { text: 'Contact Us', link: '/contact' },
         { text: 'Blog', link: '#' },
         { text: 'Press', link: '#' },
         { text: 'Careers', link: '#' }

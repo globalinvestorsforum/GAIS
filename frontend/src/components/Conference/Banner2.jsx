@@ -12,7 +12,14 @@ const Banner2 = () => {
         <h3 className=" bg-transparent max-w-5xl mx-auto text-4xl lg:text-6xl  tracking-wide ">
           GAIS INCORPORATED SUMMIT
         </h3>
-        <p className="mt-2  bg-transparent md:w-2/3 sm:w-full mx-auto p-3 md:text-[18px] text-neutral-200 ">Experience the unprecedented: A global AI summit unlike any other, where the future of every industry unfolds before your eyes. We've woven a tapestry of meticulously curated AI experiences, each thread dedicated to a specific field, ready to ignite your vision and propel you forward. No matter your domain – healthcare, finance, retail, manufacturing, transportation, or beyond – your journey starts here.</p>
+        <p className="mt-2  bg-transparent md:w-2/3 sm:w-full mx-auto p-3 md:text-[18px] text-neutral-200 ">
+          Experience the unprecedented: A global AI summit unlike any other,
+          where the future of every industry unfolds before your eyes. We've
+          woven a tapestry of meticulously curated AI experiences, each thread
+          dedicated to a specific field, ready to ignite your vision and propel
+          you forward. No matter your domain – healthcare, finance, retail,
+          manufacturing, transportation, or beyond – your journey starts here.
+        </p>
       </div>
     </div>
   );

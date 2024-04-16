@@ -1,9 +1,8 @@
 import React from "react";
 import FooterItem from "./FooterItem";
-import { footerItems } from "../constants";
-import { AiOutlineGlobal } from "react-icons/ai";
+import { footerItems } from "../../constants";
+import { AiOutlineGlobal, AiOutlineLinkedin } from "react-icons/ai";
 import { FaGithubSquare } from "react-icons/fa";
-import { AiOutlineLinkedin } from "react-icons/ai";
 import { BsMedium } from "react-icons/bs";
 import { BiLogoGmail } from "react-icons/bi";
 
@@ -19,7 +18,7 @@ const Footer = () => {
             <h3 className="text-wrap w-40 text-3xl  font-bold ">
               Global Investors Forum
             </h3>
-          </div >
+          </div>
           <p className="py-4 lg:text-start md:text-center sm:text-center text-neutral-400">
             Connecting world through one platform.
           </p>
