@@ -2,6 +2,39 @@ import { GiPublicSpeaker, GiDiscussion } from "react-icons/gi";
 import { AiOutlineGlobal } from "react-icons/ai";
 
 
+export const gaisCards =[
+  {
+    title:"FUTURE TRENDS",
+    discription:" Stay up-to-date on the latest developments and advancements in AI technology.",
+    imgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fman.png?alt=media&token=99e5977c-5143-416a-b1a0-2c96f9bb2d47"
+  },
+  {
+    title:"INTERACTIVE KEYNOTE SESSIONS",
+    discription:"Learn from industry experts, researchers and thought leaders about the future of AI and its impact on various industries including yours.",
+    imgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fstudents.png?alt=media&token=1110de78-b0ff-4415-97c6-a48ee3150a39"
+  },
+  {
+    title:"GLOBAL NETWORKING",
+    discription:"Network with like-minded individuals and organisations to exchange ideas of AI Industry, which can lead to new collaborations and partnerships.",
+    imgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fmolecular.png?alt=media&token=550243fb-3c94-409a-822d-b5f67dfa5264"
+  },
+  {
+    title:"ACCESS TO INNOVATION",
+    discription:"Discover new tools and techniques for integrating AI into your business or research.",
+    imgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fbulb.png?alt=media&token=26d65985-8a47-4a63-8074-617dec9c3a2e"
+  },
+  {
+    title:"ETHICS & RESPONSIBLE AI",
+    discription:"Explore the ethical and societal implications of AI, and learn how to responsibly leverage this powerful technology.",
+    imgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fsettings.png?alt=media&token=929bd0bf-a0a7-4e1a-a079-2c0c63a7d397"
+  },
+  {
+    title:"STRATEGIC INSIGHTS FOR BUSINESS",
+    discription:"Hear about case studies, solutions and success stories of companies and organizations that have implemented AI in their operations in several industries",
+    imgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fpuzzle.png?alt=media&token=d7c0127a-af44-4515-abba-001e16336797"
+  },
+]
+
 export const meetMainTwoCards =[
   {
     title:"UNPARALLELED DEAL FLOW",
