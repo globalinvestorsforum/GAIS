@@ -11,14 +11,14 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-800">
+        <nav className="sticky top-0 z-50 py-3 backdrop-blur-lg border-b border-neutral-700">
             <div className="container px-4 mx-auto relative text-sm">
                 <div className="flex justify-between items-center">
                     {/* Logo on the left */}
                     
                     <div className="flex items-center justify-start flex-shrink-0">
                         <Link to="/">
-                        <img className="h-10" src="https://www.global-investors-forum.com/GAIS/assets/images/gaislogo.png" alt="" />
+                        <img className="h-10 w-44 rounded-tr-xl rounded-bl-xl " src="https://www.global-investors-forum.com/GAIS/assets/images/gaislogo.png" alt="" />
                         </Link>
                     </div>
 
@@ -33,9 +33,9 @@ const Navbar = () => {
                                 </li>
                             ))}
                         </ul>
-                        <a href="" className="bg-gradient-to-r from-orange-500 to-purple-600 py-2 px-3 rounded-md ">
+                        <Link to="/ticket" className="bg-gradient-to-r from-orange-500 to-purple-600 py-2 px-3 rounded-md ">
                             Get Tickets
-                        </a>
+                        </Link>
                     </div>
 
                     {/* Hamburger menu on the right in mobile view */}

@@ -1,6 +1,20 @@
 import { GiPublicSpeaker, GiDiscussion } from "react-icons/gi";
 import { AiOutlineGlobal } from "react-icons/ai";
 
+
+export const meetMainTwoCards =[
+  {
+    title:"UNPARALLELED DEAL FLOW",
+    discription:" Gain exclusive access to a meticulously curated selection of pre-vetted, high-growth AI startups across diverse industries. Uncover the next breakthrough ventures poised to disrupt the market and generate exponential returns.",
+    imgURL:"https://www.global-investors-forum.com/GAIS/assets/images/meet1.png"
+  },
+  {
+    title:"DIRECT ENGAGEMENT & DUE DILIGENCE",
+    discription:"Interact directly with founders, demo cutting-edge technologies, and conduct in-depth due diligence within a focused environment. Get ahead of the curve and secure access to the most sought-after investment opportunities.",
+    imgURL:"https://www.global-investors-forum.com/GAIS/assets/images/meet2.png"
+  },
+]
+
 export const navItems = [
     { name: 'GAIS', href: '/gais', current: true },
     { name: 'Conferences', href: '/conference', current: false },

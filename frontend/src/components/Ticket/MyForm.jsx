@@ -23,7 +23,7 @@ export default function MyForm() {
       body: JSON.stringify(dataSend),
       headers: {
         Accept: "application/json",
-        "Content-Type": "application/json",
+        "Content-Tzype": "application/json",
       },
     })
       .then((res) => {
