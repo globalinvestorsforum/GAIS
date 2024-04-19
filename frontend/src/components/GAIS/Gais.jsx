@@ -112,7 +112,7 @@ const Gais = () => {
           </div>
         </div>
       </section>
-      <Banner />
+      
       <section>
         <div className="relative bg-gradient-to-r from-orange-700 to-purple-600 min-h-[700px]">
           <h1 className="pt-10 text-3xl md:text-5xl lg:text-6xl  font-bold text-neutral-50 text-center mb-3 tracking-wide">
@@ -292,6 +292,7 @@ const Gais = () => {
           </div>
         </div>
       </section>
+      <Banner />
     </>
   );
 };
