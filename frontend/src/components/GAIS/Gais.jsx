@@ -118,7 +118,7 @@ const Gais = () => {
           <h1 className="pt-10 text-3xl md:text-5xl lg:text-6xl  font-bold text-neutral-50 text-center mb-3 tracking-wide">
             SUMMIT DEMOGRAPHY
           </h1>
-          <div className=" flex-wrap md:flex justify-center p-5">
+          <div className=" flex-wrap md:flex justify-center md:p-5 ">
             <div className="md:w-1/2 flex justify-center ">
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fimage1.png?alt=media&token=a1a876d7-451b-4ebb-9f43-db180a213de2"
@@ -168,11 +168,11 @@ const Gais = () => {
         <div className=" min-h-[400px] bg-gradient-to-r from-purple-600 to-orange-700 ">
           <div className="flex-wrap p-10 md:flex">
             <div className="w-1/2 flex justify-center items-center">
-              <h1 className="p-10 lg:text-5xl text-4xl  font-bold w-4/5">
+              <h1 className="md:p-10 py-10 lg:text-5xl md:text-4xl text-4xl mx-auto w-full font-bold md:w-4/5">
                 GIAS INCORPORATED SUMMIT & CONFERENCES
               </h1>
             </div>
-            <div className="md:w-1/2 p-5">
+            <div className="md:w-1/2 md:p-5 py-2">
               <div className="grid md:grid-cols-3 grid-cols-2 gap-6  content-between items-center ">
                 {gaisLogos.map((logo, index) => (
                   <div className="flex items-center" key={index}>
@@ -187,10 +187,10 @@ const Gais = () => {
         <div className=" min-h-[400px] ">
           <div className="flex-wrap p-10 md:flex bg-gradient-to-r from-orange-700 to-purple-600 ">
             <div className="md:w-1/2  flex-wrap  order-2">
-              <h1 className="p-10 lg:text-5xl text-4xl  font-bold ">
+              <h1 className="md:p-10 lg:text-5xl text-4xl p-5  font-bold ">
                 AWARD CEREMONY
               </h1>
-              <p className="px-12 text-xl">
+              <p className="md:px-12 p-2 text-xl">
                 Join us in celebrating trailblazing AI-powered startups that
                 have transformed industries! Be part of The Innovative
                 AI-Powered Startup Award ceremony, where we honor those who've
@@ -212,10 +212,10 @@ const Gais = () => {
         <div className=" min-h-[400px] bg-gradient-to-r from-purple-600 to-orange-700 ">
           <div className="flex-wrap p-10 md:flex">
             <div className="md:w-2/3  ">
-              <h1 className="p-10 lg:text-5xl text-4xl  font-bold ">
+              <h1 className="md:p-10 lg:text-5xl text-4xl   font-bold ">
                 GLOBAL INVESTORS MEET
               </h1>
-              <p className="px-12 text-xl">
+              <p className="md:px-12 p-2 text-xl">
                 Unite with the investment elite – VC's, Angel funds, Private
                 Equity, and more. Forge direct connections between startups and
                 investors in a face-to-face convergence, fostering
@@ -237,10 +237,10 @@ const Gais = () => {
         <div className=" min-h-screen bg-gradient-to-r from-orange-700 to-purple-600 ">
           <div className="p-10 lg:flex">
             <div className="lg:w-1/4 flex-wrap  ">
-              <h1 className="p-10 lg:text-3xl text-5xl  font-bold ">
+              <h1 className="md:p-10 p-5 lg:text-3xl text-5xl  font-bold ">
                 Workshops
               </h1>
-              <p className="px-12 text-xl">
+              <p className="md:px-12 p-2 text-xl">
                 Dive deeper than theory. Get your hands dirty with immersive,
                 industry-specific workshops led by AI pioneers. Master practical
                 skills and unlock the true potential of AI in your field. From
@@ -266,7 +266,7 @@ const Gais = () => {
               <h1 className="p-10 lg:text-3xl text-5xl  font-bold ">
                 Startup pitches
               </h1>
-              <p className="px-12 text-xl">
+              <p className="md:px-12 p-2 text-xl">
                 Witness the future unfold before your eyes. Witness the
                 brightest AI-powered startups pitch their groundbreaking
                 solutions, from healthcare to finance to climate change. Get a
@@ -279,7 +279,7 @@ const Gais = () => {
               <h1 className="p-10 lg:text-3xl text-5xl  font-bold ">
                 Innovative AI solutions
               </h1>
-              <p className="px-12 text-xl">
+              <p className="md:px-12 p-2 text-xl">
                 See the future, now. Explore a showcase of cutting-edge AI
                 applications and trends that are transforming industries. Learn
                 from experts, uncover hidden opportunities to leverage AI in
@@ -292,7 +292,7 @@ const Gais = () => {
           </div>
         </div>
       </section>
-      <Banner />
+      <Banner/>
     </>
   );
 };
