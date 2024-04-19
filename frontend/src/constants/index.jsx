@@ -1,6 +1,86 @@
 import { GiPublicSpeaker, GiDiscussion } from "react-icons/gi";
 import { AiOutlineGlobal } from "react-icons/ai";
+import { BsHeartPulseFill } from "react-icons/bs";
+import { FaSeedling } from "react-icons/fa";
+import { MdEmojiTransportation } from "react-icons/md";
+import { AiFillCar } from "react-icons/ai";
+import { GiMoneyStack } from "react-icons/gi";
+import { MdOutlinePrecisionManufacturing } from "react-icons/md";
+import { AiOutlineShoppingCart } from "react-icons/ai";
+import { BsFillRocketTakeoffFill } from "react-icons/bs";
+import { FaRobot } from "react-icons/fa";
+import { FaBowlFood } from "react-icons/fa6";
+import { GiDeliveryDrone } from "react-icons/gi";
+import { SlBookOpen } from "react-icons/sl";
+import { GrGamepad } from "react-icons/gr";
+import { MdOutlineSolarPower } from "react-icons/md";
+import { RiAdvertisementFill } from "react-icons/ri";
 
+export const gaisLogos =[
+  {
+    logo :<BsHeartPulseFill/>,
+    text:"Healthcare"
+  },
+  {
+    logo :<FaSeedling />,
+    text:"Agriculture"
+  },
+  {
+    logo :<MdEmojiTransportation />,
+    text:"Transporatation"
+  },
+  {
+    logo :<AiFillCar />,
+    text:"Automobile"
+  },
+  {
+    logo :<GiMoneyStack/>,
+    text:"Finance"
+  },
+  {
+    logo :<MdOutlinePrecisionManufacturing/>,
+    text:"Manufacturing"
+  },
+  {
+    logo :<AiOutlineShoppingCart />,
+    text:"Retail & E-commerce"
+  },
+  {
+    logo :<BsFillRocketTakeoffFill/>,
+    text:"Startups"
+  },
+  {
+    logo :<FaRobot/>,
+    text:"Robotics"
+  },
+  {
+    logo :<FaBowlFood/>,
+    text:"Foodtech"
+  },
+  {
+    logo :< GiDeliveryDrone/>,
+    text:"Agerospace & Defence"
+  },
+  {
+    logo :<SlBookOpen />,
+    text:"Education"
+  },
+  {
+    logo :<GrGamepad />,
+    text:"Entertainment"
+  },
+  {
+    logo :<MdOutlineSolarPower/>,
+    text:"Energy"
+  },
+  {
+    logo :<RiAdvertisementFill/>,
+    text:"Marketing & Adevertising"
+  },
+
+
+  
+]
 
 export const gaisCards =[
   {
