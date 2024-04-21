@@ -2,7 +2,9 @@ import React from 'react'
 
 const Award = () => {
   return (
-    <div>Award</div>
+    <div>
+      
+    </div>
   )
 }
 

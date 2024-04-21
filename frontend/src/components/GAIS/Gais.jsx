@@ -2,6 +2,7 @@ import React from "react";
 import { gaisCards, gaisLogos } from "../../constants";
 import Card from "./Card";
 import Banner from "./Banner";
+import { FaArrowAltCircleRight } from "react-icons/fa";
 
 const Gais = () => {
   return (
@@ -40,13 +41,13 @@ const Gais = () => {
         <div className="h-[600px]  bg-neutral-300 text-blue-950">
           <div className="p-5 pt-20 md:p-32 text-center ">
             <div className="flex w-full ">
-              <div className="w-1/2 font-extrabold text-8xl">
+              <div className="w-1/2 font-extrabold text-7xl">
                 0+
                 <p className="text-3xl  md:text-4xl font-thin">
                   Expected Visitors
                 </p>
               </div>
-              <div className="w-1/2 font-extrabold text-8xl">
+              <div className="w-1/2 font-extrabold text-7xl">
                 0+
                 <p className="text-3xl  md:text-4xl font-thin">
                   Networking & Meetings
@@ -54,11 +55,11 @@ const Gais = () => {
               </div>
             </div>
             <div className="flex w-full pt-24  ">
-              <div className="w-1/2 font-extrabold text-8xl">
+              <div className="w-1/2 font-extrabold text-7xl">
                 0+
                 <p className="text-3xl  md:text-4xl font-thin">Conferencess</p>
               </div>
-              <div className="w-1/2 font-extrabold text-8xl">
+              <div className="w-1/2 font-extrabold text-7xl">
                 0+
                 <p className="text-3xl  md:text-4xl font-thin">Speakers</p>
               </div>
@@ -69,7 +70,7 @@ const Gais = () => {
       <section>
         <div className="w-full h-[520px] bg-gradient-to-r from-orange-700 to-purple-600">
           <div className=" flex-col text-center   content-center  w-full h-full  ">
-            <h3 className=" max-w-5xl mx-auto text-4xl lg:text-6xl  tracking-wide ">
+            <h3 className=" max-w-5xl mx-auto text-3xl md:text-4xl lg:text-5xl font-bold ">
               ABOUT GAIS
             </h3>
             <p className="mt-2  bg-transparent md:w-2/3 sm:w-full mx-auto p-3 md:text-[18px] text-neutral-200 ">
@@ -115,18 +116,22 @@ const Gais = () => {
       
       <section>
         <div className="relative bg-gradient-to-r from-orange-700 to-purple-600 min-h-[700px]">
-          <h1 className="pt-10 text-3xl md:text-5xl lg:text-6xl  font-bold text-neutral-50 text-center mb-3 tracking-wide">
+          <h1 className="pt-10 text-3xl md:text-4xl lg:text-5xl  font-bold text-neutral-50 text-center mb-3 tracking-wide">
             SUMMIT DEMOGRAPHY
           </h1>
-          <div className=" flex-wrap md:flex justify-center md:p-5 ">
+          <div className=" flex-wrap md:flex justify-center md:pt-5 ">
             <div className="md:w-1/2 flex justify-center ">
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fimage1.png?alt=media&token=a1a876d7-451b-4ebb-9f43-db180a213de2"
                 alt=""
-                className="w-[70%] rounded-lg"
+                className="w-[100%]"
               />
             </div>
-            <div className="md:w-1/2 p-10 text-xl">
+            <div>
+              
+            </div>
+            <div className="md:w-1/2 md:p-10 p-5 md:text-lg text-base  flex flex-wrap justify-center items-center">
+              <div>
               <p>
                 GAIS attracts a broad range of people who are interested in
                 learning about the latest advancements, networking with
@@ -135,7 +140,7 @@ const Gais = () => {
                 typically includes professionals and enthusiasts from diverse
                 backgrounds, such as:
               </p>
-              <ul className="list-disc p-5 text-lg">
+              <ul className="list-disc p-5 md:text-lg text-base ">
                 <li>
                   Innovative AI-Powered Startups and Fortune 500 companies.
                 </li>
@@ -162,22 +167,27 @@ const Gais = () => {
                   about AI and its potential impact on various industries.
                 </li>
               </ul>
+              </div>
             </div>
           </div>
         </div>
         <div className=" min-h-[400px] bg-gradient-to-r from-purple-600 to-orange-700 ">
           <div className="flex-wrap p-10 md:flex">
-            <div className="w-1/2 flex justify-center items-center">
-              <h1 className="md:p-10 py-10 lg:text-5xl md:text-4xl text-4xl mx-auto w-full font-bold md:w-4/5">
+            <div className="w-1/2 flex flex-wrap md:justify-end justify-normal items-center">
+              <h1 className="md:p-10 pb-5 lg:text-5xl md:text-4xl text-3xl mx-auto w-full font-bold md:w-4/5">
                 GIAS INCORPORATED SUMMIT & CONFERENCES
               </h1>
+              <div className="md:text-7xl text-6xl  md:px-12 py-5"> 
+              <FaArrowAltCircleRight />
+              </div>
             </div>
+            
             <div className="md:w-1/2 md:p-5 py-2">
               <div className="grid md:grid-cols-3 grid-cols-2 gap-6  content-between items-center ">
                 {gaisLogos.map((logo, index) => (
                   <div className="flex items-center" key={index}>
                     <div className="text-4xl me-3">{logo.logo}</div>
-                    <div className="">{logo.text}</div>
+                    <div className="md:text-lg text-base ">{logo.text}</div>
                   </div>
                 ))}
               </div>
@@ -185,12 +195,12 @@ const Gais = () => {
           </div>
         </div>
         <div className=" min-h-[400px] ">
-          <div className="flex-wrap p-10 md:flex bg-gradient-to-r from-orange-700 to-purple-600 ">
+          <div className="flex-wrap mp-10 md:flex bg-gradient-to-r from-orange-700 to-purple-600 ">
             <div className="md:w-1/2  flex-wrap  order-2">
-              <h1 className="md:p-10 lg:text-5xl text-4xl p-5  font-bold ">
+              <h1 className="md:p-10 pt-10 lg:text-5xl md:text-4xl text-3xl px-5  font-bold ">
                 AWARD CEREMONY
               </h1>
-              <p className="md:px-12 p-2 text-xl">
+              <p className="md:px-12 p-5 md:text-lg text-base ">
                 Join us in celebrating trailblazing AI-powered startups that
                 have transformed industries! Be part of The Innovative
                 AI-Powered Startup Award ceremony, where we honor those who've
@@ -198,10 +208,13 @@ const Gais = () => {
                 solutions. Don't miss your chance to witness innovation at its
                 peak – join us!
               </p>
+              <div className="md:text-7xl text-6xl md:px-12 p-5">
+              <FaArrowAltCircleRight />
+              </div>
             </div>
-            <div className="md:w-1/2 p-5 flex justify-center items-center">
+            <div className="md:w-1/2 flex justify-center items-center">
               <img
-                className="md:w-[80%] w-[90%] rounded-lg"
+                className="w-[100%] "
                 src="https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Faward_pic.png?alt=media&token=5d82b0a4-977c-45fe-8589-8dbda6fc0da7"
                 alt=""
               />
@@ -210,12 +223,12 @@ const Gais = () => {
         </div>
 
         <div className=" min-h-[400px] bg-gradient-to-r from-purple-600 to-orange-700 ">
-          <div className="flex-wrap p-10 md:flex">
-            <div className="md:w-2/3  ">
-              <h1 className="md:p-10 lg:text-5xl text-4xl   font-bold ">
+          <div className="flex-wrap  md:flex">
+            <div className="md:w-2/3 ">
+              <h1 className="md:p-10 pt-10 text-3xl md:text-4xl lg:text-5xl px-5 font-bold ">
                 GLOBAL INVESTORS MEET
               </h1>
-              <p className="md:px-12 p-2 text-xl">
+              <p className="md:px-12 p-5 md:text-lg text-base ">
                 Unite with the investment elite – VC's, Angel funds, Private
                 Equity, and more. Forge direct connections between startups and
                 investors in a face-to-face convergence, fostering
@@ -223,9 +236,9 @@ const Gais = () => {
                 fueling the next wave of AI-driven success.
               </p>
             </div>
-            <div className="md:w-1/3 p-5 flex justify-center">
+            <div className="md:w-1/3 md:pt-0 pt-6  flex justify-center">
               <img
-                className="w-[90%] rounded-lg"
+                className="w-[100%] "
                 src="https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Finvestors_pic.png?alt=media&token=bd653498-f8c7-4bd2-b6c8-2a6ab5bdcb07"
                 alt=""
               />
@@ -235,38 +248,40 @@ const Gais = () => {
       </section>
       <section className="">
         <div className=" min-h-screen bg-gradient-to-r from-orange-700 to-purple-600 ">
-          <div className="p-10 lg:flex">
-            <div className="lg:w-1/4 flex-wrap  ">
-              <h1 className="md:p-10 p-5 lg:text-3xl text-5xl  font-bold ">
+          <div className=" lg:flex md:p-5 pt-5">
+            <div className="lg:w-1/4 ">
+              <div className="flex-wrap">
+              <h1 className="md:px-10 p-5 text-3xl md:text-4xl lg:text-5xl  font-bold ">
                 Workshops
               </h1>
-              <p className="md:px-12 p-2 text-xl">
+              <p className="md:px-10 px-5  pb-5  md:text-lg text-base ">
                 Dive deeper than theory. Get your hands dirty with immersive,
                 industry-specific workshops led by AI pioneers. Master practical
                 skills and unlock the true potential of AI in your field. From
                 healthcare to finance, marketing to robotics, there's a workshop
                 to ignite your AI journey.
               </p>
-              <div className=" p-5 flex justify-center">
+              <div className=" flex justify-center pt-3">
                 <img
-                  className=" rounded-lg"
+                  className="lg:w-[80%] w-[100%]"
                   src="https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2FWorkshops-img.jpg?alt=media&token=073237b3-bbb2-4bda-a4b8-6c05fe2404da"
                   alt=""
                 />
               </div>
             </div>
-            <div className="lg:w-2/4  ">
-              <div className=" p-5 flex justify-center">
+            </div>
+            <div className="lg:w-2/4  flex flex-wrap ">
+              <div className=" md:p-5 p-0  lg:order-none order-1">
                 <img
-                  className=" rounded-lg"
+                  className=" "
                   src="https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2FStartup-img.jpg?alt=media&token=0911cd41-c005-4487-86ee-9f9b8488d835"
                   alt=""
                 />
               </div>
-              <h1 className="p-10 lg:text-3xl text-5xl  font-bold ">
+              <h1 className="md:px-10 text-3xl md:text-4xl lg:text-5xl p-5  font-bold ">
                 Startup pitches
               </h1>
-              <p className="md:px-12 p-2 text-xl">
+              <p className="md:px-12 px-5 pb-5 md:text-lg text-base ">
                 Witness the future unfold before your eyes. Witness the
                 brightest AI-powered startups pitch their groundbreaking
                 solutions, from healthcare to finance to climate change. Get a
@@ -276,10 +291,10 @@ const Gais = () => {
             </div>
 
             <div className="lg:w-1/4">
-              <h1 className="p-10 lg:text-3xl text-5xl  font-bold ">
+              <h1 className="md:px-10 text-3xl md:text-4xl lg:text-5xl  p-5  font-bold ">
                 Innovative AI solutions
               </h1>
-              <p className="md:px-12 p-2 text-xl">
+              <p className="md:px-12 px-5 pb-5 md:text-lg text-base ">
                 See the future, now. Explore a showcase of cutting-edge AI
                 applications and trends that are transforming industries. Learn
                 from experts, uncover hidden opportunities to leverage AI in

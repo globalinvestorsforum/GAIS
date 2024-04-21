@@ -7,7 +7,7 @@ const Card = ({imgUrl,desc,head}) => {
       <img
         src={imgUrl}
         alt=""
-        className="object-contain w-1/2 bg-transparent   h-[300px] rounded-t-xl "
+        className="object-contain w-1/2 bg-transparent   h-[150px] rounded-t-xl "
       />
       <h4 className="sm:text-xl p-2 font-bold text-neutral-950">
         {head}

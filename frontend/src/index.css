@@ -6,9 +6,12 @@
 
 :root{
    
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
      
     background-color: rgb(12, 12, 12);
     /* background-color: rgb(16, 16, 74); */
