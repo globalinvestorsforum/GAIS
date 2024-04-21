@@ -3,6 +3,7 @@ import { gaisCards, gaisLogos } from "../../constants";
 import Card from "./Card";
 import Banner from "./Banner";
 import { FaArrowAltCircleRight } from "react-icons/fa";
+import { Link} from 'react-router-dom'
 
 const Gais = () => {
   return (
@@ -178,7 +179,7 @@ const Gais = () => {
                 GIAS INCORPORATED SUMMIT & CONFERENCES
               </h1>
               <div className="md:text-7xl text-6xl  md:px-12 py-5"> 
-              <FaArrowAltCircleRight />
+              <Link to={"/conference"} ><FaArrowAltCircleRight /></Link>
               </div>
             </div>
             
@@ -209,7 +210,7 @@ const Gais = () => {
                 peak – join us!
               </p>
               <div className="md:text-7xl text-6xl md:px-12 p-5">
-              <FaArrowAltCircleRight />
+              <Link to={"/award"}><FaArrowAltCircleRight /></Link> 
               </div>
             </div>
             <div className="md:w-1/2 flex justify-center items-center">
