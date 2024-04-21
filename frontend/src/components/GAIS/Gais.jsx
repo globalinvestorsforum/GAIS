@@ -264,7 +264,7 @@ const Gais = () => {
               </p>
               <div className=" flex justify-center pt-3">
                 <img
-                  className="lg:w-[80%] w-[100%]"
+                  className="lg:w-[80%] md:w-[95%] w-[100%]"
                   src="https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2FWorkshops-img.jpg?alt=media&token=073237b3-bbb2-4bda-a4b8-6c05fe2404da"
                   alt=""
                 />
@@ -274,7 +274,7 @@ const Gais = () => {
             <div className="lg:w-2/4  flex flex-wrap ">
               <div className=" md:p-5 p-0  lg:order-none order-1">
                 <img
-                  className=" "
+                  className=""
                   src="https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2FStartup-img.jpg?alt=media&token=0911cd41-c005-4487-86ee-9f9b8488d835"
                   alt=""
                 />
