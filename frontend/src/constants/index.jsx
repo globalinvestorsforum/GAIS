@@ -1,21 +1,62 @@
-import { GiPublicSpeaker, GiDiscussion } from "react-icons/gi";
-import { AiOutlineGlobal } from "react-icons/ai";
+import { GiPublicSpeaker, GiDiscussion, GiMoneyStack  , GiDeliveryDrone } from "react-icons/gi";
+import { AiOutlineGlobal, AiFillCar, AiOutlineShoppingCart } from "react-icons/ai";
 import { BsHeartPulseFill } from "react-icons/bs";
-import { FaSeedling } from "react-icons/fa";
-import { MdEmojiTransportation } from "react-icons/md";
-import { AiFillCar } from "react-icons/ai";
-import { GiMoneyStack } from "react-icons/gi";
-import { MdOutlinePrecisionManufacturing } from "react-icons/md";
-import { AiOutlineShoppingCart } from "react-icons/ai";
+import { FaSeedling, FaRobot } from "react-icons/fa";
+import { MdEmojiTransportation, MdOutlinePrecisionManufacturing, MdOutlineSolarPower } from "react-icons/md";
 import { BsFillRocketTakeoffFill } from "react-icons/bs";
-import { FaRobot } from "react-icons/fa";
 import { FaBowlFood } from "react-icons/fa6";
-import { GiDeliveryDrone } from "react-icons/gi";
 import { SlBookOpen } from "react-icons/sl";
 import { GrGamepad } from "react-icons/gr";
-import { MdOutlineSolarPower } from "react-icons/md";
 import { RiAdvertisementFill } from "react-icons/ri";
 
+export const partnersLogo = [
+  {
+    imgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/Partners%2Ftrigo.png?alt=media&token=38c1c05e-d299-4c5a-a9de-8577908b5ba0"
+  },
+  {
+    imgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/Partners%2Fsmartex.png?alt=media&token=242fb926-73e4-41c9-8a5c-6ad53d2fe434"
+  },
+  {
+    imgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/Partners%2Fsknmtch.png?alt=media&token=eb93123f-65b0-4d8c-9268-1b8c2ef0d96f"
+  },
+  {
+    imgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/Partners%2Flogo_skinive.svg?alt=media&token=2bafcd94-dd32-42df-9092-607432ea484f"
+  },
+  {
+    imgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/Partners%2Fseapatterb.png?alt=media&token=c2f120ce-354f-4414-92f7-89ee9b463d2f"
+  },
+  {
+    imgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/Partners%2Fpigpug.png?alt=media&token=0702cec1-495c-41cc-91c5-6aff97491eed"
+  },
+  {
+    imgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/Partners%2Fpicterra.png?alt=media&token=3efdc613-13f9-4508-b40a-aaef4e1405bb"
+  },
+  {
+    imgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/Partners%2Fniramai.png?alt=media&token=e5f607dd-bed2-4106-881d-b4d342c45e03"
+  },
+  {
+    imgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/Partners%2Fkodexai_cover.jpeg?alt=media&token=dfc28f32-6367-4c12-a13e-3808c723286f"
+  },
+  {
+    imgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/Partners%2Fheex.png?alt=media&token=67ca1a9f-e4e4-450a-b464-38df6662b8a0"
+  },
+  {
+    imgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/Partners%2Ffocalx.jpg?alt=media&token=7f5ee64a-e2cb-40ab-aea9-d62d0b62d01d"
+  },
+  {
+    imgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/Partners%2Fcircunomics.png?alt=media&token=d6ee32b8-7adc-4cd1-b6f1-69ea752846e0"
+  },
+  {
+    imgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/Partners%2Fcetasol.png?alt=media&token=4b36244e-33c6-4953-864a-66f37dbd333d"
+  },
+  {
+    imgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/Partners%2Fawake.png?alt=media&token=7411a552-550d-44d8-8828-4786df8e2ee6"
+  },
+  {
+    imgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/Partners%2F2021.ai.png?alt=media&token=f00bbad0-9502-4892-8c79-a553ea885742"
+  },
+
+]
 export const gaisLogos =[
   {
     logo :<BsHeartPulseFill/>,

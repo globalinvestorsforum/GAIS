@@ -8,7 +8,7 @@ const Meet = () => {
     <>
       <section>
         <div
-          className="w-full min-h-screen bg-no-repeat bg-cover border-b border-neutral-800 md:py-20 sm:py-10"
+          className="w-full min-h-screen bg-no-repeat bg-cover bg-center  border-b border-neutral-800 md:py-20 sm:py-10"
           style={{
             backgroundImage: `url('https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Finvestors_background.png?alt=media&token=ff5896d7-bd83-49b0-9854-dc8dd126ca45') `,
           }}

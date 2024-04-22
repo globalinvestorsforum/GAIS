@@ -1,16 +1,16 @@
 import React from "react";
-import { gaisCards, gaisLogos } from "../../constants";
+import { gaisCards, gaisLogos , partnersLogo} from "../../constants";
 import Card from "./Card";
 import Banner from "./Banner";
 import { FaArrowAltCircleRight } from "react-icons/fa";
-import { Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 const Gais = () => {
   return (
     <>
       <section>
         <div
-          className="w-full h-screen bg-no-repeat bg-cover  border-b border-neutral-800 "
+          className="w-full h-screen bg-no-repeat bg-cover md:bg-top bg-center  border-b border-neutral-800 "
           style={{
             backgroundImage: `url('https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Flanding_img.png?alt=media&token=a104f4b6-ac45-4187-a3c9-e230cc496f0a')`,
           }}
@@ -68,7 +68,7 @@ const Gais = () => {
           </div>
         </div>
       </section>
-      <section>
+      <section className="border-y border-neutral-500">
         <div className="w-full h-[520px] bg-gradient-to-r from-orange-700 to-purple-600">
           <div className=" flex-col text-center   content-center  w-full h-full  ">
             <h3 className=" max-w-5xl mx-auto text-3xl md:text-4xl lg:text-5xl font-bold ">
@@ -114,8 +114,8 @@ const Gais = () => {
           </div>
         </div>
       </section>
-      
-      <section>
+
+      <section className="border-t border-neutral-500">
         <div className="relative bg-gradient-to-r from-orange-700 to-purple-600 min-h-[700px]">
           <h1 className="pt-10 text-3xl md:text-4xl lg:text-5xl  font-bold text-neutral-50 text-center mb-3 tracking-wide">
             SUMMIT DEMOGRAPHY
@@ -128,46 +128,46 @@ const Gais = () => {
                 className="w-[100%]"
               />
             </div>
-            <div>
-              
-            </div>
+            <div></div>
             <div className="md:w-1/2 md:p-10 p-5 md:text-lg text-base  flex flex-wrap justify-center items-center">
               <div>
-              <p>
-                GAIS attracts a broad range of people who are interested in
-                learning about the latest advancements, networking with
-                like-minded individuals, and exploring potential business
-                opportunities related to AI. Our visitor profile can vary, but
-                typically includes professionals and enthusiasts from diverse
-                backgrounds, such as:
-              </p>
-              <ul className="list-disc p-5 md:text-lg text-base ">
-                <li>
-                  Innovative AI-Powered Startups and Fortune 500 companies.
-                </li>
-                <li>Researchers and academics in the field of AI.</li>
-                <li>Associations, Chamber of commerce and business bodies.</li>
-                <li>
-                  Industry professionals and executives interested in AI
-                  applications and trends.
-                </li>
-                <li>
-                  Entrepreneurs and startup founders developing AI-based
-                  products and services.
-                </li>
-                <li>
-                  Government officials and policymakers involved in AI
-                  regulation and policy-making.
-                </li>
-                <li>
-                  Investors and venture capitalists seeking to fund AI-related
-                  projects.
-                </li>
-                <li>
-                  Tech enthusiasts and students interested in learning more
-                  about AI and its potential impact on various industries.
-                </li>
-              </ul>
+                <p>
+                  GAIS attracts a broad range of people who are interested in
+                  learning about the latest advancements, networking with
+                  like-minded individuals, and exploring potential business
+                  opportunities related to AI. Our visitor profile can vary, but
+                  typically includes professionals and enthusiasts from diverse
+                  backgrounds, such as:
+                </p>
+                <ul className="list-disc p-5 md:text-lg text-base ">
+                  <li>
+                    Innovative AI-Powered Startups and Fortune 500 companies.
+                  </li>
+                  <li>Researchers and academics in the field of AI.</li>
+                  <li>
+                    Associations, Chamber of commerce and business bodies.
+                  </li>
+                  <li>
+                    Industry professionals and executives interested in AI
+                    applications and trends.
+                  </li>
+                  <li>
+                    Entrepreneurs and startup founders developing AI-based
+                    products and services.
+                  </li>
+                  <li>
+                    Government officials and policymakers involved in AI
+                    regulation and policy-making.
+                  </li>
+                  <li>
+                    Investors and venture capitalists seeking to fund AI-related
+                    projects.
+                  </li>
+                  <li>
+                    Tech enthusiasts and students interested in learning more
+                    about AI and its potential impact on various industries.
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -178,11 +178,13 @@ const Gais = () => {
               <h1 className="md:p-10 pb-5 lg:text-5xl md:text-4xl text-3xl mx-auto w-full font-bold md:w-4/5">
                 GIAS INCORPORATED SUMMIT & CONFERENCES
               </h1>
-              <div className="md:text-7xl text-6xl  md:px-12 py-5"> 
-              <Link to={"/conference"} ><FaArrowAltCircleRight /></Link>
+              <div className="md:text-7xl text-6xl  md:px-12 py-5">
+                <Link to={"/conference"}>
+                  <FaArrowAltCircleRight />
+                </Link>
               </div>
             </div>
-            
+
             <div className="md:w-1/2 md:p-5 py-2">
               <div className="grid md:grid-cols-3 grid-cols-2 gap-6  content-between items-center ">
                 {gaisLogos.map((logo, index) => (
@@ -210,7 +212,9 @@ const Gais = () => {
                 peak – join us!
               </p>
               <div className="md:text-7xl text-6xl md:px-12 p-5">
-              <Link to={"/award"}><FaArrowAltCircleRight /></Link> 
+                <Link to={"/award"}>
+                  <FaArrowAltCircleRight />
+                </Link>
               </div>
             </div>
             <div className="md:w-1/2 flex justify-center items-center">
@@ -247,29 +251,29 @@ const Gais = () => {
           </div>
         </div>
       </section>
-      <section className="">
+      <section className="border-y border-neutral-500">
         <div className=" min-h-screen bg-gradient-to-r from-orange-700 to-purple-600 ">
           <div className=" lg:flex md:p-5 pt-5">
             <div className="lg:w-1/4 ">
               <div className="flex-wrap">
-              <h1 className="md:px-10 p-5 text-3xl md:text-4xl lg:text-5xl  font-bold ">
-                Workshops
-              </h1>
-              <p className="md:px-10 px-5  pb-5  md:text-lg text-base ">
-                Dive deeper than theory. Get your hands dirty with immersive,
-                industry-specific workshops led by AI pioneers. Master practical
-                skills and unlock the true potential of AI in your field. From
-                healthcare to finance, marketing to robotics, there's a workshop
-                to ignite your AI journey.
-              </p>
-              <div className=" flex justify-center pt-3">
-                <img
-                  className="lg:w-[80%] md:w-[95%] w-[100%]"
-                  src="https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2FWorkshops-img.jpg?alt=media&token=073237b3-bbb2-4bda-a4b8-6c05fe2404da"
-                  alt=""
-                />
+                <h1 className="md:px-10 p-5 text-3xl md:text-4xl lg:text-5xl  font-bold ">
+                  Workshops
+                </h1>
+                <p className="md:px-10 px-5  pb-5  md:text-lg text-base ">
+                  Dive deeper than theory. Get your hands dirty with immersive,
+                  industry-specific workshops led by AI pioneers. Master
+                  practical skills and unlock the true potential of AI in your
+                  field. From healthcare to finance, marketing to robotics,
+                  there's a workshop to ignite your AI journey.
+                </p>
+                <div className=" flex justify-center pt-3">
+                  <img
+                    className="lg:w-[80%] md:w-[95%] w-[100%]"
+                    src="https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2FWorkshops-img.jpg?alt=media&token=073237b3-bbb2-4bda-a4b8-6c05fe2404da"
+                    alt=""
+                  />
+                </div>
               </div>
-            </div>
             </div>
             <div className="lg:w-2/4  flex flex-wrap ">
               <div className=" md:p-5 p-0  lg:order-none order-1">
@@ -307,8 +311,26 @@ const Gais = () => {
             </div>
           </div>
         </div>
+     </section>
+
+      <section className="border-b border-neutral-500">
+        <div className="relative bg-gradient-to-r from-orange-700 to-purple-600 min-h-[700px] pt-10">
+          <h1 className="pt-10 text-3xl md:text-4xl lg:text-5xl  font-bold text-neutral-50 text-center mb-3 tracking-wide">
+            OUR PARTNERS
+          </h1>
+          <div className="md:p-20 p-5">
+            <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2  gap-6 justify-center place-content-center place-items-center">
+              {partnersLogo.map((logo,index)=> (
+                   <div className="lg:h-[150px] lg:w-[250px] md:h-[120px] md:w-[220px] h-[100px] w-[150px] bg-slate-50 content-center  ">
+                     <img src={logo.imgURL} className="md:p-5 p-3"   alt="" />
+                  </div>
+              ))}
+             
+            </div>
+          </div>
+        </div>
       </section>
-      <Banner/>
+      <Banner />
     </>
   );
 };
