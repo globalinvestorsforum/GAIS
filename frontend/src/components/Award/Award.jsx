@@ -9,11 +9,11 @@ const Award = () => {
           <h1 className="text-3xl md:text-5xl lg:text-6xl  font-bold text-neutral-300 text-start mb-3 tracking-wide">
             GAIS AWARD CEREMONY
           </h1>
-          <h3 className="font-bold text-2xl py-8">
+          <h3 className="font-bold text-xl  md:text-2xl py-8">
             Welcome to the pinnacle of AI excellence - The Innovative AI-Powered
             Startup Award Ceremony!
           </h3>
-          <p className="text-xl  ">
+          <p className="md:text-xl text-lg  ">
             In the heart of the Netherlands, where innovation converges with
             technology, we proudly announce the launch of "The Innovative
             AI-Powered Startup Award." This prestigious ceremony is a tribute to
@@ -33,10 +33,10 @@ const Award = () => {
           <h2 className="text-2xl font-bold pt-8">
             Benefits of Participating:
           </h2>
-          <div className="md:px-20 ps-10">
+          <div className="md:px-20 ps-10 ">
             <ul className="list-disc ">
               {benefitListAwardPage.map((list, index) => (
-                <li className="pt-4 text-xl">
+                <li className="pt-4 md:text-xl text-lg">
                   <span className="font-bold">{list.head}</span>: {list.desc}
                 </li>
               ))}
@@ -45,7 +45,7 @@ const Award = () => {
         </div>
         <div className="md:px-10 px-5 pt-10">
           <h2 className="font-bold text-2xl">Opportunity to Register:</h2>
-          <p className="py-5 text-xl">
+          <p className="py-5 md:text-xl text-lg">
             Are you ready to be recognized as a trailblazer in the AI landscape?
             Seize the opportunity by registering for "The Innovative AI-Powered
             Startup Award" ceremony. To qualify, your startup must meet the
@@ -57,7 +57,7 @@ const Award = () => {
           <div className="md:px-20 ps-10 ">
             <ul className="list-decimal ">
               {selectionListAwardPage.map((list, index) => (
-                <li className="pt-4 text-xl">
+                <li className="pt-4 md:text-xl text-lg">
                   <span className="font-bold">{list.head}</span>: {list.desc}
                 </li>
               ))}
