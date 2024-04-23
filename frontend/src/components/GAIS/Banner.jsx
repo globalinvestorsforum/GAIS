@@ -3,7 +3,7 @@ import React from "react";
 const Banner = () => {
   return (
     <div
-      className="relative border-b  border-neutral-800 min-h-[800px] bg-cover"
+      className="relative border-b  border-neutral-800 min-h-[800px] bg-cover bg-center"
       style={{
         backgroundImage: `url('https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fconcpic.png?alt=media&token=6498945a-8816-462d-90db-4f8bf93c0e07')`,
       }}

@@ -36,7 +36,7 @@ export default function MyForm() {
 
   return (
     <div className="flex w-full mx-5 items-center justify-center  ">
-      <div className=" py-10 px-6  ">
+      <div className=" py-8 px-6  ">
         <div className="mt-8 space-y-4  bg-gray-900 w-full shadow rounded p-8 sm:p-12 hover:border border-neutral-700 delay-150">
           <div className="bg-transparent">
             <label htmlFor="name" className=" text-gray-300 font-medium bg-transparent ">
