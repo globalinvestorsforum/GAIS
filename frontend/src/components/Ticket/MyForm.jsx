@@ -8,8 +8,6 @@ export default function MyForm() {
 
   const baseUrl = "http://localhost:8000";
 
- 
-
   const sendEmail = async () => {
     let dataSend = {
       email: email,
@@ -17,7 +15,7 @@ export default function MyForm() {
       message: message,
       name: name,
     };
-    
+
     const res = await fetch(`${baseUrl}/sendEmail`, {
       method: "POST",
       body: JSON.stringify(dataSend),
@@ -25,13 +23,12 @@ export default function MyForm() {
         Accept: "application/json",
         "Content-Tzype": "application/json",
       },
-    })
-      .then((res) => {
-        console.log(res);
-        if (res.status > 199 && res.status < 300) {
-          alert("Send Successfully !");
-        }
-      });
+    }).then((res) => {
+      console.log(res);
+      if (res.status > 199 && res.status < 300) {
+        alert("Send Successfully !");
+      }
+    });
   };
 
   return (
@@ -39,7 +36,10 @@ export default function MyForm() {
       <div className=" py-8 px-6  ">
         <div className="mt-8 space-y-4  bg-gray-900 w-full shadow rounded p-8 sm:p-12 hover:border border-neutral-700 delay-150">
           <div className="bg-transparent">
-            <label htmlFor="name" className=" text-gray-300 font-medium bg-transparent ">
+            <label
+              htmlFor="name"
+              className=" text-gray-300 font-medium bg-transparent "
+            >
               Name
             </label>
             <input
@@ -51,7 +51,10 @@ export default function MyForm() {
             />
           </div>
           <div className="bg-transparent">
-            <label htmlFor="email" className=" text-gray-300 font-medium bg-transparent ">
+            <label
+              htmlFor="email"
+              className=" text-gray-300 font-medium bg-transparent "
+            >
               Email address
             </label>
             <input
@@ -63,7 +66,10 @@ export default function MyForm() {
             />
           </div>
           <div className="bg-transparent">
-            <label htmlFor="subject" className=" text-gray-300 bg-transparent font-medium">
+            <label
+              htmlFor="subject"
+              className=" text-gray-300 bg-transparent font-medium"
+            >
               Subject
             </label>
             <input
@@ -75,7 +81,10 @@ export default function MyForm() {
             />
           </div>
           <div className="bg-transparent">
-            <label htmlFor="message" className=" text-gray-300 bg-transparent font-medium">
+            <label
+              htmlFor="message"
+              className=" text-gray-300 bg-transparent font-medium"
+            >
               Message
             </label>
             <textarea
