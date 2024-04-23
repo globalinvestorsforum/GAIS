@@ -9,7 +9,7 @@ const Feature = () => {
         <span className='bg-neutral-900 text-orange-800 rounded-full h-6 text-sm font-medium px-2 py-1 uppercase'>
             Feature
         </span>
-        <h2 className='text-3xl max-w-5xl mx-auto sm:text-5xl lg:text-6xl mt-10 lg:mt-20 tracking-wide'>Conferences Tailored to 
+        <h2 className='text-3xl max-w-5xl mx-auto md:text-5xl lg:text-6xl mt-10 lg:mt-20 tracking-wide'>Conferences Tailored to 
         <span className='bg-gradient-to-r from-orange-500 to-purple-600 text-transparent bg-clip-text '> Your Vision</span></h2>
         </div>
        
@@ -22,7 +22,7 @@ const Feature = () => {
                             {feature.icon} 
                         </div>
                             <h5 className='mt-1 mb-6 text-xl md:text-left lg:text-left sm:text-center'>{feature.text}</h5>
-                            <p className='text-md p-2  text-neutral-500'>{feature.description}</p>
+                            <p className='text-md p-2 text-base  text-neutral-500'>{feature.description}</p>
                         </div>
                     </div>
                 </div>
