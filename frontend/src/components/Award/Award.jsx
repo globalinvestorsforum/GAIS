@@ -5,7 +5,7 @@ const Award = () => {
     <section>
       <div className="w-full min-h-screen  bg-gradient-to-r from-slate-900 to-blue-900  border-b border-neutral-800 md:py-20 sm:py-10">
         <div className="md:flex flex-wrap">
-        <div className="mdLpx-10 px-5 pt-3 md:w-2/5 ">
+        <div className="md:px-10 px-5 pt-3 md:w-2/5 ">
           <h1 className="text-3xl md:text-5xl lg:text-6xl  font-bold text-neutral-300 text-start mb-3 tracking-wide">
             GAIS AWARD CEREMONY
           </h1>

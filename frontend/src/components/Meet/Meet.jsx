@@ -21,8 +21,8 @@ const Meet = () => {
               WHERE AI INNOVATION MEETS INVESTMENT POWERHOUSE
             </p>
           </div>
-          <div className="flex flex-col space-y-0 items-end text-center md:text-end my-7 text-xl font-medium text-white">
-            <p className="md:w-2/3 sm:w-full p-4 sm:justify-center md:justify-end  text-neutral-950">
+          <div className="flex flex-col space-y-0 items-end text-center md:text-end my-7 text-xl font-medium ">
+            <p className="md:w-2/3 sm:w-full p-4 sm:justify-center md:justify-end  text-black">
               Welcome to the
               <span className="font-bold"> Global Investors Meet</span>, the
               pivotal networking event at the world's largest Al summit in the
@@ -44,12 +44,10 @@ const Meet = () => {
           </div>
         </div>
       </section>
-      <section>
-        <div className="">
-          <h1 className="mx-auto w-4/5 mt-20 text-3xl lg:text-5xl md:text-4xl text-center tracking-wide">
+      <section className="">
+          <h1 className="mx-auto w-4/5 pt-20 text-3xl lg:text-5xl md:text-4xl text-center tracking-wide">
             WHY IS THIS A MUST-ATTEND EVENT FOR INVESTORS?
           </h1>
-        </div>
         <div className="p-10  place-content-center place-items-center grid sm:grid-cols-1  md:grid-cols-2 lg:grid-cols-2 gap-0 ">
           {meetMainTwoCards.map((main, index) => (
             <Card
@@ -62,7 +60,7 @@ const Meet = () => {
           ))}
         </div>
       </section>
-      <section className="border-b border-neutral-800">
+      <section className="border-b border-neutral-800 ">
         <div className="md:px-20 px-10 pb-20  md:flex    md:justify-center md:items-center   gap-8">
         <div className="border mt-2  flex flex-col w-full md:w-5/6 md:h-6/7 border-neutral-700 rounded-xl  bg-gradient-to-r from-orange-700 to-purple-600 hover:border-white hover:shadow-md transition ease-in-out delay-150 hover:-translate-xy-2 hover:scale-105 duration-300 cursor-pointer">
           
