@@ -9,6 +9,49 @@ import { SlBookOpen } from "react-icons/sl";
 import { GrGamepad } from "react-icons/gr";
 import { RiAdvertisementFill } from "react-icons/ri";
 
+
+export  const selectionListAwardPage =[
+  {
+    head:"Demonstrated AI Integration",
+    desc:"Your startup must have successfully integrated AI into its core business operations, showcasing a clear understanding of the technology and its impact."
+  },
+  {
+    head:"Industry Acceleration",
+    desc:"Your solution must demonstrably accelerate growth or innovation within a specific industry, showcasing tangible results and a positive impact."
+  },
+  {
+    head:"Innovative Solution",
+    desc:"Your AI-powered solution must be unique, creative, and address a significant challenge within your chosen industry."
+  },
+  {
+    head:"Scalability & Sustainability",
+    desc:"Your business model must demonstrate potential for scalability and long-term sustainability, ensuring the continued impact of your solution."
+  },
+  {
+    head:"Ethical AI Practices",
+    desc:"Your commitment to responsible and ethical development and use of AI is crucial"
+  },
+]
+
+export const benefitListAwardPage =[
+  {
+    head:"Global Recognition" ,
+    desc:"Elevate your startup onto the international stage, gaining visibility among industry leaders, investors, and tech enthusiasts worldwide."
+  },
+  {
+    head:"Networking Opportunities" ,
+    desc:"Forge invaluable connections with key players in the AI ecosystem, opening doors to collaborations, partnerships, and future growth."
+  },
+  {
+    head:"Media Exposure" ,
+    desc:"Garner extensive media coverage, showcasing your success story and innovative AI applications to a global audience."
+  },
+  {
+    head:"Validation of Excellence" ,
+    desc:"Receive validation for your dedication to pushing the boundaries of AI, solidifying your position as a leader in the ever-evolving tech landscape."
+  },
+
+]
 export const partnersLogo = [
   {
     imgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/Partners%2Ftrigo.png?alt=media&token=38c1c05e-d299-4c5a-a9de-8577908b5ba0"
