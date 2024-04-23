@@ -101,10 +101,10 @@ const Gais = () => {
           }}
         >
           <div className="backdrop-blur-[1px]  w-full h-full backdrop-brightness-50 ">
-          <h1 className="mx-auto pt-20  text-3xl lg:text-5xl md:text-4xl text-center font-bold tracking-wide">
+          <h1 className="mx-auto pt-10  text-3xl lg:text-5xl md:text-4xl text-center font-bold tracking-wide">
             WHY JOIN?
           </h1>
-          <div className="lg:px-20 md:px-10 px-5  py-10 grid lg:grid-cols-2  gap-8   ">
+          <div className="lg:px-20 md:px-10 px-5  md:py-10 py-5 grid lg:grid-cols-2  gap-8   ">
             {gaisCards.map((card, index) => (
               <Card
                 key={index}
