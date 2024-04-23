@@ -57,7 +57,7 @@ const Gais = () => {
             <div className="md:flex flex-wrap  w-full md:pt-24 pt-10  ">
               <div className="md:w-1/2 font-bold md:text-7xl text-5xl">
                 100+
-                <hr className="w-full h-[2.6px] my-1 border-[1px] border-black md:hidden" />
+                <hr className="w-full h-[2.5px] my-1 border-[1px] border-black md:hidden" />
                 <p className="text-xl  md:text-3xl ">Conferencess</p>
               </div>
               <div className="md:w-1/2 md:py-0 py-10 font-bold  md:text-7xl text-5xl">
@@ -95,15 +95,16 @@ const Gais = () => {
       </section>
       <section>
         <div
-          className="min-h-[800px] bg-cover"
+          className="min-h-[500px]  bg-cover md:bg-top bg-center "
           style={{
-            backgroundImage: `url('https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fjoinbackground.png?alt=media&token=c5916a2c-a1f8-41cc-80f8-e9e08918f9eb')`,
+            backgroundImage: `url('https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fwhyjoinback.jpg?alt=media&token=983994a9-1d19-4119-b7dc-0aa7e397471d')`,
           }}
         >
-          <h1 className="mx-auto pt-20 text-neutral-900 text-3xl lg:text-5xl md:text-4xl text-center font-bold tracking-wide">
+          <div className="backdrop-blur-[1px]  w-full h-full backdrop-brightness-50 ">
+          <h1 className="mx-auto pt-20  text-3xl lg:text-5xl md:text-4xl text-center font-bold tracking-wide">
             WHY JOIN?
           </h1>
-          <div className="px-20 py-10 grid sm:grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-8   ">
+          <div className="md:px-20 px-5  py-10 grid md:grid-cols-2  gap-8   ">
             {gaisCards.map((card, index) => (
               <Card
                 key={index}
@@ -113,6 +114,7 @@ const Gais = () => {
               />
             ))}
           </div>
+        </div>
         </div>
       </section>
 
