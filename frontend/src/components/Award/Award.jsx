@@ -9,11 +9,11 @@ const Award = () => {
           <h1 className="text-3xl md:text-5xl lg:text-6xl  font-bold text-neutral-300 text-start mb-3 tracking-wide">
             GAIS AWARD CEREMONY
           </h1>
-          <h3 className="font-bold text-xl  md:text-2xl py-8">
+          <h3 className="font-bold text-lg  md:text-2xl py-8">
             Welcome to the pinnacle of AI excellence - The Innovative AI-Powered
             Startup Award Ceremony!
           </h3>
-          <p className="md:text-xl text-lg  ">
+          <p className="md:text-lg text-base  ">
             In the heart of the Netherlands, where innovation converges with
             technology, we proudly announce the launch of "The Innovative
             AI-Powered Startup Award." This prestigious ceremony is a tribute to
@@ -36,7 +36,7 @@ const Award = () => {
           <div className="md:px-20 ps-10 ">
             <ul className="list-disc ">
               {benefitListAwardPage.map((list, index) => (
-                <li className="pt-4 md:text-xl text-lg">
+                <li className="pt-4 md:text-lg text-base">
                   <span className="font-bold">{list.head}</span>: {list.desc}
                 </li>
               ))}
@@ -45,7 +45,7 @@ const Award = () => {
         </div>
         <div className="md:px-10 px-5 pt-10">
           <h2 className="font-bold text-2xl">Opportunity to Register:</h2>
-          <p className="py-5 md:text-xl text-lg">
+          <p className="py-5 md:text-lg text-base">
             Are you ready to be recognized as a trailblazer in the AI landscape?
             Seize the opportunity by registering for "The Innovative AI-Powered
             Startup Award" ceremony. To qualify, your startup must meet the
@@ -57,14 +57,14 @@ const Award = () => {
           <div className="md:px-20 ps-10 ">
             <ul className="list-decimal ">
               {selectionListAwardPage.map((list, index) => (
-                <li className="pt-4 md:text-xl text-lg">
+                <li className="pt-4 md:text-lg text-base">
                   <span className="font-bold">{list.head}</span>: {list.desc}
                 </li>
               ))}
             </ul>
           </div>
         </div>
-        <div className="px-10 font-bold text-xl py-5">Don't miss this chance to be at the forefront of AI innovation. Register now and position your startup among the visionaries shaping the future of technology.</div>
+        <div className="px-10 font-bold text-lg py-5">Don't miss this chance to be at the forefront of AI innovation. Register now and position your startup among the visionaries shaping the future of technology.</div>
         <button className="bg-gradient-to-r my-8 mx-10 from-orange-500 to-purple-600 lg:min-w-60 md:w-44 sm:w-40 py-3 px-3 rounded-md border">
           REGISTER YOUR INTEREST
         </button>
