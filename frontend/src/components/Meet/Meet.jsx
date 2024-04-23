@@ -17,12 +17,12 @@ const Meet = () => {
             <h1 className="text-3xl md:text-5xl lg:text-6xl  font-bold text-blue-950 text-end mb-3 tracking-wide">
               GLOBAL INVESTORS MEET
             </h1>
-            <p className="lg:text-4xl md:text-3xl mt-3 text-lg text-center md:text-end text-blue-950 md:w-1/2  md:me-3">
+            <p className="lg:text-4xl md:text-3xl mt-3 text-lg  text-end text-blue-950 md:w-1/2  md:me-3">
               WHERE AI INNOVATION MEETS INVESTMENT POWERHOUSE
             </p>
           </div>
           <div className="flex flex-col space-y-0 items-end text-center md:text-end my-7 text-xl font-medium ">
-            <p className="md:w-2/3 sm:w-full p-4 sm:justify-center md:justify-end  text-black">
+            <p className="md:w-2/3 sm:w-full p-4 sm:justify-center md:justify-end  md:text-xl text-base text-black">
               Welcome to the
               <span className="font-bold"> Global Investors Meet</span>, the
               pivotal networking event at the world's largest Al summit in the
@@ -36,7 +36,7 @@ const Meet = () => {
               brimming with game-changing solutions.
             </p>
           </div>
-          <div className="mx-auto md:pt-5 py-3 w-2/3">
+          <div className=" md:ms-10 ms-5 md:pt-5 py-3 w-2/3">
             <p className="text-xl md:text-2xl lg:text-3xl text-blue-950  font-bold tracking-wide ">
               "BE AMONG THE FIRST TO DISCOVER THE NEXT BIG AI-POWERED REVOLUTION
               BEFORE IT EXPLODES ONTO THE SCENE."
