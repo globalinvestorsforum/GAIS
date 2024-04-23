@@ -226,6 +226,11 @@ export const footerItems = [
 
 export const cards =[
   {
+    title:"Global AI Summit",
+    discription:"Unifying the world AI community",
+    backImgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fbannerimg.png?alt=media&token=2e90a7c9-c3e1-4d29-89ad-5d6383b854f6"
+  },
+  {
     title:"The AI HealthCare Summit",
     discription:" Harnessing AI for Improved Health Services and disrupting the Status Quo",
     backImgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fhealthcare.jpg?alt=media&token=3b3ac33f-5725-4584-a1a8-4e9ba1ef5c8e"

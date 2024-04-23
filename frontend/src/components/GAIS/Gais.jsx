@@ -41,29 +41,29 @@ const Gais = () => {
       </section>
       <section>
         <div className="min-h-[600px]  bg-neutral-300 text-blue-950">
-          <div className="p-5 pt-20 md:p-32 text-center ">
+          <div className="p-5 pt-20 md:p-32 md:text-center ">
             <div className="md:flex flex-wrap  w-full ">
-              <div className="md:w-1/2  font-extrabold text-7xl">
-                0+
-                <p className="text-3xl  md:text-4xl font-thin">
-                  Expected Visitors
-                </p>
+              <div className="md:w-1/2  font-bold md:text-7xl text-5xl">
+                5000+
+                <hr className="w-full h-[2.5px] my-1 border-[1px] border-black md:hidden" />
+                <p className="text-xl  md:text-3xl ">Expected Visitors</p>
               </div>
-              <div className="md:w-1/2 pt-10 md:p-0 font-extrabold text-7xl">
-                0+
-                <p className="text-3xl  md:text-4xl font-thin">
-                  Networking & Meetings
-                </p>
+              <div className="md:w-1/2 pt-10 md:p-0 font-bold md:text-7xl text-5xl">
+                10,000+
+                <hr className="w-full h-[2.5px] my-1 border-[1px] border-black md:hidden" />
+                <p className="text-xl  md:text-3xl ">Networking & Meetings</p>
               </div>
             </div>
-            <div className="md:flex flex-wrap w-full md:pt-24 pt-10  ">
-              <div className="md:w-1/2 font-extrabold text-7xl">
-                0+
-                <p className="text-3xl  md:text-4xl font-thin">Conferencess</p>
+            <div className="md:flex flex-wrap  w-full md:pt-24 pt-10  ">
+              <div className="md:w-1/2 font-bold md:text-7xl text-5xl">
+                100+
+                <hr className="w-full h-[2.6px] my-1 border-[1px] border-black md:hidden" />
+                <p className="text-xl  md:text-3xl ">Conferencess</p>
               </div>
-              <div className="md:w-1/2 md:py-0 py-10 font-extrabold text-7xl">
-                0+
-                <p className="text-3xl  md:text-4xl font-thin">Speakers</p>
+              <div className="md:w-1/2 md:py-0 py-10 font-bold  md:text-7xl text-5xl">
+                <p>200+</p>
+                <hr className="w-full h-[2.5px] my-1 border-[1px] border-black md:hidden" />
+                <p className="text-xl  md:text-3xl ">Speakers</p>
               </div>
             </div>
           </div>
@@ -332,7 +332,7 @@ const Gais = () => {
       </section>
       <Banner />
       <section>
-        <div className="relative bg-gradient-to-r from-orange-700 to-purple-600 min-h-[700px] py-10">
+        <div className=" bg-gradient-to-r from-orange-700 to-purple-600 min-h-[700px] py-10">
           <h1 className=" text-3xl md:text-4xl lg:text-5xl  font-bold text-neutral-50 text-center  tracking-wide">
             Register Here
           </h1>
