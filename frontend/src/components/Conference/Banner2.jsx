@@ -9,7 +9,7 @@ const Banner2 = () => {
       }}
     >
       <div className="bg-transparent absolute flex-col text-center flex-wrap  content-center rounded-xl w-full h-full   backdrop-blur-[3px] backdrop-brightness-50">
-        <h3 className=" bg-transparent max-w-5xl mx-auto text-4xl lg:text-6xl  tracking-wide ">
+        <h3 className=" bg-transparent max-w-6xl mx-auto text-3xl md:text-5xl lg:text-6xl  tracking-wide ">
           GAIS INCORPORATED SUMMIT
         </h3>
         <p className="mt-2  bg-transparent md:w-2/3 sm:w-full mx-auto p-3 md:text-[18px] text-neutral-200 ">

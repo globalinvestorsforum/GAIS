@@ -3,9 +3,9 @@ import React from "react";
 const Hero = () => {
   return (
     <div className="hero w-full h-screen bg-no-repeat bg-scroll  border-b border-neutral-800  ">
-      <div className="max-w-6xl mx-auto pt-20 px-6 ">
+      <div className="max-w-7xl mx-auto pt-20 px-6 ">
         <div className="flex flex-col items-center mt-6 lg:m-20 ">
-          <h1 className=" text-3xl md:text-5xl  lg:text-6xl text-center tracking-wide ">
+          <h1 className=" text-3xl md:text-5xl  lg:text-7xl text-center tracking-wide ">
             Global AI Summit (
             <span className="bg-gradient-to-r from-orange-500 to-purple-600 text-transparent bg-clip-text ">
               GAIS
