@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+import { industries } from "../../constants";
+
 export default function MyForm() {
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
@@ -67,33 +69,69 @@ export default function MyForm() {
           </div>
           <div className="bg-transparent">
             <label
-              htmlFor="subject"
+              htmlFor="job"
               className=" text-gray-300 bg-transparent font-medium"
             >
-              Subject
+              Job Title
             </label>
             <input
-              id="subject"
+              id="job"
               type="text"
-              placeholder="Enter the subject here..."
-              onChange={(e) => setSubject(e.target.value)}
+              placeholder="Enter the Job title here..."
+              onChange={(e) => setJob(e.target.value)}
               className="w-full  leading-none text-gray-50 p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-gray-800 rounded"
             />
           </div>
           <div className="bg-transparent">
             <label
-              htmlFor="message"
+              htmlFor="company"
               className=" text-gray-300 bg-transparent font-medium"
             >
-              Message
+              Company
             </label>
-            <textarea
-              id="message"
-              rows="3"
-              placeholder="Enter your message here..."
-              onChange={(e) => setMessage(e.target.value)}
+            <input
+              id="job"
+              type="text"
+              placeholder="Enter your company name .."
+              onChange={(e) => setCompany(e.target.value)}
               className="w-full  leading-none text-gray-50 p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-gray-800 rounded"
-            ></textarea>
+            />
+          </div>
+
+          <div className="bg-transparent">
+            <label
+              htmlFor="city"
+              className=" text-gray-300 bg-transparent font-medium"
+            >
+              City
+            </label>
+            <input
+              id="job"
+              type="text"
+              placeholder="Enter your city name .."
+              onChange={(e) => setCity(e.target.value)}
+              className="w-full  leading-none text-gray-50 p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-gray-800 rounded"
+            />
+          </div>
+          <div className="bg-transparent">
+            <label
+              htmlFor="company"
+              className="text-gray-300 bg-transparent font-medium"
+            >
+              Industry
+            </label>
+            <select
+              id="job"
+              onChange={(e) => setIndustry(e.target.value)}
+              className="w-full leading-none text-gray-50 p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-gray-800 rounded"
+            >
+              <option value="" disabled>
+                Select your Industry
+              </option>
+              {industries.map((industry, index) => (
+                <option value={industry.value}>{industry.value}</option>
+              ))}
+            </select>
           </div>
           <div className="space-y-4 ">
             <button

@@ -10,6 +10,73 @@ import { GrGamepad } from "react-icons/gr";
 import { RiAdvertisementFill } from "react-icons/ri";
 
 
+export const industries= [
+  {
+    name:"Accounting",
+    value:"Accounting"
+  },
+  {
+    name:"Consumer Goods",
+    value:"ConsumerGoods"
+  },
+  {
+    name:"Education",
+    value:"Education"
+  },
+  {
+    name:"Energy/Utilities",
+    value:"Energy/Utilities"
+  },
+  {
+    name:"Finance & Financial Services - Family Office",
+    value:"Finance&FinancialServices-FamilyOffice"
+  },
+  {
+    name:"Financial Services - Wealth Management",
+    value:"FinancialServices-WealthManagement"
+  },
+  {
+    name:"Financial Services",
+    value:"FinancialServices"
+  },
+  {
+    name:"Government",
+    value:"Government"
+  },
+  {
+    name:"Healthcare & Pharma",
+    value:"Healthcare&Pharma"
+  },
+  {
+    name:"Industrial Goods & services",
+    value:"IndustrialGoods&services"
+  },
+  {
+    name:"Media & Communications",
+    value:"Media&Communications"
+  },
+  {
+    name:"Non-Profit Organizations",
+    value:"Non-ProfitOrganizations"
+  },
+  {
+    name:"Other",
+    value:"Other"
+  },
+  {
+    name:"Professional Services",
+    value:"ProfessionalServices"
+  },
+  {
+    name:"Technology",
+    value:"Technology"
+  },
+  {
+    name:"Transportation",
+    value:"Transportation"
+  },
+]
+
 export  const selectionListAwardPage =[
   {
     head:"Demonstrated AI Integration",
