@@ -16,22 +16,22 @@ const Gais = () => {
             backgroundImage: `url('https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Flanding_img.png?alt=media&token=a104f4b6-ac45-4187-a3c9-e230cc496f0a')`,
           }}
         >
-          <div className="w-full h-full backdrop-blur-[1px] backdrop-brightness-40">
+          <div className="w-full h-full backdrop-blur-[1px] backdrop-brightness-40  ">
             <div className="max-w-6xl mx-auto pt-20  md:pt-40 lg:pt-48  ">
               <div className="flex flex-col items-start mt-6 ">
-                <h2 className="text-2xl px-3  md:text-4xl lg:text-5xl text-start tracking-wide font-bold">
+                <h2 className="text-2xl px-3  md:text-4xl lg:text-5xl text-start tracking-wide font-bold animate-slidein [--slidein-delay:300ms]  opacity-0 ">
                   DON'T LEFT BEHIND IN YOUR BUSINESS WHEN THE ENTIRE WORLD
                   IMPLEMENTING AI IN THEIR OPERATIONS. JOIN US TO LEARN THE
                   LATEST ADVANCEMENTS OR TRENDS OF AI.
                 </h2>
-                <p className="pt-5 px-3  text-lg md:text-1xl lg:text-2xl font-semibold  text-neutral-200 ">
+                <p className="pt-5 px-3  text-lg md:text-1xl lg:text-2xl font-semibold  text-neutral-200  animate-slidein [--slidein-delay:400ms]  opacity-0 ">
                   18th-19th June, 2024.
                 </p>
-                <p className="pt-2 px-3 text-lg md:text-1xl lg:text-2xl font-semibold    text-neutral-200 ">
+                <p className="pt-2 px-3 text-lg md:text-1xl lg:text-2xl font-semibold    text-neutral-200 animate-slidein [--slidein-delay:500ms]  opacity-0  ">
                   Amsterdam, Netherlands.
                 </p>
                 <hr className="h1   mt-3 divide-x font-bold  w-1/3  mx-3" />
-                <p className="pt-3 px-3 text-lg md:text-1xl lg:text-2xl  text-neutral-200 ">
+                <p className="pt-3 px-3 text-lg md:text-1xl lg:text-2xl  text-neutral-200 animate-slidein [--slidein-delay:600ms]  opacity-0  ">
                   World's largest AI summit in true sense.
                 </p>
               </div>

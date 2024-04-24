@@ -6,14 +6,14 @@ const Award = () => {
       <div className="w-full min-h-screen  bg-gradient-to-r from-slate-900 to-blue-900  border-b border-neutral-800 md:py-20 sm:py-10">
         <div className="md:flex flex-wrap">
         <div className="md:px-10 px-5 pt-3 md:w-2/5 ">
-          <h1 className="text-3xl md:text-5xl lg:text-6xl  font-bold text-neutral-300 text-start mb-3 tracking-wide">
+          <h1 className="text-3xl md:text-5xl lg:text-6xl  font-bold text-neutral-300 text-start mb-3 tracking-wide animate-slidein [--slidein-delay:300ms]  opacity-0">
             GAIS AWARD CEREMONY
           </h1>
-          <h3 className="font-bold text-lg  md:text-2xl py-8">
+          <h3 className="font-bold text-lg  md:text-2xl py-8 animate-slidein [--slidein-delay:400ms]  opacity-0">
             Welcome to the pinnacle of AI excellence - The Innovative AI-Powered
             Startup Award Ceremony!
           </h3>
-          <p className="md:text-lg text-base  ">
+          <p className="md:text-lg text-base  animate-slidein [--slidein-delay:600ms]  opacity-0">
             In the heart of the Netherlands, where innovation converges with
             technology, we proudly announce the launch of "The Innovative
             AI-Powered Startup Award." This prestigious ceremony is a tribute to

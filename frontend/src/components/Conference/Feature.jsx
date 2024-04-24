@@ -5,7 +5,7 @@ const Feature = () => {
   return (
     <div className="py-10 border-b border-neutral-800 min-h-[600px]  bg-gradient-to-r from-orange-700 to-purple-600 ">
       <div className="text-center">
-        <h2 className="text-3xl mt-10 max-w-5xl mx-auto md:text-5xl lg:text-6xl  tracking-wide">
+        <h2 className="text-3xl mt-10 max-w-5xl mx-auto md:text-5xl lg:text-6xl  tracking-wide  animate-slidein opacity-0 [--slidein-delay:300ms]">
           Conferences Tailored to Your Vision
         </h2>
       </div>
