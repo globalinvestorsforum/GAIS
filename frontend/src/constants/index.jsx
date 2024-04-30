@@ -300,9 +300,9 @@ export const footerItems = [
       items: [
         { text: 'GAIS', link: '/gais' },
         { text: 'Conferences', link: '/conference' },
-        { text: 'Award Ceremony', link: '/awards' },
-        { text: 'G.I Meet', link: '#' },
-        { text: 'Tickets', link: '/tickets' }
+        { text: 'Award Ceremony', link: '/award' },
+        { text: 'G.I Meet', link: '/meet' },
+        { text: 'Tickets', link: '/ticket' }
       ]
     },
     {
@@ -323,14 +323,14 @@ export const footerItems = [
         { text: 'Careers', link: '#' }
       ]
     },
-    {
-      title: 'Legal',
-      items: [
-        { text: 'Claim', link: '#' },
-        { text: 'Policy', link: '#' },
-        { text: 'Terms', link: '#' }
-      ]
-    }
+    // {
+    //   title: 'Legal',
+    //   items: [
+    //     { text: 'Claim', link: '#' },
+    //     { text: 'Policy', link: '#' },
+    //     { text: 'Terms', link: '#' }
+    //   ]
+    // }
   ];
   
 
