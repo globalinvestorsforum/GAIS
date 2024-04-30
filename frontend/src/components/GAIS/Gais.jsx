@@ -16,7 +16,7 @@ const Gais = () => {
             backgroundImage: `url('https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Flanding_img.png?alt=media&token=a104f4b6-ac45-4187-a3c9-e230cc496f0a')`,
           }}
         >
-          <div className="w-full h-full  ">
+          <div className="w-full h-full ">
             <div className="max-w-6xl mx-auto pt-20  md:pt-40 lg:pt-48  ">
               <div className="flex flex-col items-start mt-6 ">
                 <h2 className="text-2xl px-3  md:text-4xl lg:text-5xl text-start tracking-wide font-bold animate-slidein [--slidein-delay:300ms]  opacity-0 ">

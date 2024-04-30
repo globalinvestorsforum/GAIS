@@ -44,8 +44,8 @@ const Meet = () => {
           </div>
         </div>
       </section>
-      <section className="">
-          <h1 className="mx-auto w-4/5 pt-20 text-3xl lg:text-5xl md:text-4xl text-center tracking-wide">
+      <section className=" bg-[#14213d]">
+          <h1 className="mx-auto md:w-4/5 w-full pt-20 text-3xl lg:text-5xl md:text-4xl text-center font-semibold tracking-wide  ">
             WHY IS THIS A MUST-ATTEND EVENT FOR INVESTORS?
           </h1>
         <div className="p-10  place-content-center place-items-center grid sm:grid-cols-1  md:grid-cols-2 lg:grid-cols-2 gap-0 ">
@@ -60,9 +60,9 @@ const Meet = () => {
           ))}
         </div>
       </section>
-      <section className="border-b border-neutral-800 ">
+      <section className=" bg-[#14213d]">
         <div className="md:px-20 px-10 pb-20  md:flex    md:justify-center md:items-center   gap-8">
-        <div className="border mt-2  flex flex-col w-full md:w-5/6 md:h-6/7 border-neutral-700 rounded-xl  bg-gradient-to-r from-orange-700 to-purple-600 hover:border-white hover:shadow-md transition ease-in-out delay-150 hover:-translate-xy-2 hover:scale-105 duration-300 cursor-pointer">
+        <div className="border pt-2  flex flex-col w-full md:w-5/6 md:h-6/7 border-neutral-700 rounded-xl  bg-gradient-to-r from-orange-700 to-purple-600 hover:border-white hover:shadow-md transition ease-in-out delay-150 hover:-translate-xy-2 hover:scale-105 duration-300 cursor-pointer">
           
           <div className="bg-transparent w-full  p-4 text-wrap  content-center rounded-l-xl ">
             <h4 className="sm:text-xl font-bold text-neutral-200">INVEST IN THE FUTURE</h4>
