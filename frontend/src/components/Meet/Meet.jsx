@@ -49,7 +49,7 @@ const Meet = () => {
         </div>
       </section>
       </section>
-      <section className=" bg-neutral-300">
+      <section className=" bg-white">
           <h1 className="md:mx-auto md:w-4/5  w-full pt-20 text-2xl lg:text-5xl md:text-4xl text-center font-semibold tracking-wide text-neutral-900 ">
             WHY IS THIS A MUST-ATTEND EVENT FOR INVESTORS?
           </h1>
@@ -65,7 +65,7 @@ const Meet = () => {
           ))}
         </div>
       </section>
-      <section className=" bg-neutral-300">
+      <section className=" bg-white">
         <div className="md:px-20 p-5  pb-20  md:flex    md:justify-center md:items-center   gap-8">
         <div className="border pt-2  flex flex-col w-full md:w-5/6 md:h-6/7 border-neutral-700 rounded-xl  bg-gradient-to-r from-orange-700 to-purple-600 hover:border-white hover:shadow-md transition ease-in-out delay-150 hover:-translate-xy-2 hover:scale-105 duration-300 cursor-pointer">
           
