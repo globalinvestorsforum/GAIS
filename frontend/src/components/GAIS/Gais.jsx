@@ -16,7 +16,7 @@ const Gais = () => {
             backgroundImage: `url('https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Flanding_img.png?alt=media&token=a104f4b6-ac45-4187-a3c9-e230cc496f0a')`,
           }}
         >
-          <div className="w-full h-full backdrop-blur-[1px] backdrop-brightness-40  ">
+          <div className="w-full h-full  ">
             <div className="max-w-6xl mx-auto pt-20  md:pt-40 lg:pt-48  ">
               <div className="flex flex-col items-start mt-6 ">
                 <h2 className="text-2xl px-3  md:text-4xl lg:text-5xl text-start tracking-wide font-bold animate-slidein [--slidein-delay:300ms]  opacity-0 ">
@@ -243,6 +243,11 @@ const Gais = () => {
                 collaboration, empowering startups to secure investments and
                 fueling the next wave of AI-driven success.
               </p>
+              <div className="md:text-7xl text-6xl px-5 md:px-12 py-5">
+                <Link to={"/conference"}>
+                  <FaArrowAltCircleRight />
+                </Link>
+              </div>
             </div>
             <div className="md:w-1/3 md:pt-0 pt-6  flex justify-center">
               <img
@@ -257,7 +262,7 @@ const Gais = () => {
       <section className="border-y border-neutral-500">
         <div className=" min-h-screen bg-gradient-to-r from-orange-700 to-purple-600 md:py-5 ">
           <div className=" lg:flex md:p-5 pt-5">
-            <div className="lg:w-1/4 ">
+            <div className="lg:w-1/3 ">
               <div className="flex-wrap">
                 <h1 className="md:px-10 p-5 text-3xl md:text-4xl lg:text-5xl  font-bold ">
                   Workshops
@@ -271,14 +276,14 @@ const Gais = () => {
                 </p>
                 <div className=" flex justify-center pt-3">
                   <img
-                    className="lg:w-[80%] md:w-[95%] w-[100%]"
+                    className="lg:w-[85%] md:w-[95%] w-[100%]"
                     src="https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2FWorkshops-img.jpg?alt=media&token=073237b3-bbb2-4bda-a4b8-6c05fe2404da"
                     alt=""
                   />
                 </div>
               </div>
             </div>
-            <div className="lg:w-2/4  flex flex-wrap ">
+            <div className="lg:w-1/3  flex flex-wrap ">
               <div className=" md:p-5 p-0  lg:order-none order-1">
                 <img
                   className=""
@@ -289,7 +294,7 @@ const Gais = () => {
               <h1 className="md:px-10 text-3xl md:text-4xl lg:text-5xl p-5  font-bold ">
                 Startup pitches
               </h1>
-              <p className="md:px-12 px-5 pb-5 md:text-lg text-base ">
+              <p className="md:px-10 px-5 pb-5 md:text-lg text-base ">
                 Witness the future unfold before your eyes. Witness the
                 brightest AI-powered startups pitch their groundbreaking
                 solutions, from healthcare to finance to climate change. Get a
@@ -298,11 +303,11 @@ const Gais = () => {
               </p>
             </div>
 
-            <div className="lg:w-1/4">
+            <div className="lg:w-1/3">
               <h1 className="md:px-10 text-3xl md:text-4xl lg:text-5xl  p-5  font-bold ">
                 Innovative AI solutions
               </h1>
-              <p className="md:px-12 px-5 pb-5 md:text-lg text-base ">
+              <p className="md:px-10 px-5 pb-5 md:text-lg text-base ">
                 See the future, now. Explore a showcase of cutting-edge AI
                 applications and trends that are transforming industries. Learn
                 from experts, uncover hidden opportunities to leverage AI in

@@ -9,7 +9,7 @@ import {Link} from 'react-router-dom'
 
 const Footer = () => {
   return (
-    <div className="w-full pt-10 border-t border-neutral-800">
+    <div className="w-full pt-16 border-t border-neutral-800">
       <div className=" max-w-[1240px] mx-auto py-15 px-4 grid lg:grid-cols-3 gap-8  ">
         <div className="mx-auto ">
           <div className="flex  md:justify-center lg:justify-start items-center ">
@@ -37,8 +37,8 @@ const Footer = () => {
         </div>
       </div>
       <div className=" text-center md:flex flex-wrap justify-around py-10 font-medium mx-2  text-neutral-400">
-       <p> Global Investors Forum &copy; 2024 All Rights Reserved </p>
-       <Link t>Privacy Policy | General Terms and Conditions</Link> 
+       <p className=""> Global Investors Forum &copy; 2024 All Rights Reserved </p>
+       <Link >Privacy Policy | General Terms and Conditions</Link> 
       </div>
     </div>
   );
