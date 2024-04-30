@@ -138,7 +138,7 @@ export default function MyForm() {
               className="w-full bg-blue-400 text-white py-2 px-4 rounded-md hover:bg-blue-500"
               onClick={() => sendEmail()}
             >
-              Send Email
+              Submit
             </button>
           </div>
         </div>
