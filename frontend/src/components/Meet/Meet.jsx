@@ -66,8 +66,8 @@ const Meet = () => {
         </div>
       </section>
       <section className=" bg-white">
-        <div className="md:px-20 p-5  pb-20  md:flex    md:justify-center md:items-center   gap-8">
-        <div className="border pt-2  flex flex-col w-full md:w-5/6 md:h-6/7 border-neutral-700 rounded-xl  bg-gradient-to-r from-orange-700 to-purple-600 hover:border-white hover:shadow-md transition ease-in-out delay-150 hover:-translate-xy-2 hover:scale-105 duration-300 cursor-pointer">
+        <div className="md:px-20 p-5  pb-20  md:flex    md:justify-center md:items-center   gap-8 min-">
+        <div className="border mt-2  flex flex-col w-full md:w-5/6 md:h-6/7 border-neutral-700 rounded-xl  bg-gradient-to-r from-orange-700 to-purple-600 hover:border-white hover:shadow-md transition ease-in-out delay-150 hover:-translate-xy-2 hover:scale-105 duration-300 cursor-pointer">
           
           <div className="bg-transparent w-full  p-4 text-wrap  content-center rounded-l-xl ">
             <h4 className="sm:text-xl font-bold text-neutral-200">INVEST IN THE FUTURE</h4>
@@ -77,7 +77,7 @@ const Meet = () => {
             <img
               src="https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fmeetbackdrop1.png?alt=media&token=120db925-51c9-4b2c-830a-d0ea10807a05"
               alt=""
-              className="object-cover w-full h-[325px] rounded-b-xl "
+              className="object-cover w-full h-[330px] rounded-b-xl "
             />
           </div>
         </div>
