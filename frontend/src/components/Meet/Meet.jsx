@@ -13,16 +13,26 @@ const Meet = () => {
             backgroundImage: `url('https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Finvestors_background.png?alt=media&token=ff5896d7-bd83-49b0-9854-dc8dd126ca45') `,
           }}
         >
-          <div className="flex flex-col md:justify-end md:items-end justify-center items-center pt-2 me-3  ">
-            <h1 className="text-3xl md:text-5xl lg:text-6xl  font-bold text-blue-950 text-end mb-3 tracking-wide animate-slidein [--slidein-delay:300ms]  opacity-0">
+          <div className="flex flex-col justify-end items-end pt-10 text-end mx-2">
+            <h1 className="text-3xl md:text-5xl lg:text-6xl md:max-w-2xl max-w-52 right-0 font-bold text-blue-950  mb-3 tracking-wide animate-slidein [--slidein-delay:300ms]  opacity-0">
               GLOBAL INVESTORS MEET
             </h1>
-            <p className="lg:text-4xl md:text-3xl mt-3 text-lg  text-end text-blue-950 md:w-1/2  md:me-3 animate-slidein [--slidein-delay:400ms]  opacity-0">
+            <p className="lg:text-4xl md:text-3xl mt-10 text-xl  text-blue-950 md:w-1/2  md:me-3 animate-slidein [--slidein-delay:400ms]  opacity-0">
               WHERE AI INNOVATION MEETS INVESTMENT POWERHOUSE
             </p>
+            <p className="lg:text-3xl md:text-3xl text-lg mt-20  font-bold  text-blue-950 md:w-2/3  animate-slidein [--slidein-delay:400ms]  opacity-0">
+              BE AMONG THE FIRST TO DISCOVER THE NEXT BIG AI-POWERED REVOLUTION
+              BEFORE IT EXPLODES ONTO THE SCENE.
+            </p>
           </div>
-          <div className="flex flex-col space-y-0 items-end text-center md:text-end my-7 text-xl font-medium ">
-            <p className="md:w-2/3 sm:w-full p-4 sm:justify-center md:justify-end  md:text-xl text-base text-black animate-slidein [--slidein-delay:500ms]  opacity-0">
+         
+        </div>
+      </section>
+      <section>
+      <section className="border-y border-neutral-500">
+        <div className="w-full h-[320px] bg-gradient-to-r from-orange-700 to-purple-600">
+          <div className=" flex-col text-center   content-center  w-full h-full ">
+            <p className="mt-2  bg-transparent md:w-2/3 sm:w-full mx-auto p-3 md:text-xl text-neutral-200 ">
               Welcome to the
               <span className="font-bold"> Global Investors Meet</span>, the
               pivotal networking event at the world's largest Al summit in the
@@ -36,19 +46,14 @@ const Meet = () => {
               brimming with game-changing solutions.
             </p>
           </div>
-          <div className=" md:ms-10 ms-5 md:pt-5 py-3 w-2/3">
-            <p className="text-xl md:text-2xl lg:text-3xl text-blue-950  font-bold tracking-wide animate-slidein [--slidein-delay:600ms]  opacity-0">
-              "BE AMONG THE FIRST TO DISCOVER THE NEXT BIG AI-POWERED REVOLUTION
-              BEFORE IT EXPLODES ONTO THE SCENE."
-            </p>
-          </div>
         </div>
       </section>
-      <section className=" bg-[#14213d]">
-          <h1 className="mx-auto md:w-4/5 w-full pt-20 text-3xl lg:text-5xl md:text-4xl text-center font-semibold tracking-wide  ">
+      </section>
+      <section className=" bg-neutral-300">
+          <h1 className="md:mx-auto md:w-4/5  w-full pt-20 text-2xl lg:text-5xl md:text-4xl text-center font-semibold tracking-wide text-neutral-900 ">
             WHY IS THIS A MUST-ATTEND EVENT FOR INVESTORS?
           </h1>
-        <div className="p-10  place-content-center place-items-center grid sm:grid-cols-1  md:grid-cols-2 lg:grid-cols-2 gap-0 ">
+        <div className="md:p-10 p-5  place-content-center place-items-center grid sm:grid-cols-1  md:grid-cols-2 lg:grid-cols-2 gap-0 ">
           {meetMainTwoCards.map((main, index) => (
             <Card
               className=""
@@ -60,8 +65,8 @@ const Meet = () => {
           ))}
         </div>
       </section>
-      <section className=" bg-[#14213d]">
-        <div className="md:px-20 px-10 pb-20  md:flex    md:justify-center md:items-center   gap-8">
+      <section className=" bg-neutral-300">
+        <div className="md:px-20 p-5  pb-20  md:flex    md:justify-center md:items-center   gap-8">
         <div className="border pt-2  flex flex-col w-full md:w-5/6 md:h-6/7 border-neutral-700 rounded-xl  bg-gradient-to-r from-orange-700 to-purple-600 hover:border-white hover:shadow-md transition ease-in-out delay-150 hover:-translate-xy-2 hover:scale-105 duration-300 cursor-pointer">
           
           <div className="bg-transparent w-full  p-4 text-wrap  content-center rounded-l-xl ">

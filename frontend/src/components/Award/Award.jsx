@@ -5,8 +5,8 @@ const Award = () => {
     <section>
       <div className="w-full min-h-screen  bg-gradient-to-r from-slate-900 to-blue-900  border-b border-neutral-800 md:py-20 sm:py-10">
         <div className="md:flex flex-wrap">
-        <div className="md:px-10 px-5 pt-3 md:w-2/5 ">
-          <h1 className="text-3xl md:text-5xl lg:text-6xl  font-bold text-neutral-300 text-start mb-3 tracking-wide animate-slidein [--slidein-delay:300ms]  opacity-0">
+        <div className="md:px-10 px-5 pt-10 md:w-2/5 ">
+          <h1 className="text-4xl md:text-5xl text-wrap lg:text-6xl md:max-w-2xl max-w-40  font-bold text-neutral-300 text-start mb-3 tracking-wide animate-slidein [--slidein-delay:300ms]  opacity-0">
             GAIS AWARD CEREMONY
           </h1>
           <h3 className="font-bold text-lg  md:text-2xl py-8 animate-slidein [--slidein-delay:400ms]  opacity-0">
@@ -22,7 +22,7 @@ const Award = () => {
             into the future with their groundbreaking solutions.
           </p>
         </div>
-        <div className="md:w-3/5 flex justify-center items-center pt-5">
+        <div className="md:w-3/5 flex justify-center items-center md:pt-0 pt-14">
           <div className="bg-gradient-to-r from-red-400 to-blue-500 h-[350px] w-[300px] flex justify-center items-center">
             <p className="text-4xl  font-bold p-5">THE INNOVATIVE AI-POWERED STARTUP AWARD.</p>
           </div>
@@ -65,8 +65,8 @@ const Award = () => {
           </div>
         </div>
         <div className="px-10 font-bold text-lg py-5">Don't miss this chance to be at the forefront of AI innovation. Register now and position your startup among the visionaries shaping the future of technology.</div>
-        <button className="bg-gradient-to-r my-8 mx-10 from-orange-500 to-purple-600 lg:min-w-60 md:w-44 sm:w-40 py-3 px-3 rounded-md border">
-          REGISTER YOUR INTEREST
+        <button className="bg-gradient-to-r my-8 mx-10 from-orange-500 to-purple-600  md:w-44 sm:w-40 py-3 px-3 font-semibold">
+          REGISTER NOW
         </button>
       </div>
     </section>

@@ -12,10 +12,10 @@ const Banner = () => {
         <p className='md:text-3xl lg:text-3xl text-xl mx-auto  '>
         This is more than just an investment opportunity. it's a chance to shape the future of AI.
         </p>
-      <h3 className=" max-w-5xl mt-8 md:mt-10  text-3xl md:text-4xl lg:text-6xl  tracking-wide mx-auto ">
+      <h3 className=" max-w-5xl mt-8 md:mt-10  text-3xl md:text-4xl lg:text-5xl  tracking-wide mx-auto font-semibold ">
       Ready to join the future of AI?
       </h3>
-      <button className="bg-gradient-to-r my-8 from-orange-500 to-purple-600 lg:w-52 md:w-44 sm:w-40 mx-auto py-2 px-3 rounded-md border">REGISTER NOW</button>
+      <button className="bg-gradient-to-r my-8 from-orange-500 to-purple-600 lg:w-52 md:w-44 sm:w-40 mx-auto py-2 px-3 font-semibold">REGISTER NOW</button>
       <p className="mt-2  md:w-2/3 sm:w-full p-3 md:text-[18px] text-neutral-200 mx-auto ">
       <span className='font-bold text-xl'>Limited slots available!</span> Secure your spot and unlock the immense potential of the world's
     most transformative technology.

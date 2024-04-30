@@ -18,7 +18,7 @@ const Feature = () => {
                 <div className="flex p-5 text-8xl justify-center items-center  ">
                   {feature.icon}
                 </div>
-                <h5 className="mt-1 mb-6 text-xl md:text-left lg:text-left sm:text-center">
+                <h5 className="mt-1 mb-3 text-xl md:text-left lg:text-left sm:text-center">
                   {feature.text}
                 </h5>
                 <p className="text-md text-base  text-neutral-200">

@@ -25,7 +25,7 @@ const Gais = () => {
                   LATEST ADVANCEMENTS OR TRENDS OF AI.
                 </h2>
                 <p className="pt-5 px-3  text-lg md:text-1xl lg:text-2xl font-semibold  text-neutral-200  animate-slidein [--slidein-delay:400ms]  opacity-0 ">
-                  18th-19th June, 2024.
+                  Coming Soon.
                 </p>
                 <p className="pt-2 px-3 text-lg md:text-1xl lg:text-2xl font-semibold    text-neutral-200 animate-slidein [--slidein-delay:500ms]  opacity-0  ">
                   Amsterdam, Netherlands.
@@ -120,10 +120,10 @@ const Gais = () => {
 
       <section className="border-t border-neutral-500">
         <div className="relative bg-gradient-to-r from-orange-700 to-purple-600 min-h-[700px]">
-          <h1 className="pt-10 text-3xl md:text-4xl lg:text-5xl  font-bold text-neutral-50 text-center mb-3 tracking-wide">
+          <h1 className="py-10 px-2  text-3xl md:text-4xl lg:text-5xl   font-bold text-neutral-50 text-center  tracking-wide">
             SUMMIT DEMOGRAPHY
           </h1>
-          <div className=" flex-wrap md:flex justify-center md:pt-5 ">
+          <div className=" flex-wrap md:flex justify-center  ">
             <div className="md:w-1/2 flex justify-center ">
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fimage1.png?alt=media&token=a1a876d7-451b-4ebb-9f43-db180a213de2"
@@ -183,7 +183,7 @@ const Gais = () => {
               </h1>
               <div className="md:text-7xl text-6xl  md:px-12 py-5">
                 <Link to={"/conference"}>
-                  <FaArrowAltCircleRight />
+                  <FaArrowAltCircleRight  className="fill-black"/>
                 </Link>
               </div>
             </div>
@@ -216,7 +216,7 @@ const Gais = () => {
               </p>
               <div className="md:text-7xl text-6xl md:px-12 p-5">
                 <Link to={"/award"}>
-                  <FaArrowAltCircleRight />
+                  <FaArrowAltCircleRight className="fill-black"/>
                 </Link>
               </div>
             </div>
@@ -233,7 +233,7 @@ const Gais = () => {
         <div className=" min-h-[400px] bg-gradient-to-r from-purple-600 to-orange-700 ">
           <div className="flex-wrap  md:flex">
             <div className="md:w-2/3 ">
-              <h1 className="md:p-10 pt-10 text-3xl md:text-4xl lg:text-5xl px-5 font-bold ">
+              <h1 className="md:p-10 pt-10 text-3xl md:text-4xl lg:text-4xl px-5 font-bold ">
                 GLOBAL INVESTORS MEET
               </h1>
               <p className="md:px-12 p-5 md:text-lg text-base ">
@@ -245,7 +245,7 @@ const Gais = () => {
               </p>
               <div className="md:text-7xl text-6xl px-5 md:px-12 py-5">
                 <Link to={"/meet"}>
-                  <FaArrowAltCircleRight />
+                  <FaArrowAltCircleRight className="fill-black"/>
                 </Link>
               </div>
             </div>
@@ -264,7 +264,7 @@ const Gais = () => {
           <div className=" lg:flex md:p-5 pt-5">
             <div className="lg:w-1/3 ">
               <div className="flex-wrap">
-                <h1 className="md:px-10 p-5 text-3xl md:text-4xl lg:text-5xl  font-bold ">
+                <h1 className="md:px-10 px-5 pb-3 text-3xl md:text-4xl lg:text-4xl  font-bold ">
                   Workshops
                 </h1>
                 <p className="md:px-10 px-5  pb-5  md:text-lg text-base ">
@@ -291,10 +291,10 @@ const Gais = () => {
                   alt=""
                 />
               </div>
-              <h1 className="md:px-10 text-3xl md:text-4xl lg:text-5xl p-5  font-bold ">
+              <h1 className="md:px-5 text-3xl md:text-4xl lg:text-4xl px-5 md:pb-3 md:py-0 py-5  font-bold ">
                 Startup pitches
               </h1>
-              <p className="md:px-10 px-5 pb-5 md:text-lg text-base ">
+              <p className="md:px-5 px-5 pb-5 md:text-lg text-base ">
                 Witness the future unfold before your eyes. Witness the
                 brightest AI-powered startups pitch their groundbreaking
                 solutions, from healthcare to finance to climate change. Get a
@@ -304,7 +304,7 @@ const Gais = () => {
             </div>
 
             <div className="lg:w-1/3">
-              <h1 className="md:px-10 text-3xl md:text-4xl lg:text-5xl  p-5  font-bold ">
+              <h1 className="md:px-10 text-3xl md:text-4xl lg:text-4xl  px-5 md:pb-3 md:py-0 py-5  font-bold ">
                 Innovative AI solutions
               </h1>
               <p className="md:px-10 px-5 pb-5 md:text-lg text-base ">
@@ -338,16 +338,7 @@ const Gais = () => {
         </div>
       </section>
       <Banner />
-      <section>
-        <div className=" bg-gradient-to-r from-orange-700 to-purple-600 min-h-[700px] py-10">
-          <h1 className=" text-3xl md:text-4xl lg:text-5xl  font-bold text-neutral-50 text-center  tracking-wide">
-            Register Here
-          </h1>
-          <div className="flex justify-center items-center">
-            <MyForm />
-          </div>
-        </div>
-      </section>
+
     </>
   );
 };
