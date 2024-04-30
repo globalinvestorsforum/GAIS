@@ -244,7 +244,7 @@ const Gais = () => {
                 fueling the next wave of AI-driven success.
               </p>
               <div className="md:text-7xl text-6xl px-5 md:px-12 py-5">
-                <Link to={"/conference"}>
+                <Link to={"/meet"}>
                   <FaArrowAltCircleRight />
                 </Link>
               </div>
