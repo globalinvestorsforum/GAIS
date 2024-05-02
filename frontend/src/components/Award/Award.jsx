@@ -9,7 +9,7 @@ const Award = () => {
           <h1 className="text-4xl md:text-5xl text-wrap lg:text-6xl md:max-w-2xl max-w-40  font-bold text-neutral-300 text-start mb-3 tracking-wide animate-slidein [--slidein-delay:300ms]  opacity-0">
             GAIS AWARD CEREMONY
           </h1>
-          <h3 className="font-bold text-lg  md:text-2xl py-8 animate-slidein [--slidein-delay:400ms]  opacity-0">
+          <h3 className="font-bold text-xl  md:text-2xl py-8 animate-slidein [--slidein-delay:400ms]  opacity-0">
             Welcome to the pinnacle of AI excellence - The Innovative AI-Powered
             Startup Award Ceremony!
           </h3>
@@ -23,13 +23,13 @@ const Award = () => {
           </p>
         </div>
         <div className="md:w-3/5 flex justify-center items-center md:pt-0 pt-14">
-          <div className="bg-gradient-to-r from-red-400 to-blue-500 h-[350px] w-[300px] flex justify-center items-center">
-            <p className="text-4xl  font-bold p-5">THE INNOVATIVE AI-POWERED STARTUP AWARD.</p>
+          <div className=" md:h-[650px] md:w-[600px] w-full">
+            <img src="https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/Tranparent%2FIMG_20240502_082609.png?alt=media&token=c0d36ab4-3039-4029-bc8e-9883cfb91699" alt="" />
           </div>
         </div>
         </div>
         
-        <div className="md:px-10 px-5  mt-3 w-full">
+        <div className="md:px-10 px-5  w-full">
           <h2 className="text-2xl font-bold pt-8">
             Benefits of Participating:
           </h2>
