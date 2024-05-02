@@ -343,22 +343,22 @@ export const cards =[
   {
     title:"The AI HealthCare Summit",
     discription:" Harnessing AI for Improved Health Services and disrupting the Status Quo",
-    backImgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fhealthcare.jpg?alt=media&token=3b3ac33f-5725-4584-a1a8-4e9ba1ef5c8e"
+    backImgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2FHealthcare%201.jpg?alt=media&token=cb9a8087-1265-4917-b0eb-da969738dc88"
   },
   {
     title:"The AI Pharmaceutical Summit",
     discription:"Creating Synergies between Artificial Intelligence, Biotechnology, & Medicine." , 
-    backImgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fpharm.jpg?alt=media&token=893ee60d-b0a3-42df-9e9e-1d0c95e4a795"
+    backImgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2FPharmaceutical%201.jpg?alt=media&token=379f8c4d-11b3-46e9-9e82-12da7593afd8"
   },
   {
      title:"The AI Finance Summit",
     discription:"Money Meets Machine." ,
-    backImgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Ffinance.jpg?alt=media&token=fa9a3345-abfa-4340-9330-086faca8d1b7"
+    backImgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2FFintech.jpg?alt=media&token=0e7e44ab-202a-4460-8709-e9d0f3d3d741"
   },
   {
     title:"The AI Powered Retail & E- commerce Conclave"
     ,discription:"Driving growth with AI and enhancing customer experience."
-     , backImgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fpharm.jpg?alt=media&token=893ee60d-b0a3-42df-9e9e-1d0c95e4a795"
+     , backImgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2FFintech%20pexels-anna-nekrashevich-6802042%20(3).jpg?alt=media&token=7c3a0723-772a-441f-af15-8538b80ecaee"
   },
   {
     title:"The Generartive AI Summit"
@@ -368,17 +368,17 @@ export const cards =[
   {
     title:"The Energy & Ai Integration Forum"
     ,discription:"Transforming the Energy Industry through AI and Machine Learning"
-     , backImgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fenergy.jpg?alt=media&token=045fd965-8c28-4060-8c54-86cd7de1ed13"
+     , backImgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2Fenergy2.jpg?alt=media&token=89463340-fd7c-403b-ba10-3c7ec8acfebd"
   },
   {
     title:"The Next-Gen Autotech Conference"
     ,discription:"Exploring the Future of AI and IOT in the Automobile Industry"
-     , backImgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fautotech.jpg?alt=media&token=4e191338-0354-437a-b7ba-fc9363094529"
+     , backImgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2FAutotech.jpg?alt=media&token=c2c86eed-773e-4bdb-891b-e898ea6ef0db"
   },
   {
     title:"The AI-Driven Transporatation Summit"
     ,discription:"Navigating a new eara of Smart Mobility."
-     , backImgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fautotech.jpg?alt=media&token=4e191338-0354-437a-b7ba-fc9363094529"
+     , backImgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2Ftransportation1.jpg?alt=media&token=f89b121c-049d-4a18-9bed-cac3c4231e71"
   },
   {
     title:"The AI Manufaturing Summit"
@@ -388,17 +388,17 @@ export const cards =[
   {
     title:"The AI Agricuture Summit"
     ,discription:"Reaping the Benefits of Artifical Intelligence in Agricuture."
-     , backImgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fagricuture.jpg?alt=media&token=ce5b4707-c2e2-4bd6-bc85-5bbb7d8a95ae"
+     , backImgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2FFood%20Processing%20and%20agritechjulia-koblitz-WbCZlA0JAfA-unsplash%20(4).jpg?alt=media&token=3402ad9f-8a89-4f2f-9f6b-74d5806afa6a"
   },
   {
     title:"The Global Foodtech AI Conference"
     ,discription:"Interating AI From Farm to Fork."
-     , backImgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fautotech.jpg?alt=media&token=4e191338-0354-437a-b7ba-fc9363094529"
+     , backImgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2Fretail1.jpg?alt=media&token=16245030-d176-4156-9397-945d31dd2490"
   },
   {
     title:"The Robotics Ai Fontier Conference"
     ,discription:"Exploring oring the intersection of AI and Robotics Industry."
-     , backImgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fpharm.jpg?alt=media&token=893ee60d-b0a3-42df-9e9e-1d0c95e4a795"
+     , backImgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2Frobot.jpg?alt=media&token=588cc65e-414d-42c8-b748-e2d4a13670c1"
   },
   {
     title:"The AI Education Summit"
@@ -408,12 +408,12 @@ export const cards =[
   {
     title:"The AI Media & Communication Conference"
     ,discription:"The World's Premier AI Media Summit."
-     , backImgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fmedia.jpg?alt=media&token=4d0f0a97-def0-4b55-bf6c-62db06048126"
+     , backImgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2FMedia%20and%20communication%20.jpg?alt=media&token=acc2ce18-6818-4e94-ad06-1ce39b1f7348"
   },
   {
     title:"The AI Space Exploration Summit"
     ,discription:"Unleashing the Power of Ai in the Cosmos"
-     , backImgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fspace.jpg?alt=media&token=6437c0d4-b0a3-4475-a9ff-cb3c0705d39f"
+     , backImgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2Fspace1.jpeg?alt=media&token=821a47ed-ab1f-4bfb-b45e-c62583241d53"
   },
   {
     title:"The AI Cybersecurity Summit"
