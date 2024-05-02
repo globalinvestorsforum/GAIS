@@ -16,7 +16,7 @@ const Footer = () => {
             <span>
               <AiOutlineGlobal className="fill-yellow-600 text-8xl md:text-8xl  me-2" />
             </span>
-            <h3 className="text-wrap w-40 text-2xl md:text-3xl  font-bold ">
+            <h3 className="text-wrap md:w-40 w-32 text-xl md:text-2xl  font-bold ">
               Global Investors Forum
             </h3>
           </div>

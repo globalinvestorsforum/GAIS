@@ -18,7 +18,7 @@ const Navbar = () => {
                     
                     <div className="flex items-center justify-start flex-shrink-0">
                         <Link to="/">
-                        <img className="h-10 w-44 border-neutral-900 border-2 " src="https://www.global-investors-forum.com/GAIS/assets/images/gaislogo.png" alt="" />
+                        <img className="h-10 w-44 border-neutral-900 border-2 " src="https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/Tranparent%2Fgaislogo.png?alt=media&token=eea47d8e-d244-42f6-8274-66a8733e42ce" alt="" />
                         </Link>
                     </div>
 
