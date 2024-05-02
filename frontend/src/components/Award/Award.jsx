@@ -9,7 +9,7 @@ const Award = () => {
           <h1 className="text-4xl md:text-5xl text-wrap lg:text-6xl md:max-w-2xl max-w-40  font-bold text-neutral-300 text-start mb-3 tracking-wide animate-slidein [--slidein-delay:300ms]  opacity-0">
             GAIS AWARD CEREMONY
           </h1>
-          <h3 className="font-bold text-xl  md:text-2xl py-8 animate-slidein [--slidein-delay:400ms]  opacity-0">
+          <h3 className=" text-xl font-bold  md:text-2xl py-8 animate-slidein [--slidein-delay:400ms]  opacity-0">
             Welcome to the pinnacle of AI excellence - The Innovative AI-Powered
             Startup Award Ceremony!
           </h3>
