@@ -101,20 +101,20 @@ const Gais = () => {
           }}
         >
           <div className="backdrop-blur-[1px]  w-full h-full backdrop-brightness-50 ">
-          <h1 className="mx-auto pt-10  text-3xl lg:text-5xl md:text-4xl text-center font-bold tracking-wide">
-            WHY JOIN?
-          </h1>
-          <div className="lg:px-20 md:px-10 px-5  md:py-10 py-5 grid lg:grid-cols-2  gap-8   ">
-            {gaisCards.map((card, index) => (
-              <Card
-                key={index}
-                imgUrl={card.imgURL}
-                head={card.title}
-                desc={card.discription}
-              />
-            ))}
+            <h1 className="mx-auto pt-10  text-3xl lg:text-5xl md:text-4xl text-center font-bold tracking-wide">
+              WHY JOIN?
+            </h1>
+            <div className="lg:px-20 md:px-10 px-5  md:py-10 py-5 grid lg:grid-cols-2  gap-8   ">
+              {gaisCards.map((card, index) => (
+                <Card
+                  key={index}
+                  imgUrl={card.imgURL}
+                  head={card.title}
+                  desc={card.discription}
+                />
+              ))}
+            </div>
           </div>
-        </div>
         </div>
       </section>
 
@@ -183,7 +183,7 @@ const Gais = () => {
               </h1>
               <div className="md:text-7xl text-6xl  md:px-12 py-5">
                 <Link to={"/conference"}>
-                  <FaArrowAltCircleRight  className="fill-black"/>
+                  <FaArrowAltCircleRight className="fill-black" />
                 </Link>
               </div>
             </div>
@@ -216,8 +216,14 @@ const Gais = () => {
               </p>
               <div className="md:text-7xl text-6xl md:px-12 p-5">
                 <Link to={"/award"}>
-                  <FaArrowAltCircleRight className="fill-black"/>
+                  <FaArrowAltCircleRight className="fill-black" />
                 </Link>
+              </div>
+              <div className=" md:h-[650px] md:w-[600px] mx-auto">
+                <img
+                  src="https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/Tranparent%2FIMG_20240502_082609.png?alt=media&token=c0d36ab4-3039-4029-bc8e-9883cfb91699"
+                  alt=""
+                />
               </div>
             </div>
             <div className="md:w-1/2 flex justify-center items-center">
@@ -245,7 +251,7 @@ const Gais = () => {
               </p>
               <div className="md:text-7xl text-6xl px-5 md:px-12 py-5">
                 <Link to={"/meet"}>
-                  <FaArrowAltCircleRight className="fill-black"/>
+                  <FaArrowAltCircleRight className="fill-black" />
                 </Link>
               </div>
             </div>
@@ -338,7 +344,6 @@ const Gais = () => {
         </div>
       </section>
       <Banner />
-
     </>
   );
 };
