@@ -40,7 +40,7 @@ export default function MyForm() {
           <div className="bg-transparent">
             <label
               htmlFor="name"
-              className=" text-gray-300 font-medium bg-transparent "
+              className=" text-white font-medium bg-transparent "
             >
               Name
             </label>
@@ -55,7 +55,7 @@ export default function MyForm() {
           <div className="bg-transparent">
             <label
               htmlFor="email"
-              className=" text-gray-300 font-medium bg-transparent "
+              className=" text-white font-medium bg-transparent "
             >
               Email address
             </label>
@@ -70,7 +70,7 @@ export default function MyForm() {
           <div className="bg-transparent">
             <label
               htmlFor="job"
-              className=" text-gray-300 bg-transparent font-medium"
+              className=" text-white bg-transparent font-medium"
             >
               Job Title
             </label>
@@ -85,7 +85,7 @@ export default function MyForm() {
           <div className="bg-transparent">
             <label
               htmlFor="company"
-              className=" text-gray-300 bg-transparent font-medium"
+              className=" text-white bg-transparent font-medium"
             >
               Company
             </label>
@@ -101,7 +101,7 @@ export default function MyForm() {
           <div className="bg-transparent">
             <label
               htmlFor="city"
-              className=" text-gray-300 bg-transparent font-medium"
+              className=" text-white bg-transparent font-medium"
             >
               City
             </label>
@@ -116,7 +116,7 @@ export default function MyForm() {
           <div className="bg-transparent">
             <label
               htmlFor="company"
-              className="text-gray-300 bg-transparent font-medium"
+              className="text-white bg-transparent font-medium"
             >
               Industry
             </label>
