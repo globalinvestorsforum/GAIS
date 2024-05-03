@@ -160,7 +160,7 @@ export default function MyForm() {
             </select>
           </div>
           <div className="space-y-4 ">
-            <ReCAPTCHA key={captchaKey} sitekey={import.meta.env.VITE_CLIENT_SITE_KEY} onChange={onChange} />
+            <ReCAPTCHA key={captchaKey} sitekey="6Lf50s8pAAAAANOMjgzlQa_LXUB7-c4HMOiZN_CC" onChange={onChange} />
             <button
               disabled={isSubmitting}
               type="submit"
