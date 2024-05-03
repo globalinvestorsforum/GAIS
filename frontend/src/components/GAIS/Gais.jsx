@@ -1,42 +1,41 @@
-import React from "react";
+import { useState , React} from "react";
 import { gaisCards, gaisLogos, partnersLogo } from "../../constants";
 import Card from "./Card";
 import Banner from "./Banner";
 import { FaArrowAltCircleRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import MyForm from "../Ticket/MyForm";
-import CountUp from 'react-countup';
-import ScrollTrigger from 'react-scroll-trigger';
-import { useState } from "react";
+import CountUp from "react-countup";
+import ScrollTrigger from "react-scroll-trigger";
+
 
 const Gais = () => {
-  const [counterOn , setcounterOn] = useState(false);
+  const [counterOn, setcounterOn] = useState(false);
 
   return (
     <>
       <section>
         <div
-          className="w-full h-screen bg-no-repeat bg-cover md:bg-top bg-center  border-b border-neutral-800 "
+          className="w-screen h-screen bg-no-repeat bg-cover md:bg-top bg-center  border-b border-neutral-800  "
           style={{
             backgroundImage: `url('https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Flanding_img.png?alt=media&token=a104f4b6-ac45-4187-a3c9-e230cc496f0a')`,
           }}
         >
-          <div className="w-full h-full ">
-            <div className="max-w-6xl mx-auto pt-20  md:pt-40 lg:pt-48  ">
-              <div className="flex flex-col items-start mt-6 ">
-                <h2 className="text-2xl px-3  md:text-4xl lg:text-5xl text-start tracking-wide font-bold animate-slidein [--slidein-delay:300ms]  opacity-0 ">
+          <div className="absolute w-full h-full ">
+            <div className="w-full md:max-w-4xl lg:max-w-6xl mx-auto pt-20  md:pt-40 lg:pt-48  ">
+              <div className="flex flex-col items-start pt-6 ">
+                <h2 className="text-2xl px-3  md:text-4xl text-start tracking-wide font-bold animate-slidein [--slidein-delay:300ms]  opacity-0 ">
                   DON'T LEFT BEHIND IN YOUR BUSINESS WHEN THE ENTIRE WORLD
                   IMPLEMENTING AI IN THEIR OPERATIONS. JOIN US TO LEARN THE
                   LATEST ADVANCEMENTS OR TRENDS OF AI.
                 </h2>
-                <p className="pt-5 px-3  text-lg md:text-1xl lg:text-2xl font-semibold  text-neutral-200  animate-slidein [--slidein-delay:400ms]  opacity-0 ">
+                <p className="pt-6 px-3  text-lg md:text-1xl lg:text-2xl font-semibold  text-neutral-200  animate-slidein [--slidein-delay:400ms]  opacity-0 ">
                   Coming Soon.
                 </p>
-                <p className="pt-2 px-3 text-lg md:text-1xl lg:text-2xl font-semibold    text-neutral-200 animate-slidein [--slidein-delay:500ms]  opacity-0  ">
+                <p className="pt-4 px-3 text-lg md:text-1xl lg:text-2xl font-semibold    text-neutral-200 animate-slidein [--slidein-delay:500ms]  opacity-0  ">
                   Amsterdam, Netherlands.
                 </p>
-                <hr className="h1   mt-3 divide-x font-bold  w-1/3  mx-3" />
-                <p className="pt-3 px-3 text-lg md:text-1xl lg:text-2xl  text-neutral-200 animate-slidein [--slidein-delay:600ms]  opacity-0  ">
+                <hr className="h1  mt-4 divide-x font-bold  md:w-1/3 w-2/3  mx-3" />
+                <p className="pt-4 px-3 text-lg md:text-1xl lg:text-2xl  text-neutral-200 animate-slidein [--slidein-delay:600ms]  opacity-0  ">
                   World's largest AI summit in true sense.
                 </p>
               </div>
@@ -45,35 +44,38 @@ const Gais = () => {
         </div>
       </section>
       <section>
-        <ScrollTrigger onEnter={()=> setcounterOn(true)} onExit={()=> setcounterOn(false)}>
-        <div className="min-h-[600px]  bg-white text-blue-950">
-          <div className="p-5 pt-20 md:p-32 md:text-center ">
-            <div className="md:flex flex-wrap  w-full ">
-              <div className="md:w-1/2  font-bold md:text-7xl text-5xl">
-              {counterOn && <CountUp start={0} end={5000}  duration={3} />}+
-                <hr className="w-full h-[2.5px] my-1 border-[1px] border-black md:hidden" />
-                <p className="text-xl  md:text-3xl ">Expected Visitors</p>
+        <ScrollTrigger
+          onEnter={() => setcounterOn(true)}
+          onExit={() => setcounterOn(false)}
+        >
+          <div className="min-h-[600px]  bg-white text-blue-950">
+            <div className="p-5 pt-20 md:p-32 md:text-center ">
+              <div className="md:flex flex-wrap  w-full ">
+                <div className="md:w-1/2  font-bold md:text-7xl text-5xl">
+                  {counterOn && <CountUp start={0} end={5000} duration={3} />}+
+                  <hr className="w-full h-[2.5px] my-1 border-[1px] border-black md:hidden" />
+                  <p className="text-xl  md:text-3xl ">Expected Visitors</p>
+                </div>
+                <div className="md:w-1/2 pt-10 md:p-0 font-bold md:text-7xl text-5xl">
+                  {counterOn && <CountUp start={0} end={10000} duration={3} />}+
+                  <hr className="w-full h-[2.5px] my-1 border-[1px] border-black md:hidden" />
+                  <p className="text-xl  md:text-3xl ">Networking & Meetings</p>
+                </div>
               </div>
-              <div className="md:w-1/2 pt-10 md:p-0 font-bold md:text-7xl text-5xl">
-              {counterOn && <CountUp start={0} end={10000}  duration={3} />}+
-                <hr className="w-full h-[2.5px] my-1 border-[1px] border-black md:hidden" />
-                <p className="text-xl  md:text-3xl ">Networking & Meetings</p>
-              </div>
-            </div>
-            <div className="md:flex flex-wrap  w-full md:pt-24 pt-10  ">
-              <div className="md:w-1/2 font-bold md:text-7xl text-5xl">
-              {counterOn && <CountUp start={0} end={100}  duration={3} />}+
-                <hr className="w-full h-[2.5px] my-1 border-[1px] border-black md:hidden" />
-                <p className="text-xl  md:text-3xl ">Conferencess</p>
-              </div>
-              <div className="md:w-1/2 md:py-0 py-10 font-bold  md:text-7xl text-5xl">
-              {counterOn && <CountUp start={0} end={200}  duration={3} />}+
-                <hr className="w-full h-[2.5px] my-1 border-[1px] border-black md:hidden" />
-                <p className="text-xl  md:text-3xl ">Speakers</p>
+              <div className="md:flex flex-wrap  w-full md:pt-24 pt-10  ">
+                <div className="md:w-1/2 font-bold md:text-7xl text-5xl">
+                  {counterOn && <CountUp start={0} end={100} duration={3} />}+
+                  <hr className="w-full h-[2.5px] my-1 border-[1px] border-black md:hidden" />
+                  <p className="text-xl  md:text-3xl ">Conferencess</p>
+                </div>
+                <div className="md:w-1/2 md:py-0 py-10 font-bold  md:text-7xl text-5xl">
+                  {counterOn && <CountUp start={0} end={200} duration={3} />}+
+                  <hr className="w-full h-[2.5px] my-1 border-[1px] border-black md:hidden" />
+                  <p className="text-xl  md:text-3xl ">Speakers</p>
+                </div>
               </div>
             </div>
           </div>
-        </div>
         </ScrollTrigger>
       </section>
       <section className="border-y border-neutral-500">
@@ -82,7 +84,7 @@ const Gais = () => {
             <h3 className=" max-w-5xl mx-auto text-3xl md:text-4xl lg:text-5xl font-bold ">
               ABOUT GAIS
             </h3>
-            <p className="mt-2  bg-transparent md:w-2/3 sm:w-full mx-auto p-3 md:text-[18px] text-neutral-200 ">
+            <p className="pt-2  bg-transparent md:w-2/3 sm:w-full mx-auto p-3 md:text-[18px] text-neutral-200 ">
               Global Artificial Intelligence Summit (GAIS) is the world's
               largest iconic platform that brings together the all leading AI
               businesses, Innovators, Consultancies, most desirable startups,
@@ -106,6 +108,7 @@ const Gais = () => {
           style={{
             backgroundImage: `url('https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fwhyjoinback.jpg?alt=media&token=983994a9-1d19-4119-b7dc-0aa7e397471d')`,
           }}
+          
         >
           <div className="backdrop-blur-[1px]  w-full h-full backdrop-brightness-50 ">
             <h1 className="mx-auto pt-10  text-3xl lg:text-5xl md:text-4xl text-center font-bold tracking-wide">
@@ -126,7 +129,7 @@ const Gais = () => {
       </section>
 
       <section className="border-t border-neutral-500">
-        <div className="relative bg-gradient-to-r from-orange-700 to-purple-600 min-h-[700px]">
+        <div className=" bg-gradient-to-r from-orange-700 to-purple-600 min-h-[700px]">
           <h1 className="py-10 px-2  text-3xl md:text-4xl lg:text-5xl   font-bold text-neutral-50 text-center  tracking-wide">
             SUMMIT DEMOGRAPHY
           </h1>
@@ -213,7 +216,7 @@ const Gais = () => {
               <h1 className="md:p-10 pt-10 lg:text-5xl md:text-4xl text-3xl px-5  font-bold ">
                 AWARD CEREMONY
               </h1>
-              <p className="md:px-12 p-5 md:text-lg text-base ">
+              <p className="md:px-12 p-5 pb-5 md:text-lg text-base ">
                 Join us in celebrating trailblazing AI-powered startups that
                 have transformed industries! Be part of The Innovative
                 AI-Powered Startup Award ceremony, where we honor those who've
@@ -221,19 +224,21 @@ const Gais = () => {
                 solutions. Don't miss your chance to witness innovation at its
                 peak – join us!
               </p>
-              <div className="md:text-7xl text-6xl md:px-12 p-5">
+              <div className="flex">
+              <div className="md:text-7xl text-6xl md:px-12 p-5 ">
                 <Link to={"/award"}>
                   <FaArrowAltCircleRight className="fill-black" />
                 </Link>
               </div>
-              <div className=" md:h-[650px] md:w-[600px] mx-auto">
+              <div className="lg:w-[60%] md:w-[30%] mx-auto  ">
                 <img
                   src="https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/Tranparent%2FIMG_20240502_082609.png?alt=media&token=c0d36ab4-3039-4029-bc8e-9883cfb91699"
                   alt=""
                 />
               </div>
+              </div>
             </div>
-            <div className="md:w-1/2 flex justify-center items-center">
+            <div className="md:w-1/2 flex justify-center items-center ">
               <img
                 className="w-[100%] "
                 src="https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Faward_pic.png?alt=media&token=5d82b0a4-977c-45fe-8589-8dbda6fc0da7"
