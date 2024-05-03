@@ -282,7 +282,7 @@ const Gais = () => {
           <div className=" lg:flex md:m-5">
             <div className="lg:w-1/3  pt-5">
               <div className="flex-wrap">
-                <h1 className="md:px-10 px-5 pb-3 text-3xl md:text-4xl lg:text-4xl  font-bold ">
+                <h1 className="md:px-10 px-5 md:pb-3 md:py-0 py-3 text-3xl md:text-4xl lg:text-4xl  font-bold ">
                   Workshops
                 </h1>
                 <p className="md:px-10 px-5  pb-5  md:text-lg text-base ">
@@ -309,7 +309,7 @@ const Gais = () => {
                   alt=""
                 />
               </div>
-              <h1 className="md:px-5 text-3xl md:text-4xl lg:text-4xl px-5 md:pb-3 md:py-0 py-5  font-bold ">
+              <h1 className="md:px-5 text-3xl md:text-4xl lg:text-4xl px-5 md:pb-3 md:py-0 py-3  font-bold ">
                 Startup pitches
               </h1>
               <p className="md:px-5 px-5 pb-5 md:text-lg text-base ">
@@ -322,7 +322,7 @@ const Gais = () => {
             </div>
 
             <div className="lg:w-1/3  pt-5">
-              <h1 className="md:px-10 text-3xl md:text-4xl lg:text-4xl  px-5 md:pb-3 md:py-0 py-5  font-bold ">
+              <h1 className="md:px-10 text-3xl md:text-4xl lg:text-4xl  px-5 md:pb-3 md:py-0 py-3  font-bold ">
                 Innovative AI solutions
               </h1>
               <p className="md:px-10 px-5 pb-5 md:text-lg text-base ">
