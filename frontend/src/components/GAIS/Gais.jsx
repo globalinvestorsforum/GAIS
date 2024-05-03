@@ -274,7 +274,7 @@ const Gais = () => {
       </section>
       <section className="border-y border-neutral-500">
         <div className=" min-h-screen bg-gradient-to-r from-orange-700 to-purple-600 md:py-5 ">
-          <div className=" lg:flex md:p-5 pt-5">
+          <div className=" lg:flex md:m-5 pt-5">
             <div className="lg:w-1/3 ">
               <div className="flex-wrap">
                 <h1 className="md:px-10 px-5 pb-3 text-3xl md:text-4xl lg:text-4xl  font-bold ">
@@ -329,6 +329,13 @@ const Gais = () => {
                 breakthroughs to groundbreaking marketing strategies, the future
                 is here, waiting to be unlocked.
               </p>
+              <div className=" p-0 flex lg:justify-end justify-center bottom-0  lg:order-none order-1">
+                <img
+                  className="w-[60%]"
+                  src="https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/Tranparent%2FIMG_20240502_082807.png?alt=media&token=98209504-f5ba-459a-808a-01597fa9c0f1"
+                  alt=""
+                />
+              </div>
             </div>
           </div>
         </div>
