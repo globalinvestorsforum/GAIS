@@ -1,6 +1,7 @@
-import { useState , useEffect } from "react";
+import { useState, useEffect } from "react";
 import { industries } from "../../constants";
 import emailjs from "@emailjs/browser";
+import ReCAPTCHA from "react-google-recaptcha";
 
 export default function MyForm() {
   const [name, setName] = useState("");
@@ -10,7 +11,9 @@ export default function MyForm() {
   const [city, setCity] = useState("");
   const [industry, setIndustry] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [captchaKey, setCaptchaKey] = useState(Date.now());
 
+  const onChange = () => {}
 
   const sendEmail = async (e) => {
     e.preventDefault();
@@ -49,6 +52,7 @@ export default function MyForm() {
       setCity("");
       setIndustry("");
       setIsSubmitting(false);
+      setCaptchaKey(Date.now());
     }
   };
 
@@ -64,7 +68,7 @@ export default function MyForm() {
               Name
             </label>
             <input
-              required
+              value={name}
               id="name"
               type="name"
               placeholder="Full name"
@@ -80,6 +84,7 @@ export default function MyForm() {
               Email address
             </label>
             <input
+              value={email}
               id="email"
               type="email"
               placeholder="Email Address"
@@ -95,6 +100,7 @@ export default function MyForm() {
               Job Title
             </label>
             <input
+              value={job}
               id="job"
               type="text"
               placeholder="Enter the Job title here..."
@@ -110,6 +116,7 @@ export default function MyForm() {
               Company
             </label>
             <input
+              value={company}
               id="company"
               type="text"
               placeholder="Enter your company name .."
@@ -126,6 +133,7 @@ export default function MyForm() {
               City
             </label>
             <input
+              value={city}
               id="city"
               type="text"
               placeholder="Enter your city name .."
@@ -152,6 +160,7 @@ export default function MyForm() {
             </select>
           </div>
           <div className="space-y-4 ">
+            <ReCAPTCHA key={captchaKey} sitekey={import.meta.env.VITE_CLIENT_SITE_KEY} onChange={onChange} />
             <button
               disabled={isSubmitting}
               type="submit"
