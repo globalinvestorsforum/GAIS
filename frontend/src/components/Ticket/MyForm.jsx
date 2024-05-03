@@ -1,36 +1,55 @@
-import { useState } from "react";
-
+import { useState , useEffect } from "react";
 import { industries } from "../../constants";
+import emailjs from "@emailjs/browser";
 
 export default function MyForm() {
-  const [email, setEmail] = useState("");
-  const [subject, setSubject] = useState("");
-  const [message, setMessage] = useState("");
   const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [job, setJob] = useState("");
+  const [company, setCompany] = useState("");
+  const [city, setCity] = useState("");
+  const [industry, setIndustry] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const baseUrl = "http://localhost:8000";
 
-  const sendEmail = async () => {
-    let dataSend = {
-      email: email,
-      subject: subject,
-      message: message,
+  const sendEmail = async (e) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+    const serviceId = import.meta.env.VITE_SERVICE_ID;
+    const templateId = import.meta.env.VITE_TEMPLATE_ID;
+    const publicKey = import.meta.env.VITE_PUBLIC_KEY;
+
+    const templateParams = {
       name: name,
+      email: email,
+      job: job,
+      company: company,
+      city: city,
+      industry: industry,
     };
 
-    const res = await fetch(`${baseUrl}/sendEmail`, {
-      method: "POST",
-      body: JSON.stringify(dataSend),
-      headers: {
-        Accept: "application/json",
-        "Content-Tzype": "application/json",
-      },
-    }).then((res) => {
-      console.log(res);
-      if (res.status > 199 && res.status < 300) {
-        alert("Send Successfully !");
-      }
-    });
+    try {
+      const response = await emailjs.send(
+        serviceId,
+        templateId,
+        templateParams,
+        publicKey
+      );
+      console.log("Email sent successfully!", response);
+      alert("Email sent successfully");
+    } catch (error) {
+      console.error("Error sending email:", error);
+      alert("Email not sent successfully");
+    } finally {
+      // Reset form fields
+      setName("");
+      setEmail("");
+      setJob("");
+      setCompany("");
+      setCity("");
+      setIndustry("");
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -45,6 +64,7 @@ export default function MyForm() {
               Name
             </label>
             <input
+              required
               id="name"
               type="name"
               placeholder="Full name"
@@ -90,7 +110,7 @@ export default function MyForm() {
               Company
             </label>
             <input
-              id="job"
+              id="company"
               type="text"
               placeholder="Enter your company name .."
               onChange={(e) => setCompany(e.target.value)}
@@ -106,7 +126,7 @@ export default function MyForm() {
               City
             </label>
             <input
-              id="job"
+              id="city"
               type="text"
               placeholder="Enter your city name .."
               onChange={(e) => setCity(e.target.value)}
@@ -115,30 +135,30 @@ export default function MyForm() {
           </div>
           <div className="bg-transparent">
             <label
-              htmlFor="company"
+              htmlFor="industry"
               className="text-white bg-transparent font-medium"
             >
               Industry
             </label>
             <select
-              id="job"
+              id="industry"
               onChange={(e) => setIndustry(e.target.value)}
               className="w-full leading-none text-gray-50 p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-gray-800 rounded"
             >
-              <option value="" disabled>
-                Select your Industry
-              </option>
+              <option>Select your Industry</option>
               {industries.map((industry, index) => (
-                <option value={industry.value}>{industry.value}</option>
+                <option value={industry.value}>{industry.name}</option>
               ))}
             </select>
           </div>
           <div className="space-y-4 ">
             <button
+              disabled={isSubmitting}
+              type="submit"
               className="w-full bg-blue-400 text-white py-2 px-4 rounded-md hover:bg-blue-500"
-              onClick={() => sendEmail()}
+              onClick={(e) => sendEmail(e)}
             >
-              Submit
+              {isSubmitting ? "Submitting..." : "Submit"}
             </button>
           </div>
         </div>
