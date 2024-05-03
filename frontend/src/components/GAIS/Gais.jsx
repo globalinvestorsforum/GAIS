@@ -279,8 +279,8 @@ const Gais = () => {
       </section>
       <section className="border-y border-neutral-500">
         <div className=" min-h-screen bg-gradient-to-r from-orange-700 to-purple-600 md:py-5 ">
-          <div className=" lg:flex md:m-5 pt-5">
-            <div className="lg:w-1/3 ">
+          <div className=" lg:flex md:m-5">
+            <div className="lg:w-1/3  pt-5">
               <div className="flex-wrap">
                 <h1 className="md:px-10 px-5 pb-3 text-3xl md:text-4xl lg:text-4xl  font-bold ">
                   Workshops
@@ -301,7 +301,7 @@ const Gais = () => {
                 </div>
               </div>
             </div>
-            <div className="lg:w-1/3  flex flex-wrap ">
+            <div className="lg:w-1/3  flex flex-wrap  pt-5">
               <div className=" md:p-5 p-0  lg:order-none order-1">
                 <img
                   className=""
@@ -321,7 +321,7 @@ const Gais = () => {
               </p>
             </div>
 
-            <div className="lg:w-1/3">
+            <div className="lg:w-1/3  pt-5">
               <h1 className="md:px-10 text-3xl md:text-4xl lg:text-4xl  px-5 md:pb-3 md:py-0 py-5  font-bold ">
                 Innovative AI solutions
               </h1>
