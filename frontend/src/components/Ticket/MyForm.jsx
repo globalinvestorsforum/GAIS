@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect , useRef  } from "react";
 import { industries } from "../../constants";
 import emailjs from "@emailjs/browser";
 import ReCAPTCHA from "react-google-recaptcha";
@@ -11,13 +11,15 @@ export default function MyForm() {
   const [city, setCity] = useState("");
   const [industry, setIndustry] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
-  const [captchaKey, setCaptchaKey] = useState(Date.now());
 
-  const onChange = () => {}
+  const captchaRef = useRef(null);
+
+  const onChange = () => {};
 
   const sendEmail = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
+
     const serviceId = import.meta.env.VITE_SERVICE_ID;
     const templateId = import.meta.env.VITE_TEMPLATE_ID;
     const publicKey = import.meta.env.VITE_PUBLIC_KEY;
@@ -44,7 +46,6 @@ export default function MyForm() {
       console.error("Error sending email:", error);
       alert("Email not sent successfully");
     } finally {
-      // Reset form fields
       setName("");
       setEmail("");
       setJob("");
@@ -160,7 +161,6 @@ export default function MyForm() {
             </select>
           </div>
           <div className="space-y-4 ">
-            <ReCAPTCHA key={captchaKey} sitekey="6Lf50s8pAAAAANOMjgzlQa_LXUB7-c4HMOiZN_CC" onChange={onChange} />
             <button
               disabled={isSubmitting}
               type="submit"
