@@ -6,3 +6,4 @@ export { default as Home } from './Home/Home.jsx';
 export { default as Meet } from './Meet/Meet.jsx';
 export { default as Ticket } from './Ticket/Ticket.jsx';
 export { default as Conference } from './Conference/index.jsx';
+export { default as NotFound } from './NotFound/NotFound.jsx';

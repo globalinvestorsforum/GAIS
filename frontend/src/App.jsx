@@ -6,7 +6,7 @@ import {
   Route
 } from 'react-router-dom'
 
-import { Award, Contact, Gais, Home, Meet, Ticket, Conference } from './components/index';
+import { Award, Contact, Gais, Home, Meet, Ticket, Conference, NotFound } from './components/index';
 import Layout from './components/Layout'
 
 const router = createBrowserRouter(
@@ -20,7 +20,7 @@ const router = createBrowserRouter(
       <Route path='/meet' element={<Meet/>}/>
       <Route path='/ticket' element={<Ticket/>}/>
       <Route path='/conference' element={<Conference/>}/>
-      
+      <Route path='*' element={<NotFound/>}/>
     </Route>
   )
 )
