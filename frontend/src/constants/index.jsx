@@ -358,12 +358,12 @@ export const cards =[
   {
     title:"The AI Powered Retail & E- commerce Conclave"
     ,discription:"Driving growth with AI and enhancing customer experience."
-     , backImgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2FFintech%20pexels-anna-nekrashevich-6802042%20(3).jpg?alt=media&token=7c3a0723-772a-441f-af15-8538b80ecaee"
+     , backImgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2Fretail3.jpg?alt=media&token=64ea594f-127b-430b-ac7f-0c308e682c4b"
   },
   {
     title:"The Generartive AI Summit"
     ,discription:"The Frontier is Now"
-     , backImgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fgenerative.jpg?alt=media&token=75e49f8b-4edf-4a57-9037-18b0d27ac764"
+     , backImgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2Fgenerative%20ai.jpeg?alt=media&token=81b7ab70-c7ae-4cfb-b3fb-2a0db9c2cc05"
   },
   {
     title:"The Energy & Ai Integration Forum"
@@ -418,6 +418,6 @@ export const cards =[
   {
     title:"The AI Cybersecurity Summit"
     ,discription:"Exploring AI's Role in Fortifying Cybersecurity."
-     , backImgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fcybersecurity.jpg?alt=media&token=f2f8db35-8456-4a34-ab96-358efbf2cc82"
+     , backImgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/CardsImage%2Fcyber%20security.jpeg?alt=media&token=5fa6952c-9aaa-40bd-bc7f-d2ba0620bde9"
   }
 ]

@@ -122,7 +122,7 @@ export default function MyForm() {
               type="text"
               placeholder="Enter your company name .."
               onChange={(e) => setCompany(e.target.value)}
-              className="w-full  leading-none  p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-neutral-50 rounded"
+              className="w-full  leading-none text-black  p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-neutral-50 rounded"
             />
           </div>
 
