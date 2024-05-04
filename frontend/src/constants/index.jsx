@@ -296,12 +296,12 @@ export const features =[
 
 export const footerItems = [
     {
-      title: 'Company',
+      title: 'AI Summit',
       items: [
         { text: 'GAIS', link: '/gais' },
         { text: 'Conferences', link: '/conference' },
         { text: 'Award Ceremony', link: '/award' },
-        { text: 'G.I Meet', link: '/meet' },
+        { text: 'Global Investors Meet', link: '/meet' },
         { text: 'Tickets', link: '/ticket' }
       ]
     },

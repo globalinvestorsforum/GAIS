@@ -8,7 +8,7 @@ const FooterItem = ({ category }) => {
       <ul>
       {category.items.map((item, index) => (
           <li key={index}>
-            <Link className="text-neutral-300  hover:underline" to={item.link}>{item.text} </Link>
+            <Link className="text-neutral-300  hover:text-yellow-600" to={item.link}>{item.text} </Link>
           </li>
         ))}
       </ul>

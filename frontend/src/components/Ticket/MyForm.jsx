@@ -74,7 +74,7 @@ export default function MyForm() {
               type="name"
               placeholder="Full name"
               onChange={(e) => setName(e.target.value)}
-              className="w-full  leading-none text-gray-50 p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-gray-800 rounded"
+              className="w-full  leading-none text-black p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-neutral-50 rounded"
             />
           </div>
           <div className="bg-transparent">
@@ -90,7 +90,7 @@ export default function MyForm() {
               type="email"
               placeholder="Email Address"
               onChange={(e) => setEmail(e.target.value)}
-              className="w-full  leading-none text-gray-50 p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-gray-800 rounded"
+              className="w-full  leading-none text-black p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-neutral-50 rounded"
             />
           </div>
           <div className="bg-transparent">
@@ -106,7 +106,7 @@ export default function MyForm() {
               type="text"
               placeholder="Enter the Job title here..."
               onChange={(e) => setJob(e.target.value)}
-              className="w-full  leading-none text-gray-50 p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-gray-800 rounded"
+              className="w-full  leading-none text-black p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-neutral-50 rounded"
             />
           </div>
           <div className="bg-transparent">
@@ -122,7 +122,7 @@ export default function MyForm() {
               type="text"
               placeholder="Enter your company name .."
               onChange={(e) => setCompany(e.target.value)}
-              className="w-full  leading-none text-gray-50 p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-gray-800 rounded"
+              className="w-full  leading-none  p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-neutral-50 rounded"
             />
           </div>
 
@@ -139,7 +139,7 @@ export default function MyForm() {
               type="text"
               placeholder="Enter your city name .."
               onChange={(e) => setCity(e.target.value)}
-              className="w-full  leading-none text-gray-50 p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-gray-800 rounded"
+              className="w-full  leading-none text-black p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-neutral-50 rounded"
             />
           </div>
           <div className="bg-transparent">
@@ -152,7 +152,7 @@ export default function MyForm() {
             <select
               id="industry"
               onChange={(e) => setIndustry(e.target.value)}
-              className="w-full leading-none text-gray-50 p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-gray-800 rounded"
+              className="w-full leading-none text-black p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-neutral-50 rounded"
             >
               <option>Select your Industry</option>
               {industries.map((industry, index) => (
@@ -164,7 +164,8 @@ export default function MyForm() {
             <button
               disabled={isSubmitting}
               type="submit"
-              className="w-full bg-blue-400 text-white py-2 px-4 rounded-md hover:bg-blue-500"
+              className="w-full bg-blue-400 text-white py-2 px-4 rounded-md hover:bg-blue-500 "
+              
               onClick={(e) => sendEmail(e)}
             >
               {isSubmitting ? "Submitting..." : "Submit"}
