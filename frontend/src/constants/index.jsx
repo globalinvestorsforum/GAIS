@@ -261,7 +261,7 @@ export const gaisCards =[
   },
   {
     title:"STRATEGIC INSIGHTS FOR BUSINESS",
-    discription:"Hear about case studies, solutions and success stories of companies and organizations that have implemented AI in their operations in several industries",
+    discription:"Hear about case studies, solutions and success stories of companies and organizations that have implemented AI in their operations in several industries.",
     imgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fpuzzle.png?alt=media&token=d7c0127a-af44-4515-abba-001e16336797"
   },
 ]

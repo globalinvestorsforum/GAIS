@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Award = () => {
   return (
     <section>
-      <div className="w-full min-h-screen  bg-gradient-to-r from-slate-900 to-blue-900  border-b border-neutral-800 md:py-20 sm:py-10">
+      <div className="w-full min-h-screen  bg-gradient-to-r from-slate-900 to-blue-900  border-b border-neutral-800  md:py-20 py-10">
         <div className="md:flex flex-wrap">
         <div className="md:px-10 px-5 pt-10 md:w-2/5 ">
           <h1 className="text-4xl md:text-5xl text-wrap lg:text-6xl md:max-w-2xl max-w-40  font-bold text-neutral-300 text-start mb-3 tracking-wide animate-slidein [--slidein-delay:300ms]  opacity-0">

@@ -32,7 +32,7 @@ const Gais = () => {
                   Coming Soon.
                 </p>
                 <p className="pt-4 px-3 text-lg md:text-1xl lg:text-2xl font-semibold    text-neutral-200 animate-slidein [--slidein-delay:500ms]  opacity-0  ">
-                  Amsterdam, Netherlands.
+                 Paris, France.
                 </p>
                 <hr className="h1  mt-4 divide-x font-bold  md:w-1/3 w-2/3  mx-3" />
                 <p className="pt-4 px-3 text-lg md:text-1xl lg:text-2xl  text-neutral-200 animate-slidein [--slidein-delay:600ms]  opacity-0  ">
@@ -52,21 +52,21 @@ const Gais = () => {
             <div className="p-5 pt-20 md:p-32 md:text-center ">
               <div className="md:flex flex-wrap  w-full ">
                 <div className="md:w-1/2  font-bold md:text-7xl text-5xl">
-                  {counterOn && <CountUp start={0} end={5000} duration={3} />}+
+                  {counterOn && <CountUp start={0} end={5000} duration={2} />}+
                   <hr className="w-full h-[2.5px] my-1 border-[1px] border-black md:hidden" />
                   <p className="text-xl  md:text-3xl ">Expected Visitors</p>
                 </div>
                 <div className="md:w-1/2 pt-10 md:p-0 font-bold md:text-7xl text-5xl">
-                  {counterOn && <CountUp start={0} end={10000} duration={3} />}+
+                  {counterOn && <CountUp start={0} end={10000} duration={2} />}+
                   <hr className="w-full h-[2.5px] my-1 border-[1px] border-black md:hidden" />
                   <p className="text-xl  md:text-3xl ">Networking & Meetings</p>
                 </div>
               </div>
               <div className="md:flex flex-wrap  w-full md:pt-24 pt-10  ">
                 <div className="md:w-1/2 font-bold md:text-7xl text-5xl">
-                  {counterOn && <CountUp start={0} end={100} duration={3} />}+
+                  {counterOn && <CountUp start={0} end={100} duration={2} />}+
                   <hr className="w-full h-[2.5px] my-1 border-[1px] border-black md:hidden" />
-                  <p className="text-xl  md:text-3xl ">Conferencess</p>
+                  <p className="text-xl  md:text-3xl ">Conferences</p>
                 </div>
                 <div className="md:w-1/2 md:py-0 py-10 font-bold  md:text-7xl text-5xl">
                   {counterOn && <CountUp start={0} end={200} duration={3} />}+
@@ -218,11 +218,11 @@ const Gais = () => {
               </h1>
               <p className="md:px-12 p-5 pb-5 md:text-lg text-base ">
                 Join us in celebrating trailblazing AI-powered startups that
-                have transformed industries! Be part of The Innovative
-                AI-Powered Startup Award ceremony, where we honor those who've
+                have transformed industries! Be part of <strong>The Innovative
+                AI-Powered Startup Award ceremony,</strong> where we honor those who've
                 integrated AI into business operations, offering groundbreaking
-                solutions. Don't miss your chance to witness innovation at its
-                peak – join us!
+                solutions.<strong> Don't miss your chance to witness innovation at its
+                peak – join us!</strong>
               </p>
               <div className="flex">
               <div className="md:text-7xl text-6xl md:px-12 p-5 ">
@@ -255,10 +255,10 @@ const Gais = () => {
                 GLOBAL INVESTORS MEET
               </h1>
               <p className="md:px-12 p-5 md:text-lg text-base ">
-                Unite with the investment elite – VC's, Angel funds, Private
-                Equity, and more. Forge direct connections between startups and
+                Unite with the investment elite – <strong>VC's, Angel funds, Private
+                Equity, and more.</strong> Forge direct connections between startups and
                 investors in a face-to-face convergence, fostering
-                collaboration, empowering startups to secure investments and
+                collaboration, empowering startups to <strong>secure investments</strong> and
                 fueling the next wave of AI-driven success.
               </p>
               <div className="md:text-7xl text-6xl px-5 md:px-12 py-5">
@@ -326,10 +326,10 @@ const Gais = () => {
                 Innovative AI solutions
               </h1>
               <p className="md:px-10 px-5 pb-5 md:text-lg text-base ">
-                See the future, now. Explore a showcase of cutting-edge AI
-                applications and trends that are transforming industries. Learn
+                <strong>See the future,</strong> now. Explore a showcase of cutting-edge AI
+                applications and trends that are transforming industries. <strong>Learn
                 from experts, uncover hidden opportunities to leverage AI in
-                your business, and gain the competitive edge you need to thrive
+                your business,</strong> and gain the competitive edge you need to thrive
                 in the age of intelligence. From groundbreaking medical
                 breakthroughs to groundbreaking marketing strategies, the future
                 is here, waiting to be unlocked.
