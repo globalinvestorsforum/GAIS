@@ -1,4 +1,4 @@
-import { useState, useEffect , useRef  } from "react";
+import { useState, useEffect, useRef } from "react";
 import { industries } from "../../constants";
 import emailjs from "@emailjs/browser";
 
@@ -10,13 +10,36 @@ export default function MyForm() {
   const [city, setCity] = useState("");
   const [industry, setIndustry] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [errors, setErrors] = useState({});
 
-  const captchaRef = useRef(null);
-
-  const onChange = () => {};
+  const validateForm = () => {
+    const errors = {};
+    if (!name.trim()) {
+      errors.name = "Name is required";
+    }
+    if (!email.trim()) {
+      errors.email = "Email is required";
+    }
+    if (!job.trim()) {
+      errors.job = "Job title is required";
+    }
+    if (!company.trim()) {
+      errors.company = "Company name is required";
+    }
+    if (!city.trim()) {
+      errors.city = "City name is required";
+    }
+    if (!industry) {
+      errors.industry = "Industry is required";
+    }
+    setErrors(errors);
+    return Object.keys(errors).length === 0;
+  };
 
   const sendEmail = async (e) => {
     e.preventDefault();
+    const isValid = validateForm();
+    if (!isValid) return;
     setIsSubmitting(true);
 
     const serviceId = import.meta.env.VITE_SERVICE_ID;
@@ -75,6 +98,9 @@ export default function MyForm() {
               onChange={(e) => setName(e.target.value)}
               className="w-full  leading-none text-black p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-neutral-50 rounded"
             />
+            {errors.name && (
+              <div className="text-black px-2">{errors.name}</div>
+            )}
           </div>
           <div className="bg-transparent">
             <label
@@ -91,6 +117,9 @@ export default function MyForm() {
               onChange={(e) => setEmail(e.target.value)}
               className="w-full  leading-none text-black p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-neutral-50 rounded"
             />
+            {errors.email && (
+              <div className="text-black px-2">{errors.email}</div>
+            )}
           </div>
           <div className="bg-transparent">
             <label
@@ -107,6 +136,7 @@ export default function MyForm() {
               onChange={(e) => setJob(e.target.value)}
               className="w-full  leading-none text-black p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-neutral-50 rounded"
             />
+            {errors.job && <div className="text-black px-2">{errors.job}</div>}
           </div>
           <div className="bg-transparent">
             <label
@@ -123,6 +153,9 @@ export default function MyForm() {
               onChange={(e) => setCompany(e.target.value)}
               className="w-full  leading-none text-black  p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-neutral-50 rounded"
             />
+            {errors.company && (
+              <div className="text-black px-2">{errors.company}</div>
+            )}
           </div>
 
           <div className="bg-transparent">
@@ -140,6 +173,9 @@ export default function MyForm() {
               onChange={(e) => setCity(e.target.value)}
               className="w-full  leading-none text-black p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-neutral-50 rounded"
             />
+            {errors.city && (
+              <div className="text-black px-2">{errors.city}</div>
+            )}
           </div>
           <div className="bg-transparent">
             <label
@@ -153,18 +189,20 @@ export default function MyForm() {
               onChange={(e) => setIndustry(e.target.value)}
               className="w-full leading-none text-black p-3 focus:outline-none focus:border-blue-700 mt-4 border-0 bg-neutral-50 rounded"
             >
-              <option>Select your Industry</option>
+              <option selected disabled>Select your Industry</option>
               {industries.map((industry, index) => (
                 <option value={industry.value}>{industry.name}</option>
               ))}
             </select>
+            {errors.industry && (
+              <div className="text-black px-2">{errors.industry}</div>
+            )}
           </div>
           <div className="space-y-4 ">
             <button
               disabled={isSubmitting}
               type="submit"
               className="w-full bg-blue-400 text-white py-2 px-4 rounded-md hover:bg-blue-500 "
-              
               onClick={(e) => sendEmail(e)}
             >
               {isSubmitting ? "Submitting..." : "Submit"}
