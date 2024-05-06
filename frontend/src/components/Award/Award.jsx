@@ -1,5 +1,6 @@
 import React from "react";
 import { benefitListAwardPage, selectionListAwardPage } from "../../constants";
+import { Link } from "react-router-dom";
 const Award = () => {
   return (
     <section>
@@ -65,9 +66,9 @@ const Award = () => {
           </div>
         </div>
         <div className="px-10 font-bold text-lg py-5">Don't miss this chance to be at the forefront of AI innovation. Register now and position your startup among the visionaries shaping the future of technology.</div>
-        <button className="bg-gradient-to-r my-8 mx-10 from-orange-500 to-purple-600  md:w-44 sm:w-40 py-3 px-3 font-semibold">
+        <Link to={"mailto: info@global-investors-forum.com"} className="bg-gradient-to-r my-8 mx-10 from-orange-500 to-purple-600  md:w-44 sm:w-40 py-3 px-3 font-semibold">
           REGISTER NOW
-        </button>
+        </Link>
       </div>
     </section>
   );

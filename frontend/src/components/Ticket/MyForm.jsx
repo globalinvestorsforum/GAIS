@@ -1,7 +1,6 @@
 import { useState, useEffect , useRef  } from "react";
 import { industries } from "../../constants";
 import emailjs from "@emailjs/browser";
-import ReCAPTCHA from "react-google-recaptcha";
 
 export default function MyForm() {
   const [name, setName] = useState("");

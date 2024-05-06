@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -17,18 +18,18 @@ const Banner = () => {
           together.</strong> Register now and <strong>secure your place at the world's largest AI
           summit!</strong>
         </p>
-        <button className="bg-gradient-to-r my-8 from-orange-500 to-purple-600 md:w-44 sm:w-40  py-2 px-3 font-semibold">
+        <Link to={"/ticket"} className="bg-gradient-to-r my-8 from-orange-500 to-purple-600 md:w-44 sm:w-40 text-center py-2 px-3 font-semibold">
           REGISTER NOW
-        </button>
+        </Link>
         
         <p className="pt-10  md:text-2xl mx-auto w-full text-lg ">
           Opportunity for <strong>speakers</strong> and  <strong>workshop leaders.</strong> Amplify your impact
           with speaking slots & workshops demos. Join the world's biggest AI
           stage. Apply now!
         </p>
-        <button className="bg-gradient-to-r my-8 from-orange-500 to-purple-600 md:w-40 sm:w-36 mx-0 py-2 px-3  font-semibold">
+        <Link to={"mailto: info@global-investors-forum.com"} className="bg-gradient-to-r my-8 from-orange-500 to-purple-600 text-center  md:w-40 sm:w-36 mx-0 py-2 px-3  font-semibold">
           APPLY NOW
-        </button>
+        </Link>
       </div>
     </div>
   );
