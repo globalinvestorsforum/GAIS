@@ -1,4 +1,4 @@
-import { useState , React} from "react";
+import { useState, React } from "react";
 import { gaisCards, gaisLogos, partnersLogo } from "../../constants";
 import Card from "./Card";
 import Banner from "./Banner";
@@ -6,7 +6,6 @@ import { FaArrowAltCircleRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import CountUp from "react-countup";
 import ScrollTrigger from "react-scroll-trigger";
-
 
 const Gais = () => {
   const [counterOn, setcounterOn] = useState(false);
@@ -32,7 +31,7 @@ const Gais = () => {
                   Coming Soon.
                 </p>
                 <p className="pt-4 px-3 text-lg md:text-1xl lg:text-2xl font-semibold    text-neutral-200 animate-slidein [--slidein-delay:500ms]  opacity-0  ">
-                 Paris, France.
+                  Paris, France.
                 </p>
                 <hr className="h1  mt-4 divide-x font-bold  md:w-1/3 w-2/3  mx-3" />
                 <p className="pt-4 px-3 text-lg md:text-1xl lg:text-2xl  text-neutral-200 animate-slidein [--slidein-delay:600ms]  opacity-0  ">
@@ -79,26 +78,34 @@ const Gais = () => {
         </ScrollTrigger>
       </section>
       <section className="border-y border-neutral-500">
-        <div className="w-full h-[520px] bg-gradient-to-r from-orange-700 to-purple-600">
+        <div className="w-full min-h-[520px] bg-gradient-to-r from-orange-700 to-purple-600 py-10 md:py-14">
           <div className=" flex-col text-center   content-center  w-full h-full ">
             <h3 className=" max-w-5xl mx-auto text-3xl md:text-4xl lg:text-5xl font-bold ">
               ABOUT GAIS
             </h3>
-            <p className="pt-2  bg-transparent md:w-2/3 sm:w-full mx-auto p-3 md:text-[18px] text-neutral-200 ">
-              Global Artificial Intelligence Summit (GAIS) is the world's
-              largest iconic platform that brings together the all leading AI
-              businesses, Innovators, Consultancies, most desirable startups,
-              several government agencies, investors, decision makers,
-              technologists, academia, thought leaders and several associations
-              - to stimulate the industry growth, change the investment
-              landscape and share the practically proven innovative ideas. GAIS
-              will have participants from 55+ countries that represents a wide
-              range of industries includes food and agriculture, energy and
-              manufacturing, financial services, healthcare, and transportation
-              and logistics that offers an exclusive opportunity to directly
-              hear from the senior leaders and C-suite speakers about industry
-              leading solutions and interact with them in person.
-            </p>
+            <div className="pt-2  bg-transparent md:w-2/3 sm:w-full mx-auto p-3 md:text-[18px] text-neutral-200 ">
+              <p className="py-2">The future is calling, and it's gathering in the City of Lights!
+              The Global Artificial Intelligence Summit (GAIS) is landing in
+              Paris, France, bringing together the brightest minds from over
+              170+ countries for an unprecedented AI extravaganza.</p> <p className="py-2">Imagine a
+              vibrant hub where the most desirable AI-powered startups and
+              industry giants converge. Here, you'll witness a showcase of the
+              most revolutionary AI solutions tackling today's biggest
+              challenges and shaping the future of tomorrow. Dive deep into the
+              latest advancements in AI, from groundbreaking research to
+              real-world applications that are transforming industries at an
+              unprecedented pace. But GAIS goes beyond the technical. We also
+              recognize the importance of responsible AI development. Join
+              critical discussions about ethical adoption and how to ensure AI
+              benefits all of humanity.</p> <p className="py-2">This is your chance to be a part of
+              history. Network with leading experts, discover the future of AI,
+              and gain the insights you need to navigate this transformative
+              era. GAIS offers a vibrant mix of keynote sessions, insightful
+              panel discussions, expansive networking opportunities, and
+              hands-on workshops. Whether you're a seasoned AI professional, an
+              aspiring entrepreneur, or simply curious about the future, GAIS is
+              your platform to learn, connect, and be empowered.</p> 
+            </div>
           </div>
         </div>
       </section>
@@ -108,7 +115,6 @@ const Gais = () => {
           style={{
             backgroundImage: `url('https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fwhyjoinback.jpg?alt=media&token=983994a9-1d19-4119-b7dc-0aa7e397471d')`,
           }}
-          
         >
           <div className="backdrop-blur-[1px]  w-full h-full backdrop-brightness-50 ">
             <h1 className="mx-auto pt-10  text-3xl lg:text-5xl md:text-4xl text-center font-bold tracking-wide">
@@ -218,24 +224,30 @@ const Gais = () => {
               </h1>
               <p className="md:px-12 p-5 pb-5 md:text-lg text-base ">
                 Join us in celebrating trailblazing AI-powered startups that
-                have transformed industries! Be part of <strong>The Innovative
-                AI-Powered Startup Award ceremony,</strong> where we honor those who've
-                integrated AI into business operations, offering groundbreaking
-                solutions.<strong> Don't miss your chance to witness innovation at its
-                peak – join us!</strong>
+                have transformed industries! Be part of{" "}
+                <strong>
+                  The Innovative AI-Powered Startup Award ceremony,
+                </strong>{" "}
+                where we honor those who've integrated AI into business
+                operations, offering groundbreaking solutions.
+                <strong>
+                  {" "}
+                  Don't miss your chance to witness innovation at its peak –
+                  join us!
+                </strong>
               </p>
               <div className="flex">
-              <div className="md:text-7xl text-6xl md:px-12 p-5 ">
-                <Link to={"/award"}>
-                  <FaArrowAltCircleRight className="fill-black" />
-                </Link>
-              </div>
-              <div className="lg:w-[60%] md:w-[30%] mx-auto  ">
-                <img
-                  src="https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/Tranparent%2FIMG_20240502_082609.png?alt=media&token=c0d36ab4-3039-4029-bc8e-9883cfb91699"
-                  alt=""
-                />
-              </div>
+                <div className="md:text-7xl text-6xl md:px-12 p-5 ">
+                  <Link to={"/award"}>
+                    <FaArrowAltCircleRight className="fill-black" />
+                  </Link>
+                </div>
+                <div className="lg:w-[60%] md:w-[30%] mx-auto  ">
+                  <img
+                    src="https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/Tranparent%2FIMG_20240502_082609.png?alt=media&token=c0d36ab4-3039-4029-bc8e-9883cfb91699"
+                    alt=""
+                  />
+                </div>
               </div>
             </div>
             <div className="md:w-1/2 flex justify-center items-center ">
@@ -255,11 +267,12 @@ const Gais = () => {
                 GLOBAL INVESTORS MEET
               </h1>
               <p className="md:px-12 p-5 md:text-lg text-base ">
-                Unite with the investment elite – <strong>VC's, Angel funds, Private
-                Equity, and more.</strong> Forge direct connections between startups and
-                investors in a face-to-face convergence, fostering
-                collaboration, empowering startups to <strong>secure investments</strong> and
-                fueling the next wave of AI-driven success.
+                Unite with the investment elite –{" "}
+                <strong>VC's, Angel funds, Private Equity, and more.</strong>{" "}
+                Forge direct connections between startups and investors in a
+                face-to-face convergence, fostering collaboration, empowering
+                startups to <strong>secure investments</strong> and fueling the
+                next wave of AI-driven success.
               </p>
               <div className="md:text-7xl text-6xl px-5 md:px-12 py-5">
                 <Link to={"/meet"}>
@@ -326,13 +339,17 @@ const Gais = () => {
                 Innovative AI solutions
               </h1>
               <p className="md:px-10 px-5 pb-5 md:text-lg text-base ">
-                <strong>See the future,</strong> now. Explore a showcase of cutting-edge AI
-                applications and trends that are transforming industries. <strong>Learn
-                from experts, uncover hidden opportunities to leverage AI in
-                your business,</strong> and gain the competitive edge you need to thrive
-                in the age of intelligence. From groundbreaking medical
-                breakthroughs to groundbreaking marketing strategies, the future
-                is here, waiting to be unlocked.
+                <strong>See the future,</strong> now. Explore a showcase of
+                cutting-edge AI applications and trends that are transforming
+                industries.{" "}
+                <strong>
+                  Learn from experts, uncover hidden opportunities to leverage
+                  AI in your business,
+                </strong>{" "}
+                and gain the competitive edge you need to thrive in the age of
+                intelligence. From groundbreaking medical breakthroughs to
+                groundbreaking marketing strategies, the future is here, waiting
+                to be unlocked.
               </p>
               <div className=" p-0 flex lg:justify-end justify-center bottom-0  lg:order-none order-1">
                 <img
