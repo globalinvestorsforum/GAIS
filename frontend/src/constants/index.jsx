@@ -266,6 +266,23 @@ export const gaisCards =[
   },
 ]
 
+export const meetMainThreeCards = [
+  {
+    title:"INVEST IN THE FUTURE",
+    discription:"Be at the forefront of the AI revolution. Network with industry leaders, gain insights into emerging trends, and shape the future of technology by supporting pioneering AI businesses.",
+    imgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fmeetbackdrop1.png?alt=media&token=120db925-51c9-4b2c-830a-d0ea10807a05"
+  },
+  {
+    title:"STRATEGIC COLLABORATION",
+    discription:"Foster valuable connections with fellow investors, build strategic partnerships, and leverage collective expertise to navigate the dynamic AI landscape.",
+    imgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fmeetbackdrop2.png?alt=media&token=6d957964-7203-410b-8895-1de7adadfde1"
+  },
+  {
+    title:"INSIGHTS FROM THE EXPERTS",
+    discription:" Gain invaluable knowledge through panel discussions, workshops, and keynotes featuring leading figures in the AI industry.",
+    imgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fmeetbackdrop3.png?alt=media&token=878d7f6d-3e5f-41a9-b19b-4334d9dfc3b7"
+  },
+]
 export const meetMainTwoCards =[
   {
     title:"UNPARALLELED DEAL FLOW",

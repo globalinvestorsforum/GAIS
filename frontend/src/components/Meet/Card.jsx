@@ -6,7 +6,7 @@ import React from "react";
 
 const Card = ({image , title , desc}) => {
   return (
-    <div className="border flex flex-col w-full mt-6  md:w-[90%] md:h-6/7 border-neutral-700 rounded-xl  bg-gradient-to-r from-orange-700 to-purple-600 hover:border-white hover:shadow-md transition ease-in-out delay-150 hover:-translate-xy-2 hover:scale-105 duration-300 cursor-pointer"> 
+    <div className="border flex flex-col w-full mt-6  md:w-[90%] md:h-[600px] lg:h-[500px] border-neutral-700 rounded-xl  bg-gradient-to-r from-orange-700 to-purple-600 hover:border-white hover:shadow-md transition ease-in-out delay-150 hover:-translate-xy-2 hover:scale-105 duration-300 cursor-pointer"> 
       <div className="">
         <img
           src={image}
