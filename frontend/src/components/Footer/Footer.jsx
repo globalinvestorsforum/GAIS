@@ -11,12 +11,12 @@ const Footer = () => {
   return (
     <div className="w-full pt-16 border-t border-neutral-800">
       <div className=" max-w-[1240px] mx-auto py-15 px-4 grid lg:grid-cols-3 gap-8  ">
-        <div className="mx-auto ">
-          <div className="flex  md:justify-center lg:justify-start items-center ">
+        <div className="mx-auto md:mt-6">
+          <div className="flex  justify-center lg:justify-start items-center ">
             <span>
-              <AiOutlineGlobal className="fill-yellow-600 text-8xl md:text-8xl  me-2" />
+              <AiOutlineGlobal className="fill-yellow-600 text-7xl md:text-7xl  me-2" />
             </span>
-            <h3 className="text-wrap md:w-40 w-32 text-xl md:text-2xl  font-bold ">
+            <h3 className="text-wrap md:w-32 w-32 text-xl md:text-xl  font-bold ">
               Global Investors Forum
             </h3>
           </div>

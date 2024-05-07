@@ -25,7 +25,7 @@ const Gais = () => {
                 <h2 className="text-2xl px-3  md:text-4xl text-start tracking-wide font-bold animate-slidein [--slidein-delay:300ms]  opacity-0 ">
                   DON'T LEFT BEHIND IN YOUR BUSINESS WHEN THE ENTIRE WORLD
                   IMPLEMENTING AI IN THEIR OPERATIONS. JOIN US TO LEARN THE
-                  LATEST ADVANCEMENTS OR TRENDS OF AI.
+                  LATEST ADVANCEMENTS AND TRENDS OF AI.
                 </h2>
                 <p className="pt-6 px-3  text-lg md:text-1xl lg:text-2xl font-semibold  text-neutral-200  animate-slidein [--slidein-delay:400ms]  opacity-0 ">
                   Coming Soon.
@@ -84,27 +84,35 @@ const Gais = () => {
               ABOUT GAIS
             </h3>
             <div className="pt-2  bg-transparent md:w-2/3 sm:w-full mx-auto p-3 md:text-[18px] text-neutral-200 ">
-              <p className="py-2">The future is calling, and it's gathering in the City of Lights!
-              The Global Artificial Intelligence Summit (GAIS) is landing in
-              Paris, France, bringing together the brightest minds from over
-              170+ countries for an unprecedented AI extravaganza.</p> <p className="py-2">Imagine a
-              vibrant hub where the most desirable AI-powered startups and
-              industry giants converge. Here, you'll witness a showcase of the
-              most revolutionary AI solutions tackling today's biggest
-              challenges and shaping the future of tomorrow. Dive deep into the
-              latest advancements in AI, from groundbreaking research to
-              real-world applications that are transforming industries at an
-              unprecedented pace. But GAIS goes beyond the technical. We also
-              recognize the importance of responsible AI development. Join
-              critical discussions about ethical adoption and how to ensure AI
-              benefits all of humanity.</p> <p className="py-2">This is your chance to be a part of
-              history. Network with leading experts, discover the future of AI,
-              and gain the insights you need to navigate this transformative
-              era. GAIS offers a vibrant mix of keynote sessions, insightful
-              panel discussions, expansive networking opportunities, and
-              hands-on workshops. Whether you're a seasoned AI professional, an
-              aspiring entrepreneur, or simply curious about the future, GAIS is
-              your platform to learn, connect, and be empowered.</p> 
+              <p className="py-2">
+                The future is calling, and it's gathering in the City of Lights!
+                The{" "}
+                <strong>Global Artificial Intelligence Summit (GAIS)</strong> is
+                landing in Paris, France, bringing together the brightest minds
+                from over 170+ countries for an unprecedented AI extravaganza.
+              </p>{" "}
+              <p className="py-2">
+                Imagine a vibrant hub where the <strong>most desirable AI-powered
+                startups</strong> and industry giants converge. Here, you'll witness a
+                showcase of the most <strong>revolutionary AI solutions</strong> tackling today's
+                biggest challenges and shaping the future of tomorrow. Dive deep
+                into the latest advancements in AI, from groundbreaking research
+                to real-world applications that are transforming industries at
+                an unprecedented pace. But GAIS goes beyond the technical. We
+                also recognize the importance of <strong>responsible AI development.</strong> 
+                Join critical discussions about <strong>ethical adoption</strong> and how to
+                ensure AI benefits all of humanity.
+              </p>{" "}
+              <p className="py-2">
+              <strong>This is your chance to be a part of history.</strong> Network with
+                leading experts, discover the future of AI, and gain the
+                insights you need to navigate this transformative era. GAIS
+                offers a vibrant mix of keynote sessions, insightful panel
+                discussions, expansive networking opportunities, and hands-on
+                workshops. Whether you're a seasoned AI professional, an
+                aspiring entrepreneur, or simply curious about the future, GAIS
+                is your platform to <strong>learn, connect, and be empowered.</strong>
+              </p>
             </div>
           </div>
         </div>

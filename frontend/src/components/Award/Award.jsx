@@ -11,13 +11,13 @@ const Award = () => {
             GAIS AWARD CEREMONY
           </h1>
           <h3 className=" text-xl font-bold  md:text-2xl py-8 animate-slidein [--slidein-delay:400ms]  opacity-0">
-            Welcome to the pinnacle of AI excellence - The Innovative AI-Powered
+            Welcome to the pinnacle of AI excellence - The Innovative AI Powered
             Startup Award Ceremony!
           </h3>
           <p className="md:text-lg text-base  animate-slidein [--slidein-delay:600ms]  opacity-0">
-            In the heart of the Netherlands, where innovation converges with
+            In the heart of the France, where innovation converges with
             technology, we proudly announce the launch of "The Innovative
-            AI-Powered Startup Award." This prestigious ceremony is a tribute to
+            AI Powered Startup Award." This prestigious ceremony is a tribute to
             the trailblazing startups that have seamlessly integrated artificial
             intelligence into their business operations, propelling industries
             into the future with their groundbreaking solutions.
