@@ -37,8 +37,8 @@ const Footer = () => {
         </div>
       </div>
       <div className=" text-center md:flex flex-wrap justify-around py-10 font-medium mx-2  text-neutral-400">
-       <p className=""> Global Investors Forum &copy; 2024 All Rights Reserved </p>
-       <Link >Privacy Policy | General Terms and Conditions</Link> 
+       <p className="text-sm md:text-[15px]"> Global Investors Forum &copy; 2024 All Rights Reserved </p>
+       <Link className="text-sm md:text-[15px]">Privacy Policy | General Terms and Conditions</Link> 
       </div>
     </div>
   );

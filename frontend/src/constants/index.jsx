@@ -301,23 +301,23 @@ export const footerItems = [
         { text: 'GAIS', link: '/gais' },
         { text: 'Conferences', link: '/conference' },
         { text: 'Award Ceremony', link: '/award' },
-        { text: 'Global Investors Meet', link: '/meet' },
+        { text: 'Investors Meet', link: '/meet' },
         { text: 'Tickets', link: '/ticket' }
       ]
     },
     {
-      title: 'Who & What',
+      title: 'Company',
       items: [
         { text: 'Homepage', link: '/home' },
         { text: 'Who we are', link: '#' },
         { text: 'What we produce', link: '#' },
-        { text: 'GIF Membership', link: '#' }
+        { text: 'GIF Membership', link: '#' },
+        { text: 'Contact Us', link: '/contact' },
       ]
     },
     {
       title: 'Links',
       items: [
-        { text: 'Contact Us', link: '/contact' },
         { text: 'Blog', link: '#' },
         { text: 'Press', link: '#' },
         { text: 'Careers', link: '#' }
