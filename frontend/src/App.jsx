@@ -3,16 +3,18 @@ import {
   RouterProvider , 
   createBrowserRouter , 
   createRoutesFromElements,
-  Route
+  Route,
 } from 'react-router-dom'
 
-import { Award, Contact, Gais, Home, Meet, Ticket, Conference, NotFound } from './components/index';
+import { Award, Contact, Gais, Home, Meet, Ticket, Conference, NotFound, ScrollToTop} from './components/index';
 import Layout from './components/Layout'
 
 const router = createBrowserRouter(
+  
   createRoutesFromElements(
+    
     <Route path='/' element={<Layout/>} >
-
+      
       <Route path='' element={<Gais/>}/>
       <Route path='/award' element={<Award/>}/>
       <Route path='/contact' element={<Contact/>}/>
