@@ -27,13 +27,17 @@ const Navbar = () => {
                         <ul className="flex space-x-12 uppercase">
                             {navItems.map((item, index) => (
                                 <li key={index}>
-                                    <NavLink to={item.href} className="font-bold hover:text-purple-600">
+                                    <NavLink
+                                     to={item.href}  
+                                     className={({ isActive }) =>
+                                       `font-bold ${isActive ? "text-orange-500 font-extrabold" : "text-white hover:text-blue-500"}`
+                                     }>
                                         {item.name}
                                     </NavLink>
                                 </li>
                             ))}
                         </ul>
-                        <Link to="/ticket" className="bg-gradient-to-r from-orange-500 to-purple-600 py-2 px-3 rounded-md ">
+                        <Link to="/ticket" className="bg-gradient-to-r from-orange-400 to-purple-600 py-2 px-3 rounded-md ">
                             Get Tickets
                         </Link>
                     </div>
@@ -52,7 +56,11 @@ const Navbar = () => {
                         <ul>
                             {navItems.map((item, index) => (
                                 <li className="bg-neutral-900 py-1 text-base" key={index}>
-                                    <NavLink className="bg-neutral-900 tracking-wider" to={item.href}>
+                                    <NavLink 
+                                    className={({ isActive }) =>
+                                       `font-bold ${isActive ? "text-orange-500 font-extrabold" : "text-white hover:text-blue-500"}`
+                                     }
+                                     to={item.href}>
                                         {item.name}
                                     </NavLink>
                                 </li>

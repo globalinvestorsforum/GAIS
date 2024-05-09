@@ -20,7 +20,7 @@ const Gais = () => {
       <About />
       <Join/>
       <Summit/>
-      {/* <Threecards/> */}
+      <Threecards/>
       <Partners/>
       <Banner />
       

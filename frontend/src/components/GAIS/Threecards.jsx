@@ -10,12 +10,12 @@ const Threecards = () => {
         <div className=" lg:flex md:m-5">
           <div className="lg:w-1/3  pt-5">
             <div className="flex-wrap">
-              <RevealLeft>
+              <Reveal>
                 <h1 className="md:px-10 px-5 md:pb-3 md:py-0 py-3 text-3xl md:text-4xl lg:text-4xl  font-bold ">
                   Workshops
                 </h1>
-              </RevealLeft>
-              <RevealLeft>
+              </Reveal>
+              <Reveal>
                 <p className="md:px-10 px-5  pb-5  md:text-lg text-base ">
                   Dive deeper than theory. Get your hands dirty with immersive,
                   industry-specific workshops led by AI pioneers. Master
@@ -23,7 +23,7 @@ const Threecards = () => {
                   field. From healthcare to finance, marketing to robotics,
                   there's a workshop to ignite your AI journey.
                 </p>
-              </RevealLeft>
+              </Reveal>
               <Reveal>
                 <div className=" flex justify-center pt-3">
                   <img
@@ -63,12 +63,12 @@ const Threecards = () => {
           </div>
 
           <div className="lg:w-1/3  pt-5">
-            <RevealRight>
+            <Reveal>
               <h1 className="md:px-10 text-3xl md:text-4xl lg:text-4xl  px-5 md:pb-3 md:py-0 py-3  font-bold ">
                 Innovative AI solutions
               </h1>
-            </RevealRight>
-            <RevealRight>
+            </Reveal>
+            <Reveal>
               <p className="md:px-10 px-5 pb-5 md:text-lg text-base ">
                 <strong>See the future,</strong> now. Explore a showcase of
                 cutting-edge AI applications and trends that are transforming
@@ -82,7 +82,7 @@ const Threecards = () => {
                 groundbreaking marketing strategies, the future is here, waiting
                 to be unlocked.
               </p>
-            </RevealRight>
+            </Reveal>
             <Reveal>
               <div className=" p-0 flex lg:justify-end justify-center bottom-0  lg:order-none order-1">
                 <img
