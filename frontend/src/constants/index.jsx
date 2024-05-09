@@ -10,6 +10,33 @@ import { GrGamepad } from "react-icons/gr";
 import { RiAdvertisementFill } from "react-icons/ri";
 
 
+export const summitList = [
+  {
+    content: "Innovative AI-Powered Startups and Fortune 500 companies."
+  },
+  {
+    content: "Researchers and academics in the field of AI."
+  },
+  {
+    content: "Associations, Chamber of commerce and business bodies."
+  },
+  {
+    content: "Industry professionals and executives interested in AI applications and trends."
+  },
+  {
+    content: "Entrepreneurs and startup founders developing AI-based products and services."
+  },
+  {
+    content: "Government officials and policymakers involved in AI regulation and policy-making."
+  },
+  {
+    content: "Investors and venture capitalists seeking to fund AI-related projects."
+  },
+  {
+    content: "Tech enthusiasts and students interested in learning more about AI and its potential impact on various industries."
+  },
+]
+
 export const industries= [
   {
     name:"Accounting",
