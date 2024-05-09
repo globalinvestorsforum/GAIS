@@ -14,8 +14,9 @@ const Numbers = () => {
       <div className="min-h-[600px]  bg-white text-blue-950">
         <div className="p-5 pt-20 md:p-32 md:text-center ">
           <div className="md:flex flex-wrap  w-full ">
+       
             <div className="md:w-1/2  font-bold md:text-7xl text-5xl">
-              {counterOn && <CountUp start={0} end={5000} duration={2} />}+
+              {counterOn && <CountUp start={0} end={5000} duration={2} />}+ 
               <hr className="w-full h-[2.5px] my-1 border-[1px] border-black md:hidden" />
               <p className="text-xl  md:text-3xl ">Expected Visitors</p>
             </div>
