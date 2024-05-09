@@ -17,19 +17,19 @@ const Summit = () => {
         <div className=" flex-wrap md:flex justify-center  items-center">
         
           <div className="md:w-1/2 flex justify-center">
-          <RevealLeft width="100%" >
+          <Reveal width="100%" >
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fimage1.png?alt=media&token=a1a876d7-451b-4ebb-9f43-db180a213de2"
                 alt=""
                 className="w-[100%]"
               />
-              </RevealLeft>
+              </Reveal>
           </div>
           
           <div></div>
           <div className="md:w-1/2 md:p-10 p-5 md:text-lg text-base  flex flex-wrap justify-center items-center">
             <div>
-              <RevealRight>
+              <Reveal>
                 <p>
                   GAIS attracts a broad range of people who are interested in
                   learning about the latest advancements, networking with
@@ -38,11 +38,11 @@ const Summit = () => {
                   typically includes professionals and enthusiasts from diverse
                   backgrounds, such as:
                 </p>
-              </RevealRight>
+              </Reveal>
               <ul className="list-disc p-5 md:text-lg text-base ">
                 {summitList.map((list, index) => (
                   <li key={index}>
-                    <RevealRight>{list.content}</RevealRight>
+                    <Reveal>{list.content}</Reveal>
                   </li>
                 ))}
               </ul>
@@ -69,13 +69,11 @@ const Summit = () => {
 
           <div className="md:w-1/2 md:p-5 py-2">
             <div className="grid md:grid-cols-3 grid-cols-2 gap-6  content-between items-center ">
-              {gaisLogos.map((logo, index) => (
-                <RevealRight>
+              {gaisLogos.map((logo, index) => (           
                   <div className="flex items-center" key={index}>
                     <div className="text-4xl me-3">{logo.logo}</div>
                     <div className="md:text-lg text-base ">{logo.text}</div>
                   </div>
-                </RevealRight>
               ))}
             </div>
           </div>
@@ -89,8 +87,8 @@ const Summit = () => {
                 AWARD CEREMONY
               </h1>
             </RevealLeft>
-            <RevealRight>
-              <p className="md:px-12 p-5 pb-5 md:text-lg text-base ">
+            <Reveal>
+              <p className="md:px-12 px-5 pt-5 md:pt-0 md:text-lg text-base ">
                 Join us in celebrating trailblazing AI-powered startups that
                 have transformed industries! Be part of{" "}
                 <strong>
@@ -104,7 +102,7 @@ const Summit = () => {
                   join us!
                 </strong>
               </p>
-            </RevealRight>
+            </Reveal>
             <div className="flex">
               <div className="md:text-7xl text-6xl md:px-12 p-5 ">
                 <Reveal>
@@ -114,23 +112,23 @@ const Summit = () => {
                 </Reveal>
               </div>
               <div className="lg:w-[60%] md:w-[30%] mx-auto  ">
-                <RevealRight>
+                <Reveal>
                   <img
                     src="https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/Tranparent%2FIMG_20240502_082609.png?alt=media&token=c0d36ab4-3039-4029-bc8e-9883cfb91699"
                     alt=""
                   />
-                </RevealRight>
+                </Reveal>
               </div>
             </div>
           </div>
           <div className="md:w-1/2 flex justify-center items-center ">
-            <RevealLeft>
+            <Reveal>
               <img
                 className="w-[100%] "
                 src="https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Faward_pic.png?alt=media&token=5d82b0a4-977c-45fe-8589-8dbda6fc0da7"
                 alt=""
               />
-            </RevealLeft>
+            </Reveal>
           </div>
         </div>
       </div>
@@ -144,7 +142,7 @@ const Summit = () => {
               </h1>
             </RevealLeft>
             <RevealLeft>
-              <p className="md:px-12  md:text-lg text-base ">
+              <p className="md:px-12 px-5 pt-5 md:pt-0 md:text-lg text-base ">
                 Unite with the investment elite –{" "}
                 <strong>VC's, Angel funds, Private Equity, and more.</strong>{" "}
                 Forge direct connections between startups and investors in a
@@ -162,13 +160,13 @@ const Summit = () => {
             </div>
           </div>
           <div className="md:w-1/3 md:pt-0 pt-6  flex justify-center">
-            <RevealRight width="100%">
+            <Reveal width="100%">
               <img
                 className="w-[100%] h-[100%]"
                 src="https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Finvestors_pic.png?alt=media&token=bd653498-f8c7-4bd2-b6c8-2a6ab5bdcb07"
                 alt=""
               />
-            </RevealRight>
+            </Reveal>
           </div>
         </div>
       </div>
