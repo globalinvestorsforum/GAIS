@@ -38,7 +38,7 @@ const Meet = () => {
                 Welcome to the
                 <span className="font-bold"> Global Investors Meet</span>, the
                 pivotal networking event at the world's largest Al summit in the
-                Netherlands! This exclusive gathering connects{" "}
+                France ! This exclusive gathering connects{" "}
                 <span className="font-bold">visionary investors</span> like
                 venture{" "}
                 <span className="font-bold">
