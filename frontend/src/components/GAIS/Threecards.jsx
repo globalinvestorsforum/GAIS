@@ -10,12 +10,12 @@ const Threecards = () => {
         <div className=" lg:flex md:m-5">
           <div className="lg:w-1/3  pt-5">
             <div className="flex-wrap">
-              <Reveal>
+              <RevealLeft>
                 <h1 className="md:px-10 px-5 md:pb-3 md:py-0 py-3 text-3xl md:text-4xl lg:text-4xl  font-bold ">
                   Workshops
                 </h1>
-              </Reveal>
-              <Reveal>
+              </RevealLeft>
+              <RevealLeft>
                 <p className="md:px-10 px-5  pb-5  md:text-lg text-base ">
                   Dive deeper than theory. Get your hands dirty with immersive,
                   industry-specific workshops led by AI pioneers. Master
@@ -23,8 +23,8 @@ const Threecards = () => {
                   field. From healthcare to finance, marketing to robotics,
                   there's a workshop to ignite your AI journey.
                 </p>
-              </Reveal>
-              <RevealLeft>
+              </RevealLeft>
+              <Reveal>
                 <div className=" flex justify-center pt-3">
                   <img
                     className="lg:w-[85%] md:w-[95%] w-[100%]"
@@ -32,7 +32,7 @@ const Threecards = () => {
                     alt=""
                   />
                 </div>
-              </RevealLeft>
+              </Reveal>
             </div>
           </div>
           <div className="lg:w-1/3  flex flex-wrap  pt-5">
@@ -83,7 +83,7 @@ const Threecards = () => {
                 to be unlocked.
               </p>
             </RevealRight>
-            <RevealRight>
+            <Reveal>
               <div className=" p-0 flex lg:justify-end justify-center bottom-0  lg:order-none order-1">
                 <img
                   className="w-[60%]"
@@ -91,7 +91,7 @@ const Threecards = () => {
                   alt=""
                 />
               </div>
-            </RevealRight>
+            </Reveal>
           </div>
         </div>
       </div>

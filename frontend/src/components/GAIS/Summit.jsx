@@ -14,17 +14,18 @@ const Summit = () => {
         <h1 className="py-10 px-2  text-3xl md:text-4xl lg:text-5xl   font-bold text-neutral-50 text-center  tracking-wide">
           SUMMIT DEMOGRAPHY
         </h1>
-        <div className=" flex-wrap md:flex justify-center  ">
-          <div className="md:w-1/2 flex justify-center ">
-            <RevealLeft width="100%">
+        <div className=" flex-wrap md:flex justify-center  items-center">
+        
+          <div className="md:w-1/2 flex justify-center">
+          <RevealLeft width="100%" >
               <img
                 src="https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fimage1.png?alt=media&token=a1a876d7-451b-4ebb-9f43-db180a213de2"
                 alt=""
                 className="w-[100%]"
               />
-            </RevealLeft>
+              </RevealLeft>
           </div>
-
+          
           <div></div>
           <div className="md:w-1/2 md:p-10 p-5 md:text-lg text-base  flex flex-wrap justify-center items-center">
             <div>
@@ -138,12 +139,12 @@ const Summit = () => {
         <div className="flex-wrap  md:flex">
           <div className="md:w-2/3 ">
             <RevealLeft>
-              <h1 className="md:p-10 pt-10 text-3xl md:text-4xl lg:text-4xl px-5 font-bold ">
+              <h1 className="md:p-10 pt-10  text-3xl md:text-4xl lg:text-4xl px-5 font-bold ">
                 GLOBAL INVESTORS MEET
               </h1>
             </RevealLeft>
             <RevealLeft>
-              <p className="md:px-12 p-5 md:text-lg text-base ">
+              <p className="md:px-12  md:text-lg text-base ">
                 Unite with the investment elite –{" "}
                 <strong>VC's, Angel funds, Private Equity, and more.</strong>{" "}
                 Forge direct connections between startups and investors in a
