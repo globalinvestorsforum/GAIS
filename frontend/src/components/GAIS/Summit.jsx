@@ -69,11 +69,13 @@ const Summit = () => {
 
           <div className="md:w-1/2 md:p-5 py-2">
             <div className="grid md:grid-cols-3 grid-cols-2 gap-6  content-between items-center ">
-              {gaisLogos.map((logo, index) => (           
+              {gaisLogos.map((logo, index) => (  
+              <Reveal>   
                   <div className="flex items-center" key={index}>
                     <div className="text-4xl me-3">{logo.logo}</div>
                     <div className="md:text-lg text-base ">{logo.text}</div>
                   </div>
+                  </Reveal>      
               ))}
             </div>
           </div>
