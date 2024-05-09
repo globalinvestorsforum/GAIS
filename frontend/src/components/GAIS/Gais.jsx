@@ -19,8 +19,8 @@ const Gais = () => {
       <Numbers />
       <About />
       <Join/>
-      <Summit/>
-      <Threecards/>
+      {/* <Summit/> */}
+      {/* <Threecards/> */}
       <Partners/>
       <Banner />
       

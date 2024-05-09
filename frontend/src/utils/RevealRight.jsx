@@ -19,7 +19,7 @@ export const RevealRight = ({ children, width = "fit-content" , style }) => {
     <div ref={ref} style={{ position: "relative", width }}>
       <motion.div
         variants={{
-          hidden: { opacity: 0, x: 40 },
+          hidden: { opacity: 0, x: 20 },
           visible: { opacity: 1, x: 0 },
         }}
         initial="hidden"
