@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Reveal } from "../../utils/Reveal";
 // let image = "https://www.global-investors-forum.com/GAIS/assets/images/meet1.png"
 // let title = "UNPARALLELED DEAL FLOW"
 // let desc = "Gain exclusive access to a meticulously curated selection of pre-vetted, high-growth AI startups across diverse industries. Uncover the next breakthrough ventures poised to disrupt the market and generate exponential returns."
@@ -15,8 +15,12 @@ const Card = ({image , title , desc}) => {
         />
       </div>
       <div className="bg-transparent w-full p-4 text-wrap  content-center rounded-l-xl ">
+        <Reveal>
         <h4 className="sm:text-xl font-bold text-neutral-200">{title}</h4>
+        </Reveal>
+        <Reveal>
         <p className="mt-2 text-neutral-300">{desc}</p>
+        </Reveal>
       </div>
     </div>
   );

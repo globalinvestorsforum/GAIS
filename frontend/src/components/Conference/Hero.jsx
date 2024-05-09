@@ -1,5 +1,4 @@
 import React from "react";
-
 const Hero = () => {
   return (
     <div className="hero w-full h-screen bg-no-repeat bg-cover  border-b border-neutral-800  ">

@@ -3,6 +3,7 @@ import Banner from "./Banner";
 import Card from "./Card";
 import SecondCard from "./SecondCard";
 import { meetMainTwoCards , meetMainThreeCards} from "../../constants";
+import { Reveal } from "../../utils/Reveal";
 
 const Meet = () => {
   return (
@@ -32,6 +33,7 @@ const Meet = () => {
         <section className="border-y border-neutral-500">
           <div className="w-full h-[320px] bg-gradient-to-r from-orange-700 to-purple-600">
             <div className=" flex-col text-center   content-center  w-full h-full ">
+              <Reveal>
               <p className="mt-2  bg-transparent md:w-2/3 sm:w-full mx-auto p-3 md:text-xl text-neutral-200 ">
                 Welcome to the
                 <span className="font-bold"> Global Investors Meet</span>, the
@@ -45,14 +47,17 @@ const Meet = () => {
                 </span>{" "}
                 brimming with game-changing solutions.
               </p>
+              </Reveal>
             </div>
           </div>
         </section>
       </section>
       <section className=" bg-white">
+        <Reveal width="">
         <h1 className="md:mx-auto md:w-4/5  w-full pt-20 text-2xl lg:text-5xl md:text-4xl text-center font-semibold tracking-wide text-neutral-900 ">
           WHY IS THIS A MUST-ATTEND EVENT FOR INVESTORS?
         </h1>
+        </Reveal>
         <div className="md:p-10 p-5  place-content-center place-items-center grid sm:grid-cols-1  md:grid-cols-2 lg:grid-cols-2 gap-0 ">
           {meetMainTwoCards.map((main, index) => (
             <Card
@@ -74,7 +79,7 @@ const Meet = () => {
               desc={main.discription}
               image={main.imgURL}
               orderStyle={index === 1 ? 'order-2' : ''}
-              style={index === 1 ? 'rounded-b-xl rounded-t-none md:mt-6  ' : ''}
+              style={index === 1 ? 'rounded-t-none rounded-b-xl  md:mt-6  ' : ''}
               />
             ))}
         </div>

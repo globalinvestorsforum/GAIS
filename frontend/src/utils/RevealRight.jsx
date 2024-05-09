@@ -16,7 +16,7 @@ export const RevealRight = ({ children, width = "fit-content" , style }) => {
     }
   }, [isInView]);
   return (
-    <div ref={ref} style={{ position: "relative", width, overflow: "hidden", }}>
+    <div ref={ref} style={{ position: "relative", width }}>
       <motion.div
         variants={{
           hidden: { opacity: 0, x: 40 },
