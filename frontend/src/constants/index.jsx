@@ -314,12 +314,12 @@ export const meetMainTwoCards =[
   {
     title:"UNPARALLELED DEAL FLOW",
     discription:" Gain exclusive access to a meticulously curated selection of pre-vetted, high-growth AI startups across diverse industries. Uncover the next breakthrough ventures poised to disrupt the market and generate exponential returns.",
-    imgURL:"https://www.global-investors-forum.com/GAIS/assets/images/meet1.png"
+    imgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fmeet1.png?alt=media&token=f55aa17b-1ed5-4b41-807d-69ebbccf4afe"
   },
   {
     title:"DIRECT ENGAGEMENT & DUE DILIGENCE",
     discription:"Interact directly with founders, demo cutting-edge technologies, and conduct in-depth due diligence within a focused environment. Get ahead of the curve and secure access to the most sought-after investment opportunities.",
-    imgURL:"https://www.global-investors-forum.com/GAIS/assets/images/meet2.png"
+    imgURL:"https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fmeet2.png?alt=media&token=763fe3be-927f-4809-9dbc-f7c23c636c1a"
   },
 ]
 

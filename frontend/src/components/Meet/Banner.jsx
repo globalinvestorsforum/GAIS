@@ -6,7 +6,7 @@ const Banner = () => {
     <div
       className="relative border-b border-neutral-800 min-h-[500px] bg-cover"
       style={{
-        backgroundImage: `url('https://www.global-investors-forum.com/GAIS/assets/images/meetend.png')`,
+        backgroundImage: `url('https://firebasestorage.googleapis.com/v0/b/gais-f3e13.appspot.com/o/assets%2Fmeetend.png?alt=media&token=f82a7727-b172-4d00-96a8-13305323c7ae')`,
       }}
     >
       <div className="absolute flex  flex-col justify-center items-center px-4 w-full h-full text-start left-0 backdrop-blur-[3px] backdrop-brightness-50">
