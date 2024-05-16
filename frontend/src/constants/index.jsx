@@ -352,7 +352,7 @@ export const footerItems = [
     {
       title: 'Company',
       items: [
-        { text: 'Homepage', link: '/home' },
+        { text: 'Homepage', link: '#' },
         { text: 'Who we are', link: '#' },
         { text: 'What we produce', link: '#' },
         { text: 'GIF Membership', link: '#' },
