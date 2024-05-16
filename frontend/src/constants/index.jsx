@@ -338,7 +338,7 @@ export const features =[
     { icon: <AiOutlineGlobal/> , text:"Connecting with a global network of pioneers." , description:"Forge meaningful connections with fellow AI enthusiasts, entrepreneurs, investors, and researchers. Collaborate, share ideas, and build the future of AI together." }
 ]
 
-const gifURL = "https://gif-sandy.vercel.app"
+const gifURL = "https://gif-orpin.vercel.app"
 export const footerItems = [
     {
       title: 'AI Summit',
