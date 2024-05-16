@@ -338,6 +338,7 @@ export const features =[
     { icon: <AiOutlineGlobal/> , text:"Connecting with a global network of pioneers." , description:"Forge meaningful connections with fellow AI enthusiasts, entrepreneurs, investors, and researchers. Collaborate, share ideas, and build the future of AI together." }
 ]
 
+const gifURL = "https://gif-sandy.vercel.app"
 export const footerItems = [
     {
       title: 'AI Summit',
@@ -352,11 +353,11 @@ export const footerItems = [
     {
       title: 'Company',
       items: [
-        { text: 'Homepage', link: '#' },
-        { text: 'Who we are', link: '#' },
-        { text: 'What we produce', link: '#' },
-        { text: 'GIF Membership', link: '#' },
-        { text: 'Contact Us', link: '/contact' },
+        { text: 'Homepage', link: `${gifURL}` },
+        { text: 'Who we are', link: `${gifURL}/whoweare` },
+        { text: 'What we produce', link: `${gifURL}/whatweproduce` },
+        { text: 'GIF Membership', link: `${gifURL}/membership` },
+        { text: 'Contact Us', link: `${gifURL}/contactus`},
       ]
     },
     {
