@@ -364,7 +364,7 @@ export const footerItems = [
       title: 'Links',
       items: [
         { text: 'Blog', link: '#' },
-        { text: 'Press', link: 'info@global-investors-forum.com' },
+        { text: 'Press', link: 'mailto:info@global-investors-forum.com' },
         { text: 'Careers', link: '#' }
       ]
     },
