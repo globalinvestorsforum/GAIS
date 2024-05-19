@@ -30,7 +30,7 @@ const Footer = () => {
             <a href=""><FaGithubSquare size={30} className=" hover:fill-blue-800 " /></a>
           </div>
         </div>
-        <div className="lg:col-span-2 flex justify-between mt-6 ">
+        <div className="lg:col-span-2 flex justify-between mt-6 " id="footer">
           {footerItems.map((category, index) => (
             <FooterItem key={index} category={category} />
           ))}
