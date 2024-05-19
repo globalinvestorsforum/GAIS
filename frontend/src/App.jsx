@@ -21,7 +21,8 @@ import Layout from "./components/Layout";
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
-      <Route path="" element={<Gais />} />
+      <Route path="" element={<Gais />} /> 
+      <Route path="/home" element={<Gais />} />
       <Route path="/gais" element={<Gais />} />
       <Route path="/award" element={<Award />} />
       <Route path="/contact" element={<Contact />} />
