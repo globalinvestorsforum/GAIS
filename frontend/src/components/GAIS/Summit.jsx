@@ -55,7 +55,7 @@ const Summit = () => {
           <div className="w-1/2 flex flex-wrap md:justify-end justify-normal items-center">
             <RevealLeft width="">
               <h1 className="md:p-10 pb-5 lg:text-5xl md:text-4xl text-3xl mx-auto w-full font-bold md:w-4/5">
-                GIAS INCORPORATED SUMMIT & CONFERENCES
+                GAIS INCORPORATED SUMMIT & CONFERENCES
               </h1>
             </RevealLeft>
             <div className="md:text-7xl text-6xl  md:px-12 py-5">

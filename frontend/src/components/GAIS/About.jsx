@@ -18,7 +18,7 @@ const About = () => {
             The{" "}
             <strong>Global Artificial Intelligence Summit (GAIS)</strong> is
             landing in Paris, France, bringing together the brightest minds
-            from over 170+ countries for an unprecedented AI extravaganza.
+            from over <strong>170+ countries</strong> for an unprecedented AI extravaganza.
           </p>{" "}
           </Reveal>
           <Reveal >
@@ -32,7 +32,7 @@ const About = () => {
             to real-world applications that are transforming industries at
             an unprecedented pace. But GAIS goes beyond the technical. We
             also recognize the importance of{" "}
-            <strong>responsible AI development.</strong>
+            <strong>responsible AI development. </strong>
             Join critical discussions about{" "}
             <strong>ethical adoption</strong> and how to ensure AI benefits
             all of humanity.
