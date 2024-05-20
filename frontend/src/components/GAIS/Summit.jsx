@@ -42,7 +42,7 @@ const Summit = () => {
               <ul className="list-disc p-5 md:text-lg text-base ">
                 {summitList.map((list, index) => (
                   <li key={index}>
-                    <Reveal>{list.content}</Reveal>
+                    <Reveal key={index}>{list.content}</Reveal>
                   </li>
                 ))}
               </ul>
@@ -70,7 +70,7 @@ const Summit = () => {
           <div className="md:w-1/2 md:p-5 py-2">
             <div className="grid md:grid-cols-3 grid-cols-2 gap-6  content-between items-center ">
               {gaisLogos.map((logo, index) => (  
-              <Reveal>   
+              <Reveal key={index}>   
                   <div className="flex items-center" key={index}>
                     <div className="text-4xl me-3">{logo.logo}</div>
                     <div className="md:text-lg text-base ">{logo.text}</div>

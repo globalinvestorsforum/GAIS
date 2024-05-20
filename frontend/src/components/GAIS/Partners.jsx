@@ -14,9 +14,9 @@ const Partners = () => {
         <div className="md:p-10 p-5">
           <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2  gap-6 justify-center place-content-center place-items-center">
             {partnersLogo.map((logo, index) => (
-              <Reveal>
+              <Reveal key={index}>
                 <div className="lg:h-[150px] lg:w-[250px] md:h-[120px] md:w-[220px] h-[100px] w-[150px] bg-slate-50 content-center  ">
-                  <img src={logo.imgURL} className="md:p-5 p-3" alt="" />
+                  <img key={index} src={logo.imgURL} className="md:p-5 p-3" alt="" />
                 </div>
               </Reveal>
             ))}
