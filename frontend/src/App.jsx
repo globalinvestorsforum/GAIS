@@ -14,7 +14,9 @@ import {
   Meet,
   Ticket,
   Conference,
-  NotFound
+  NotFound,
+  Privacy,
+  Terms
 } from "./components/index";
 import Layout from "./components/Layout";
 
@@ -29,6 +31,8 @@ const router = createBrowserRouter(
       <Route path="/meet" element={<Meet />} />
       <Route path="/ticket" element={<Ticket />} />
       <Route path="/conference" element={<Conference />} />
+      <Route path="/privacy" element={<Privacy />} />
+      <Route path="/terms" element={<Terms />} />
       <Route path="*" element={<NotFound />} />
     </Route>
   )

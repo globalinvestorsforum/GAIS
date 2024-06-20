@@ -6,6 +6,8 @@ import { FaGithubSquare } from "react-icons/fa";
 import { BsMedium } from "react-icons/bs";
 import { BiLogoGmail } from "react-icons/bi";
 import {Link} from 'react-router-dom'
+import Privacy from "../Privacy/Privacy";
+import Terms from "../Terms/Terms";
 
 const Footer = () => {
   return (
@@ -38,7 +40,7 @@ const Footer = () => {
       </div>
       <div className=" text-center md:flex flex-wrap justify-around py-10 font-medium mx-2  text-neutral-400">
        <p className="text-sm md:text-[15px]"> Global Investors Forum &copy; 2024 All Rights Reserved </p>
-       <Link className="text-sm md:text-[15px]">Privacy Policy | General Terms and Conditions</Link> 
+       <p className="text-sm md:text-[15px]"><span><Link to={"/privacy"} className="hover:text-orange-600">Privacy Policy </Link></span>| <span><Link to={"/terms"} className="hover:text-orange-600">General Terms and Conditions</Link></span></p> 
       </div>
     </div>
   );
