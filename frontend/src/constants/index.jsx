@@ -428,7 +428,7 @@ export const footerItems = [
   {
     title: "Links",
     items: [
-      { text: "Blog", link: "#footer" },
+      // { text: "Blog", link: "#footer" },
       { text: "Press", link: "mailto:info@global-investors-forum.com" },
       { text: "Careers", link: "#footer" },
     ],
