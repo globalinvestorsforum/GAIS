@@ -8,3 +8,4 @@ export { default as Conference } from './Conference/index.jsx';
 export { default as NotFound } from './NotFound/NotFound.jsx';
 export { default as Terms } from './Terms/Terms.jsx';
 export { default as Privacy } from './Privacy/Privacy.jsx';
+export { default as Carrier } from './Carrier/Carrier.jsx';

@@ -56,7 +56,7 @@ const Terms = () => {
             <li>Ticket prices cover admission and refreshments for one attendee only. Sharing a single ticket with multiple attendees is strictly prohibited.</li>
             <li>GIF reserves the right to cancel ticket purchases and issue full refunds in case of fraud or misuse of the ticketing system.</li>
             <li>Global Investors Forum reserves the right to modify the event program, venue, speakers, or schedule without prior notice.</li>
-            <li>GIF is not responsible for lost, stolen, or damaged tickets. In case of damaged e-tickets, please contact GIF for assistance at info@global-investors-forum.com with details of the issue.</li>
+            <li>GIF is not responsible for lost, stolen, or damaged tickets. In case of damaged e-tickets, please contact GIF for assistance at <a href="mailto:info@global-investors-forum.com">info@global-investors-forum.com</a> with details of the issue.</li>
             <li>
                 <strong>Fees and Payment</strong>
                 <ul class="list-decimal pl-6 mt-2">
@@ -71,9 +71,9 @@ const Terms = () => {
 
         <h2 class="text-2xl font-semibold mt-6">6. Refund & Cancellation Policy</h2>
         <ul class="list-disc pl-8 mt-2">
-            <li>Standard Cancellation (by you): We offer full refunds for cancellations made within 7 days of your booking, minus a 10% administration fee and any VAT. Cancellations after 7 days are non-refundable. All cancellations must be emailed to info@global-investors-forum.com.</li>
+            <li>Standard Cancellation (by you): We offer full refunds for cancellations made within 5 days of your booking, minus a 10% administration fee and any VAT. Once refund is approved, it will process within 7 working days. Cancellations after 5 days are non-refundable. All cancellations must be emailed to <a href="mailto:info@global-investors-forum.com">info@global-investors-forum.com</a>.</li>
             <li>Event Cancellation by Us: In the rare case we cancel an event, you'll receive a refund for the registration fee minus any credit card or processing fees incurred.</li>
-            <li>Ticket Transfers: You can transfer the name on your ticket to someone else up to 30 days before the event by contacting info@global-investors-forum.com.</li>
+            <li>Ticket Transfers: You can transfer the name on your ticket to someone else up to 30 days before the event by contacting <a href="mailto:info@global-investors-forum.com">info@global-investors-forum.com</a>.</li>
             <li>No Shows: If you don't attend an event and haven't cancelled, you will not be issued a credit.</li>
             <li>Reselling or attempting to resell tickets for GIF events is strictly prohibited. We reserve the right to cancel tickets associated with any resale activity. This includes purchases made by individuals or entities suspected of being affiliated with ticket brokers or touts.</li>
             <li>If you have already purchased a ticket and subsequently receive a complimentary ticket, you are not eligible for a refund. However, you may transfer the complimentary ticket to another attendee following our transfer guidelines.</li>
@@ -89,7 +89,7 @@ const Terms = () => {
 
         <h2 class="text-2xl font-semibold mt-6">8. Complaints</h2>
         <ul class="list-disc pl-8 mt-2">
-            <li>We strive to deliver exceptional events. If you encounter an issue, please reach us at info@global-investors-forum.com. We'll work diligently towards a fair resolution.</li>
+            <li>We strive to deliver exceptional events. If you encounter an issue, please reach us at <a href="mailto:info@global-investors-forum.com">info@global-investors-forum.com</a>. We'll work diligently towards a fair resolution.</li>
         </ul>
 
         <h2 class="text-2xl font-semibold mt-6">9. Limitation of Liability</h2>
@@ -127,7 +127,7 @@ const Terms = () => {
 
         <h2 class="text-2xl font-semibold mt-6">13. Contact Information</h2>
         <ul class="list-disc pl-8 mt-2">
-            <li>If you have any questions about these Terms, please contact us at info@global-investors-forum.com.</li>
+            <li>If you have any questions about these Terms, please contact us at <a href="mailto:info@global-investors-forum.com">info@global-investors-forum.com</a>.</li>
         </ul>
 
         <p class="mt-6">By using our Website, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions.</p>

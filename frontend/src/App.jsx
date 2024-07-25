@@ -16,7 +16,8 @@ import {
   Conference,
   NotFound,
   Privacy,
-  Terms
+  Terms,
+  Carrier
 } from "./components/index";
 import Layout from "./components/Layout";
 
@@ -33,6 +34,7 @@ const router = createBrowserRouter(
       <Route path="/conference" element={<Conference />} />
       <Route path="/privacy" element={<Privacy />} />
       <Route path="/terms" element={<Terms />} />
+      <Route path="/carrier" element={<Carrier />} />
       <Route path="*" element={<NotFound />} />
     </Route>
   )
