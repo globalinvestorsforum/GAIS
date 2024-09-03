@@ -21,7 +21,7 @@ function Hero() {
               6th & 7th March, 2025
             </p>
             <p className="pt-4 px-3 text-lg md:text-1xl lg:text-2xl font-semibold    text-neutral-200 animate-slidein [--slidein-delay:500ms]  opacity-0  ">
-              Paris, France.
+              Berlin, Germany.
             </p>
             <hr className="h1  mt-4 divide-x font-bold  md:w-1/3 w-2/3  mx-3" />
             <p className="pt-4 px-3 text-lg md:text-1xl lg:text-2xl  text-neutral-200 animate-slidein [--slidein-delay:600ms]  opacity-0  ">
