@@ -15,7 +15,7 @@ const Banner = () => {
         <Reveal>
           <p className="md:text-2xl mx-auto w-full  text-lg ">
             Get ready to dive into the cutting edge of AI innovation at the
-            world's premier event, hosted in the heart of Paris, France.
+            world's premier event, hosted in the heart of Berlin, Germany..
             <strong>
               This isn't just a summit; it's a launchpad for groundbreaking
               ideas, a catalyst for collaboration, and a platform to shape the

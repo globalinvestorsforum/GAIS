@@ -38,7 +38,7 @@ const Award = () => {
               Powered Startup Award Ceremony!
             </h3>
             <p id="compo" className="md:text-lg text-base ">
-              In the heart of the France, where innovation converges with
+              In the heart of the Germany, where innovation converges with
               technology, we proudly announce the launch of "The Innovative AI
               Powered Startup Award." This prestigious ceremony is a tribute to
               the trailblazing startups that have seamlessly integrated
