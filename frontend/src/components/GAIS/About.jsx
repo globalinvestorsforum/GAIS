@@ -17,7 +17,7 @@ const About = () => {
             The future is calling, and it's gathering in the City of Lights!
             The{" "}
             <strong>Global Artificial Intelligence Summit (GAIS)</strong> is
-            landing in Paris, France, bringing together the brightest minds
+            landing in Berlin, Germany, bringing together the brightest minds
             from over <strong>170+ countries</strong> for an unprecedented AI extravaganza.
           </p>{" "}
           </Reveal>
