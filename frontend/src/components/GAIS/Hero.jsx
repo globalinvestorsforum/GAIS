@@ -18,7 +18,7 @@ function Hero() {
               LATEST ADVANCEMENTS AND TRENDS OF AI.
             </h2>
             <p className="pt-6 px-3  text-lg md:text-1xl lg:text-2xl font-semibold  text-neutral-200  animate-slidein [--slidein-delay:400ms]  opacity-0 ">
-              6th & 7th March, 2025
+              2nd & 3rd May, 2025
             </p>
             <p className="pt-4 px-3 text-lg md:text-1xl lg:text-2xl font-semibold    text-neutral-200 animate-slidein [--slidein-delay:500ms]  opacity-0  ">
               Berlin, Germany.
